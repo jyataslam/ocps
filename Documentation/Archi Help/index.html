@@ -1,0 +1,326 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Template Documentation Template</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <style type="text/css" media="screen">
+        body {
+            color: #404040;
+        }
+
+        p,
+        table,
+        hr,
+        .box {
+            margin-bottom: 25px;
+        }
+
+        .box p {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        hr {
+            height: 1px;
+            margin: 40px 0 40px 0;
+        }
+
+        pre {
+            display: block;
+            font: normal 12px/24px "Courier New", Courier, monospace !important;
+            color: #333;
+            background-color: #f5f5f5;
+            background-image: -webkit-repeating-linear-gradient(top, #fefefe 0px, #fefefe 24px, #f5f5f5 24px, #f5f5f5 48px);
+            background-image: -moz-repeating-linear-gradient(top, #fefefe 0px, #fefefe 24px, #f5f5f5 24px, #f5f5f5 48px);
+            background-image: -ms-repeating-linear-gradient(top, #fefefe 0px, #fefefe 24px, #f5f5f5 24px, #f5f5f5 48px);
+            background-image: -o-repeating-linear-gradient(top, #fefefe 0px, #fefefe 24px, #f5f5f5 24px, #f5f5f5 48px);
+            background-image: repeating-linear-gradient(top, #fefefe 0px, #fefefe 24px, #f5f5f5 24px, #f5f5f5 48px);
+            padding: 0em 1em;
+            overflow: auto;
+            border: solid 1px #eee;
+        }
+
+        b,
+        strong {
+            color: #111;
+        }
+
+        h4 {
+            color: #F60;
+            margin-bottom: 5px;
+        }
+
+        a,
+        h3 {
+            color: #36C;
+        }
+
+        pre strong {
+            color: #390;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <h3 class="center alt">Documentation by &ldquo;Designesia&quot;</h3>
+
+        <hr>
+
+        <h1 class="center filename">&ldquo;Archi&rdquo;</h1>
+
+        <div class="borderTop">
+            <div class="span-6 colborder info prepend-1">
+                <p class="prepend-top">
+                    <strong>Archi HTML Template<br>
+                        By: designesia<br>
+                        <br>
+                        <br>
+                    </strong>
+                </p>
+            </div>
+            <!-- end div .span-6 -->
+
+            <div class="span-12 last">
+                <p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file,
+                    please feel free to ask via item's comments. Also please don't forget to give rating! Thanks so much!
+                    :)
+                </p>
+            </div>
+        </div>
+        <!-- end div .borderTop -->
+
+        <hr>
+
+        <h2 id="toc" class="alt">Table of Contents</h2>
+        <ol class="alpha">
+            <li><a href="#A">HTML  Structure</a>
+                <ul>
+                    <li>Sample Structure For Content</li>
+                    <li>Create Columns </li>
+                </ul>
+            </li>
+            <li><a href="#B">Styling Your Template</a>
+                <ul>
+                    <li>Change scheme color</li>
+                    <li>Change accent color</li>
+                    <li>Change header style</li>
+                    <li>Change header layout</li>
+                    <li>Sticky header settings</li>
+                    <li>Change menu style</li>
+                    <li>Change font style (premade)</li>
+                    <li>Background settings for section and subheader
+                    </li>
+                    <li>New: custom background color </li>
+                    <li>New: custom background image </li>
+                </ul>
+            </li>
+            <li><a href="#C">JavaScript</a><br>
+                <ul>
+                    <li>List of Javascript files</li>
+                    <li>Animate Objects On Scroll</li>
+                    <li>Create Parallax Background</li>
+                    <li>Change Google map location</li>
+                    <li>Change countdown date</li>
+                </ul>
+            </li>
+            <li><a href="#D">Gallery Masonry</a></li>
+            <li><a href="#E">Contact PHP</a></li>
+        </ol>
+        <hr>
+
+        <h3 id="A">A) HTML structure - <a href="#toc">top</a></h3>
+        <p>This template using Bootstrap framework. Main content is placed between header and footer area. The content is nested
+            within <strong>&lt;div id=&quot;content&quot;&gt;</strong>. </p>
+        <p></p>
+        <p>&nbsp;</p>
+        <h4>1) Sample Structure For Content</h4>
+        <pre>... header area ...
+
+&lt;div id=&quot;<strong>content</strong>&quot;&gt;
+     &lt;div class=&quot;<strong>container</strong>&quot;&gt;
+          &lt;div class=&quot;<strong>row</strong>&quot;&gt;
+               &lt;div class=&quot;<strong>col-md-4</strong>&quot;&gt;
+                    this is your content			
+               &lt;/div&gt;
+               &lt;div class=&quot;<strong>col-md-8</strong>&quot;&gt;<strong>
+</strong>                    this is your content
+               &lt;/div&gt;
+          &lt;/div&gt;
+     &lt;/div&gt;
+
+     &lt;section&gt;
+          &lt;div class=&quot;<strong>container</strong>&quot;&gt;
+               &lt;div class=&quot;<strong>row</strong>&quot;&gt;
+                    this is your content
+               &lt;/div&gt;
+          &lt;/div&gt;
+     &lt;/section&gt;
+
+&lt;/div&gt;
+
+
+... footer area ...
+        </pre>
+        <h4>2) Create Columns</h4>
+        For a simple two column layout, create a <strong>.row</strong> and add the appropriate number of <strong>.col-md-*</strong>        columns. As this is a 12-column grid, each <strong>.col-md-*</strong> spans a number of those 12 columns, and should
+        always add up to 12 for each row (or the number of columns in the parent). Click <a href="http://getbootstrap.com/2.3.2/scaffolding.html">here</a>        for more information.
+        <pre>&lt;div class=&quot;<strong>row</strong>&quot;&gt;<br>     &lt;div class=&quot;<strong>col-md-6</strong>&quot;&gt; this is 1/2 columns &lt;/div&gt;<br>     &lt;div class=&quot;<strong>col-md-6</strong>&quot;&gt; this is 1/2 columns &lt;/div&gt;<br>&lt;/div&gt;
+
+&lt;div class=&quot;<strong>row</strong>&quot;&gt;<br>     &lt;div class=&quot;<strong>col-md-4</strong>&quot;&gt; this is 1/3 columns &lt;/div&gt;<br>     &lt;div class=&quot;<strong>col-md-8</strong>&quot;&gt; this is 2/3 columns &lt;/div&gt;<br>&lt;/div&gt;
+
+&lt;div class=&quot;<strong>row</strong>&quot;&gt;<br>     &lt;div class=&quot;<strong>col-md-3</strong>&quot;&gt; this is 1/4 columns &lt;/div&gt;<br>     &lt;div class=&quot;<strong>col-md-9</strong>&quot;&gt; this is 3/4 columns &lt;/div&gt;<br>&lt;/div&gt;</pre>
+        <hr />
+        <h3 id="B">&nbsp;</h3>
+        <h3>B) Styling Your Template - <a href="#toc">top</a></h3>
+        <h4>Change scheme color</h4>
+        <p>Open file <strong>js/designesia.js</strong> then change <strong>de_color_style</strong> value.</p>
+        <h4>Change accent color</h4>
+        <p>You can change color scheme by open file <strong>css/color.css</strong>. Select color that you want from list of
+            css files. Also you can create your own color scheme by change it directly on css files in folder <strong>css/color</strong>.</p>
+        <h4>Change header style</h4>
+        <p>Open file <strong>js/designesia.js</strong> then change <strong>de_header_style</strong> value.</p>
+
+        <h4>Change header layout</h4>
+        <p>Open file <strong>js/designesia.js</strong> then change <strong>de_header_layout</strong> value.</p>
+
+        <h4>Sticky header settings</h4>
+        <p>Open file <strong>js/designesia.js</strong> then change value for <strong>de_header_sticky </strong> (for desktop)
+            and <strong>de_header_mobile_sticky</strong> (for mobile).</p>
+
+        <h4>Change header color</h4>
+        <p>Open file <strong>js/designesia.js</strong> then change <strong>de_header_color</strong> value.</p>
+
+        <h4>Change menu style</h4>
+        </p>
+        <p>Open file <strong>js/designesia.js</strong> then change <strong>de_menu_separator</strong> value.</p>
+        <h4>Change font style (premade style)</h4>
+        </p>
+        <p>Open file <strong>js/designesia.js</strong> then change <strong>de_font_style</strong> value.</p>
+        <h4>Background settings for section and subheader</h4>
+        </p>
+        <p>All section/subheader background on this template can be edited within file <strong>css/bg.css</strong></p>
+        <h4>New: custom background color for div/section</h4>
+        <p>To make custom background color without touching css file, you can use code <strong>data-bgcolor=&quot;#hex-color&quot;</strong>            within your div/section tag. See sample below:</p>
+        <pre>
+&lt;div <strong>data-bgcolor</strong>=&quot;#333333&quot;&gt;<br>     my div content...<br>&lt;/div&gt;        </pre>
+
+        <h4>New: custom background image for div/section</h4>
+        <p>To make custom background image without touching css file, you can use code <strong>data-bgimage=&quot;url(your-image-url)&quot; </strong>            within your div/section tag. See sample below:</p>
+        <pre>
+&lt;div <strong>data-bgimage</strong>=&quot;<strong>url(images/background/bg-1.jpg)</strong>&quot;&gt;<br>     my div content...<br>&lt;/div&gt;        </pre>
+
+        <p>&nbsp;</p>
+        <hr />
+        <p>&nbsp;</p>
+        <h3 id="C">C) Javascript - <a href="#toc">top</a></h3>
+        <h4>List of Javascript files</h4>
+        </p>
+        <ul>
+            <li><strong>jquery.min.js</strong> - http://docs.jquery.com/Downloading_jQuery</li>
+            <li><strong>bootstrap.min.js</strong> - bootstrap js file</li>
+            <li><strong>designesia.js</strong> - custom js file</li>
+            <li><strong>jquery.isotope.min.js</strong> - used in gallery page</li>
+            <li><strong>jquery.prettyPhoto.js</strong> - used to open popup image</li>
+            <li><strong>easing.js</strong> - http://archive.plugins.jquery.com/project/Easing</li>
+            <li><strong>jquery.ui.totop.js</strong> - used to scroll to top</li>
+            <li><strong>validation.js</strong> - used for contact form validation</li>
+        </ul>
+        <div>
+            <h4>Animate Object On Scroll</h4>
+            <p>Select an object that you want to animate. As example you want create animate for H1 element. You can see below:
+            </p>
+            <pre>&lt;h1 class=<strong>&quot;wow fadeIn&quot;</strong> data-wow-delay=<strong>&quot;.2s&quot;</strong>&gt;Animate Text&lt;/h1&gt;
+</pre>
+            <ul>
+                <li>You must add class name &quot;<strong>wow</strong>&quot; for object that you want to animate.
+                </li>
+                <li><strong>fadeIn</strong>: sample type of animation. You can see all animation available from: <a href="http://daneden.github.io/animate.css/">http://daneden.github.io/animate.css/</a></li>
+                <li><strong>data-wow-delay</strong>: determine when animation will start (on second)</li>
+            </ul>
+            <h4>Create parallax backrgound<br>
+            </h4>
+            <ol>
+                <li>Create a section tags then give it an id name.
+                    <pre>&lt;section <strong>id</strong>=&quot;my-section&quot;&gt;...content here...&lt;/section&gt;</pre>
+                </li>
+                <li>Add data-speed attribute (1-10).
+                    <pre>&lt;section <strong>id</strong>=&quot;my-section&quot; <strong>data-speed</strong>=&quot;10&quot;&gt;...content here...&lt;/section&gt; </pre>
+                </li>
+                <li>Add data-type attribute below.
+                    <pre> &lt;section <strong>id</strong>=&quot;my-section&quot; <strong>data-speed</strong>=&quot;10&quot; <strong>data-type</strong>=&quot;background&quot;&gt;...content here...&lt;/section&gt; </pre>
+                </li>
+                <li>Open <strong>bg.css</strong> file, set background image for your section.
+                    <pre>#my-section{
+     background-image:my-bg-image.jpg;
+}</pre>
+                </li>
+                <li>Done. </li>
+            </ol>
+            <h4>Change Google map location<br>
+            </h4>
+            You can change location for Google map by open file<strong> js/map.js</strong>. Look code at line 7. Then change
+            value for variable &lsquo;myLatlng&rsquo;.
+            <p>You can generate latitude and longitude value here: <a href="http://www.latlong.net/" rel="nofollow">http://www.latlong.net/</a></p>
+            <h4>Change countdown date<br>
+            </h4>
+            You can change location for Google map by open file <strong>js/countdown-custom.js</strong>.
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+        </div>
+        <hr>
+
+        <h3 id="D">D) Gallery Masonry - <a href="#toc">top</a></h3>
+        Here is attributes used for gallery masonry.
+        <pre>
+&lt;div <strong>class</strong>=&quot;grid&quot; <strong>data-col</strong>=&quot;3&quot; <strong>data-gridspace</strong>=&quot;30&quot; <strong>data-ratio</strong>=&quot;466/700&quot;&gt;&lt;div class=&quot;grid-sizer&quot;&gt;&lt;/div&gt;<br>	&lt;div <strong>class</strong>=&quot;grid-item large-width&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+        <p><strong>data-col</strong>: to set how many columns on gallery</p>
+        <p><strong>data-gridspace</strong>: to set space between gallery item</p>
+        <p><strong>data-ratio</strong>: to set image ratio (height/width)</p>
+        <p>&nbsp;</p>
+        <p>For class name below are applied for gallery item (grid-item).</p>
+        <p><strong>large</strong>: gallery item will have double size</p>
+        <p><strong>large-width</strong>: gallery item will have double size of width</p>
+        <p><strong>large-height</strong>:gallery item will have double size of height</p>
+        <hr>
+
+
+        <h3 id="E">E) Contact Page - <a href="#toc">top</a></h3>
+        <p>Open &gt; <strong>email.php</strong>. Change<strong> $to</strong> value with your email. For contact form require to use email provided by your domain (email@your-domain.com). Also your server must support php mail. You can ask your hosting provider to activate php mail if it not activated.</p>
+        <p>
+            <img src="assets/send-php.jpg">
+        </p>
+        <hr>
+
+
+
+        <h3 id="D">&nbsp;</h3>
+        <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you
+            have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general
+            question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question
+            in the "Item Discussion" section.</p>
+
+        <p class="append-bottom alt large"><strong>designesia</strong></p>
+        <p><a href="#toc">Go To Table of Contents</a></p>
+
+        <hr class="space">
+    </div>
+    <!-- end div .container -->
+</body>
+
+</html>
