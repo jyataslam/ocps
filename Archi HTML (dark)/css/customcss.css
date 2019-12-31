@@ -11,6 +11,8 @@ h1, h2, h3, h4, h5 {
 }
 
 
+
+
 /* HERO SECTION */
 .id-color {
     color: #48b8d0;
@@ -33,6 +35,8 @@ h1, h2, h3, h4, h5 {
     font-family: 'futura-pt', sans-serif;
     font-weight: 300;
 }
+
+
 
 
 /* DESCRIBE SECTION - LANDING PAGE */
@@ -73,6 +77,8 @@ h1, h2, h3, h4, h5 {
 }
 
 
+
+
 /* LANDING BEFORE AND AFTER SECTION */
 .section-before-after h1,
 .section-before-after h2,
@@ -80,4 +86,20 @@ h1, h2, h3, h4, h5 {
 .section-before-after h4,
 .section-before-after p  {
     color: white;
+}
+
+.de_count h3 {
+    color: white;
+}
+
+.de_count span {
+    font-size: 2rem;
+}
+
+
+
+
+/* LANDING SERVICES GALLERY */
+#section-portfolio-2 {
+    padding-top: 120px;
 }
