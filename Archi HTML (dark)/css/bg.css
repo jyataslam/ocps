@@ -91,7 +91,7 @@ background:url(../images/background/bg-subheader.jpg)top fixed;
 #section-side-1-index-landing-product.side-bg .image-container{background:url(../images/background/bg-side-10.jpg) center;}
 #section-contact-landing-product{background:url(../images/background/bg-28.jpg) bottom no-repeat;}
 /* #section-before-after{background:url(../images/background/bg-31.jpg) top no-repeat;} */
-#section-before-after{background:url(../images-bunkis/ocps-landing-before-bg.png) top no-repeat;}
+#section-before-after{background:url(../images-bunkis/test-bg3.png) top no-repeat; background-attachment: fixed;}
 #section-pattern-1{background:url(../images/background/pattern-1.jpg) 100% !important;}
 
 
