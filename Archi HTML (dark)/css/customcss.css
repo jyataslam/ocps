@@ -36,6 +36,12 @@ h1, h2, h3, h4, h5 {
     font-weight: 300;
 }
 
+.text-item {
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 300;
+    font-size: 6rem;
+}
+
 
 
 
@@ -102,4 +108,59 @@ h1, h2, h3, h4, h5 {
 /* LANDING SERVICES GALLERY */
 #section-portfolio-2 {
     padding-top: 120px;
+}
+
+
+/* LANDING FEATURES SECTION */
+#section-pattern-1 h1,
+#section-pattern-1 h2,
+#section-pattern-1 h3,
+#section-pattern-1 h4,
+#section-pattern-1 p {
+    color: #18191b;
+}
+
+#section-pattern-1 {
+    background: #fff !important;
+}
+
+
+
+#view-all-projects {
+    background: url(../images-bunkis/banner-bg-test.jpg);
+    height: 400px;
+    background-attachment: fixed;
+}
+
+#view-all-projects .container {
+    height: 100%;
+}
+
+#view-all-projects .row {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#section-steps-4 {
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#section-steps-4 h1,
+#section-steps-4 h2,
+#section-steps-4 h3,
+#section-steps-4 h4,
+#section-steps-4 p {
+    color: #fff;
+}
+
+
+
+#footer-svg {
+    height: 8rem;
 }
