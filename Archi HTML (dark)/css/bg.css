@@ -12,10 +12,10 @@
 
 /* general settings for section & subheader */
 section,#subheader{
--webkit-background-size: 100% !important;
--moz-background-size: 100% !important;
--o-background-size: 100% !important;
-background-size: 100% !important;
+-webkit-background-size: 100%;
+-moz-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
 }
 
 /* general background image for subheader */
@@ -36,17 +36,19 @@ background:url(../images/background/bg-subheader.jpg)top fixed;
 #info-address{background:url(../images/background/bg-3.jpg) top fixed;}
 #view-all-projects, #call-to-action{padding:60px 0 60px 0;}
 #section-about-us-2{background:#f8f8f8; height:100%;}
-#section-about-us-2 .image-container{background:url(../images/background/bg-side-1.jpg);}
+/* #section-about-us-2 .image-container{background:url(../images/background/bg-side-1.jpg);} */
+/* #section-about-us-2 .image-container{background:url(../images-bunkis/dr-bunkis-headshot.jpg);} */
 #section-about-us-3{background:#f5f5f5; height:100%;}
 #section-about-us-3 .image-container{background:url(../images/background/bg-side-2.jpg);}
 #section-about-us-4 .image-container{background:url(../images/background/bg-side-3.jpg);}
 #section-welcome-5{background:url(../images/background/bg-14.jpg) top fixed;}
 #section-blog {background:url(../images/background/bg-5.jpg) top fixed;}
 #section-coming-soon{ background:none; position:absolute; min-height:100%; width:100%;z-index:1;}
-#section-describe{background:#202020;}
+/* #section-describe{background:#202020;} */
+#section-describe{background:#fff;}
 #section-download{background:url(../images/background/bg-9.jpg) top fixed;}
 #bg-coming-soon-page{background:url(../images/background/bg-6.jpg) top fixed; position:fixed; min-height:100%; width:100%;}
-#section-about-us-2{background:#18191b; height:100%;}
+#section-about-us-2{background:#fff; height:100%;}
 .de_light #section-about-us-2{background:none;}
 #section-welcome{background:url(../images/background/bg-4.jpg) top fixed;}
 #section-welcome-2{background:url(../images/background/bg-6.jpg) top fixed;}
@@ -87,7 +89,8 @@ background:url(../images/background/bg-subheader.jpg)top fixed;
 #section-hero-index-landing-product{background:url(../images/background/bg-27.jpg) top fixed;}
 #section-side-1-index-landing-product.side-bg .image-container{background:url(../images/background/bg-side-10.jpg) center;}
 #section-contact-landing-product{background:url(../images/background/bg-28.jpg) bottom no-repeat;}
-#section-before-after{background:url(../images/background/bg-31.jpg) top no-repeat;}
+/* #section-before-after{background:url(../images/background/bg-31.jpg) top no-repeat;} */
+#section-before-after{background:url(../images-bunkis/ocps-landing-before-bg.png) top no-repeat;}
 #section-pattern-1{background:url(../images/background/pattern-1.jpg) 100% !important;}
 
 

@@ -1,4 +1,4 @@
-/* default color: #FAB702 */
+/* default color: #48b8d0 */
 .bg-color,section.bg-color,
 section.call-to-action,
 #mainmenu li li a:hover,
@@ -54,7 +54,7 @@ a.btn-custom,
 a.btn-slider.btn-color,
 .owl-theme .owl-controls .owl-buttons div
 {
-	background-color:#FAB702;
+	background-color:#48b8d0;
 }
 
 .feature-box i,
@@ -99,7 +99,7 @@ address span strong,
 .expand h4:after,
 .pricing-s1 .bottom ul li i
 {
-	color:#FAB702;
+	color:#48b8d0;
 }
 
 .feature-box i,
@@ -123,7 +123,7 @@ address span strong,
 a.btn-slider.btn-color
 {
 
-	border-color:#FAB702;
+	border-color:#48b8d0;
 }
 
 .box-fx .inner,
@@ -131,32 +131,32 @@ a.btn-slider.btn-color
 .blog-list img,
 .arrow-up
 {
-	border-bottom-color:#FAB702;
+	border-bottom-color:#48b8d0;
 }
 
 .arrow-down{
-	border-top-color:#FAB702;
+	border-top-color:#48b8d0;
 }
 
 .callbacks_nav {
-	background-color:#FAB702;
+	background-color:#48b8d0;
 }
 
 
 .de_tab .de_nav li span {
-border-top: 3px solid #FAB702;
+border-top: 3px solid #48b8d0;
 }
 
 .feature-box-big-icon i:after {
-border-color: #FAB702 transparent; /*same colour as the lower of the bubble's gradient*/
+border-color: #48b8d0 transparent; /*same colour as the lower of the bubble's gradient*/
 }
 
 .de_review li.active img{
-	border:solid 4px #FAB702;
+	border:solid 4px #48b8d0;
 }
 
 blockquote.s1{
-	border-left-color:#FAB702;
+	border-left-color:#48b8d0;
 }
 
 

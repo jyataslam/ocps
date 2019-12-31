@@ -43,6 +43,8 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Allura);
+@import url("https://use.typekit.net/gnr3hac.css");
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap');
 
 /* ================================================== */
 /* body */
@@ -53,10 +55,11 @@ background:#000000 !important;
 
 body {
 	display:none;
-	font-family: "Open Sans",Arial, Helvetica, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 13px;
 	font-weight:500;
-	color: #ddd;
+	/* color: #ddd; */
+	color: #202020;
 	line-height: 1.8em;
 	padding: 0;
 	background:#606060;
@@ -89,7 +92,8 @@ overflow:visible;
 	-ms-transition: height 0.3s;
 	-o-transition: height 0.3s;
 	transition: height 0.3s;
-	background:#18191b;
+	/* background:#18191b; */
+	background: transparent;
 	border-bottom:solid 1px rgba(0,0,0,0.0);
 	}
 	

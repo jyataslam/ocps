@@ -1213,3 +1213,9 @@ jQuery(document).ready(function () {
 
 });
 
+
+// CUSTOM JAVASCRIPT
+// Handle all scroll events
+$(document).scroll(function() {
+    $(this).scrollTop() > 100 ? ($('#hero-svg').attr('class', 'hero-svg-top shrink-logo')) : ($('#hero-svg').attr("class", "hero-svg-top"));
+  });

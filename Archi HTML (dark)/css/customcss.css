@@ -1,0 +1,83 @@
+/* GENERAL CSS */
+
+body {
+    letter-spacing: .08rem;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #000;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 300;
+}
+
+
+/* HERO SECTION */
+.id-color {
+    color: #48b8d0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.hero-svg-top {
+    height: 8rem;
+    margin-top: 1rem;
+    transition: all .5s;
+}
+
+.shrink-logo {
+    height: 5rem;
+}
+
+.ultra-big-white {
+    font-size: 6rem !important;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 300;
+}
+
+
+/* DESCRIBE SECTION - LANDING PAGE */
+
+.section-describe-col {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.section-describe-headshot {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-describe-header {
+    padding-left: 4rem;
+    color: #202020;
+    font-weight: 600;
+}
+
+.section-describe-paragraph {
+    padding-left: 4rem;
+}
+
+.section-describe-button {
+    margin-left: 4rem;
+}
+
+.section-about-us-2-photo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-about-us-2-header {
+    font-size: 4em;
+}
+
+
+/* LANDING BEFORE AND AFTER SECTION */
+.section-before-after h1,
+.section-before-after h2,
+.section-before-after h3,
+.section-before-after h4,
+.section-before-after p  {
+    color: white;
+}
