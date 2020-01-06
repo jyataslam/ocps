@@ -627,6 +627,12 @@
 .fa-twitter:before {
   content: "\f099";
 }
+.fa-real-self:before {
+  content: 'rs';
+}
+.fa-yelp:before {
+  content: '\f1e9';
+}
 .fa-facebook:before {
   content: "\f09a";
 }

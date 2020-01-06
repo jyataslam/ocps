@@ -91,7 +91,7 @@ background:url(../images/background/bg-subheader.jpg)top fixed;
 #section-side-1-index-landing-product.side-bg .image-container{background:url(../images/background/bg-side-10.jpg) center;}
 #section-contact-landing-product{background:url(../images/background/bg-28.jpg) bottom no-repeat;}
 /* #section-before-after{background:url(../images/background/bg-31.jpg) top no-repeat;} */
-#section-before-after{background:url(../images-bunkis/test-bg3.png) top no-repeat; background-attachment: fixed;}
+#section-before-after{background:url(../images/background/bg-3.jpg) top no-repeat; background-attachment: fixed;}
 #section-pattern-1{background:url(../images/background/pattern-1.jpg) 100% !important;}
 
 
@@ -101,11 +101,13 @@ background:url(../images/background/bg-subheader.jpg)top fixed;
 
 
 /* services section side background */
-#section-service-1.side-bg .background-image{background:url(../images/background/bg-service-1.jpg);}
-#section-service-2.side-bg .background-image{background:url(../images/background/bg-service-2.jpg);}
-#section-service-3.side-bg .background-image{background:url(../images/background/bg-service-3.jpg);}
-#section-service-4.side-bg .background-image{background:url(../images/background/bg-service-4.jpg);}
-#section-service-2,#section-service-4{background:#f2f2f2;}
+#section-service-1.side-bg .background-image{background:url(../images-bunkis/breast-test.png);}
+#section-service-2.side-bg .background-image{background:url(../images-bunkis/body-test.png);}
+#section-service-3.side-bg .background-image{background:url(../images-bunkis/face-test.png);}
+#section-service-4.side-bg .background-image{background:url(../images-bunkis/skin-test.png);}
+#section-service-5.side-bg .background-image{background:url(../images-bunkis/injectibles-test.png);}
+#section-service-6.side-bg .background-image{background:url(../images-bunkis/non-surgical-test.png);}
+/* #section-service-2,#section-service-4{background:#f2f2f2;} */
 
 
 /* background settings for side navigation subheader */
