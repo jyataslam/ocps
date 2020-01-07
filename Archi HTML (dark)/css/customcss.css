@@ -290,6 +290,8 @@ span.overlay {
   height: 400px;
   background-attachment: fixed;
   position: relative;
+  box-sizing: border-box;
+  transition: all .2s;
 }
 
 #view-all-projects:before {
@@ -300,6 +302,20 @@ span.overlay {
   position: absolute;
   right: 0;
   top: 0;
+  transition: all .3s;
+}
+
+#view-all-projects:hover:before {
+    background-color: rgba(29, 29, 29, 0.57);
+}
+
+#view-all-projects:hover {
+    cursor: pointer;
+    border: 10px solid #4ab8d0;
+}
+
+#view-all-projects:hover .view-all-projects-header {
+    color: white;
 }
 
 #view-all-projects .container {
@@ -320,6 +336,7 @@ span.overlay {
   padding-right: 2rem;
   font-size: 4rem;
   margin: 0;
+  transition: all .3s;
 }
 
 #view-all-projects a {
@@ -523,9 +540,20 @@ span.overlay {
 /* --MEDIA QUERIES BELOW---*/
 /* ----------------------- */
 
+@media only screen and (max-width: 1024px) {
+    .social-media-nav-container {
+        display: none;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
   .hero-svg-top {
     height: 4rem;
+  }
+
+  #landing-svg {
+      height: 13rem;
   }
 
   .project-name {
@@ -534,6 +562,14 @@ span.overlay {
 
   h2.style-5 {
       font-size: 4rem;
+  }
+
+  .social-media-nav-container {
+      display: none;
+  }
+
+  .nav-flex-container {
+      display: block;
   }
 }
 
@@ -544,6 +580,10 @@ span.overlay {
 
   p.lead {
       font-size: 14px;
+  }
+
+  .teaser-text {
+      text-align: center;
   }
 
   a.btn-slider {
