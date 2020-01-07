@@ -13,6 +13,9 @@
     padding: 50px 0 50px 0;
 }
 
-/* .item {
+.filterframe {
+    display: inline-block;
     background: white;
-} */
+    /* width: 200px;
+    height: 200px; */
+}
