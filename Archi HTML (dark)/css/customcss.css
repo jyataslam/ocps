@@ -26,6 +26,14 @@ h2.style-5 {
     }
 }
 
+.text-color-black {
+  color: black;
+}
+
+.text-color-black:hover {
+  color: rgb(58, 58, 58);
+}
+
 /* OWL CAROUSEL ON LANDING PAGE FOR REVIEWS */
 .owl-prev,
 .owl-next {
@@ -45,6 +53,13 @@ h2.style-5 {
     .de_testi blockquote p {
         font-size: 14px;
     }
+}
+
+.review-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
 }
 
 #mainmenu {
@@ -137,6 +152,16 @@ header {
 header.header-mobile {
   overflow-y: scroll;
 }
+
+/* #section-welcome:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+} */
 
 /* DESCRIBE SECTION - LANDING PAGE */
 
@@ -381,6 +406,95 @@ span.overlay {
   color: #fff;
 }
 
+
+/* SPECIALS SECTION */
+#section-service-1.side-bg .background-image-landing-photos {
+  background: url(../images-bunkis/specials.jpg);
+}
+
+#section-service-2.side-bg .background-image-landing-specials {
+  background: url(../images-bunkis/specials.jpg);
+}
+
+#section-service-3.side-bg .background-image-landing-reviews {
+  background: url(../images-bunkis/specials.jpg);
+}
+
+#section-service-4.side-bg .background-image-landing-staff {
+  background: url(../images-bunkis/ocps-group-staff.png);
+}
+
+
+
+/* BLOG PAGE */
+#subheader .container,
+#subheader .row {
+  height: 100%;
+}
+
+.blog-main-wrapper {
+  background-color: white !important;
+}
+
+.blog-list h3 a {
+  color: black;
+}
+
+.recent-post-link {
+  color: black;
+}
+
+.recent-post-link:hover {
+  color: #49b8d0;
+}
+
+.post-text a{
+  color: black;
+}
+
+.month {
+  color: black !important;
+}
+
+.pagination li a:hover {
+  color: black;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .subheader-flex {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  #subheader h1 {
+    padding-right: 0;
+    padding-top: 6rem;
+  }
+
+  .sidebar-flex {
+    display: flex;
+  }
+
+  .widget-post-50 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .sidebar-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .widget-post-50 {
+    width: 100%;
+  }
+}
+
+
 /* FOOTER */
 #footer-svg {
   height: 8rem;
@@ -570,6 +684,10 @@ span.overlay {
 
   .nav-flex-container {
       display: block;
+  }
+
+  .page-blog #subheader {
+    height: 300px;
   }
 }
 
