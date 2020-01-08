@@ -3567,13 +3567,13 @@ width: 100%;
 height: 500px;
 }
 
-.map iframe {
+/* .map iframe {
 width: 100%;
 height: 320px;
 border: solid 1px #ccc;
 padding: 2px;
 background: #fff;
-}
+} */
 
 .map-container{
 height: 500px;

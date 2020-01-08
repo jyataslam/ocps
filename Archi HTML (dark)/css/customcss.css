@@ -502,6 +502,80 @@ span.overlay {
 
 
 
+/* CONTACT PAGE */
+.contact-content {
+  background: white !important;
+}
+
+.contact-section {
+  background: white;
+}
+
+.location-text {
+  font-weight: bold;
+  color: #49b8d0;
+  transition: all .3s;
+}
+
+.location-text:hover {
+  color: #727272;
+  cursor: pointer;
+}
+
+.contact-location-wrapper {
+  padding: 45px 0 25px;
+}
+
+@media only screen and (max-width: 414px) {
+  .contact-location-wrapper {
+    padding-bottom: 0;
+  }
+}
+
+#map {
+  height: 300px;
+}
+
+.contact-text-black {
+  color: initial;
+}
+
+#contact_form textarea {
+  background: rgba(216, 216, 216, 0.2);
+}
+
+#contact_form textarea[placeholder] {
+  color: black;
+}
+
+#contact_form input[type=text] {
+  background: rgba(216, 216, 216, 0.2);
+  color: black;
+}
+
+.error_input {
+  border: 2px solid #D31E2B !important;
+}
+
+address span a:hover {
+  cursor: pointer;
+  color: #49b8d0;
+  outline: none;
+  text-decoration: none;
+}
+
+.padding-margin-0 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-contact #subheader {
+      height: 300px;
+}
+
+
 
 /* INSTAGRAM SECTION */
 
