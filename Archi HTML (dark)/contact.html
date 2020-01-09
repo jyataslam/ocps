@@ -536,7 +536,7 @@
 
                     <div class="col-md-8 wow fadeInUp animated" wow-delay="0s">
                         <h3>Send Us Message</h3>
-                        <form name="contactForm" id='contact_form' method="post" action='email.php'>
+                        <form name="contactForm" id='contact_form' method="post" action='mail_handler.php'>
                             <div class="row">
                                 <div class="col-md-4">
                                     <div id='name_error' class='error'>Please enter your name.</div>
@@ -558,6 +558,15 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8">
+                                        <select id="inputState" class="form-control" name="inputState">
+                                            <option selected>Select Your Service...</option>
+                                            <option>Digital Marketing</option>
+                                            <option>Web Design</option>
+                                            <option>Web Development</option>
+                                            <option>SEO</option>
+                                            <option>Multiple Services</option>
+                                            <option>Other</option>
+                                        </select>
                                     <div id='message_error' class='error'>Please enter your message.</div>
                                     <div>
                                         <textarea name='message' id='message' class="form-control"
@@ -592,15 +601,6 @@
                                 <span><strong>Hours</strong>Monday - Friday, 9AM - 6PM</span>
                             </address>
                         </div>
-
-
-
-
-
-
-
-
-
                     </div>
                 </div>
             </div>
@@ -877,6 +877,7 @@
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/enquire.min.js"></script>
     <script src="js/designesia.js"></script>
+    <script src="js/ajax-form.js"></script>
 
     <!-- SLIDER REVOLUTION SCRIPTS  -->
     <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
