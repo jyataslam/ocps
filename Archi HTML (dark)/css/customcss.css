@@ -583,6 +583,10 @@ address span a:hover {
   margin-top: 20px;
 }
 
+.hover-pointer:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   .page-contact #subheader {
     height: 300px;
