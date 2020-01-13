@@ -28,4 +28,41 @@
 
 span.overlay:hover {
     background: transparent;
-  }
+}
+
+.background-wrapper:nth-child(even){
+    background: #f0f0f0;
+}
+
+#view-all-projects {
+    background: url(../images-bunkis/banner-bg-test.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .2s;
+}
+
+.project-name__specific {
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 768px){
+    #subheader {
+        height: 300px;
+    }
+
+    .subheader_container {
+        height: 100%;
+    }
+
+    .subheader_row {
+        height: 100%;
+    }
+}
+
+.related_procedures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -304,7 +304,7 @@ jQuery(document).ready(function () {
                 }
                 if (gi.hasClass('large-height')) {
                     $(this).css('height', (h * 2) + this_gridspace);
-                    gi.find(".pf_title").css('margin-top', (h) - 20);
+                    gi.find(".").css('margin-top', (h) - 20);
                 }
             });
         }
