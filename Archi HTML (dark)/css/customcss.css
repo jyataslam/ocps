@@ -570,7 +570,7 @@ address span a:hover {
   padding: 1rem 5rem;
   background: transparent;
   border: 1px solid black;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .contact-submit-btn:hover {
@@ -579,7 +579,8 @@ address span a:hover {
   border: 1px solid #47b5cd;
 }
 
-.success, .error {
+.success,
+.error {
   margin-top: 20px;
 }
 
@@ -587,8 +588,27 @@ address span a:hover {
   cursor: pointer;
 }
 
+#subpage-content {
+  width: 100%;
+  background: #e6e6e6;
+  padding: 90px 0 90px 0;
+  z-index: 100;
+}
+
+.picframe {
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.hover-pointer {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   .page-contact #subheader {
+    height: 300px;
+  }
+
+  .page-services #subheader {
     height: 300px;
   }
 }
@@ -812,5 +832,9 @@ address span a:hover {
 
   .section-about-us-2-header {
     margin-top: 0;
+  }
+
+  #footer-svg {
+    margin-bottom: 2rem;
   }
 }

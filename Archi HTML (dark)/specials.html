@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Contact | Orange County Plastic Surgery</title>
+    <title>Specials | Orange County Plastic Surgery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dr. Bunkis is Orange County's Leading Premier Accredited Plastic Surgeon">
+    <meta name="description"
+        content="Archi is best selling interior design website template with responsive stunning design">
     <meta name="keywords"
-        content="plastic surgeon, plastic surgery, orange county, newport beach, medical, surgery, facelift, breast augmentation, butt lift, reconstruction">
+        content="architecture,building,business,bootstrap,creative,exterior design,furniture design,gallery,garden design,house,interior design,landscape design,multipurpose,onepage,portfolio,studio">
     <meta name="author" content="">
 
 
@@ -37,17 +38,17 @@
     <link rel="stylesheet" href="rs-plugin/css/settings.css" type="text/css">
     <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/customcss.css" type="text/css">
-
     <!-- load fonts -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
     <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/lte-ie7.js" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/customcss.css" type="text/css">
+
 </head>
 
-<body class="page-contact">
-
+<body class="page-services">
     <div id="wrapper">
         <!-- header begin -->
         <header>
@@ -494,11 +495,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 subheader-flex">
-                        <h1>Contact</h1>
+                        <h1>Specials</h1>
                         <ul class="crumb">
                             <li><a href="index.html">Home</a></li>
                             <li class="sep">/</li>
-                            <li>Contact</li>
+                            <li>Specials</li>
                         </ul>
                     </div>
                 </div>
@@ -507,125 +508,68 @@
         <!-- subheader close -->
 
         <!-- content begin -->
-        <div id="content" class="no-top contact-content">
+        <div id="subpage-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3 text-center contact-location-wrapper">
-                        <h3 class="style-1"><span class="id-color wow fadeInUp animated" wow-delay="0s">Our
-                                Location</span></h3>
-                        <h2 class="style-5 wow fadeInUp animated" wow-delay="0s">Come Visit Us</h2>
-                        <p class="lead location-text wow fadeInUp animated" wow-delay="0s" onclick="mapsSelector()">
-                            4501 Birch St, Suite B<br>
-                            Newport Beach, CA 92660
-                        </p>
+                    <div id="sidebar" class="col-md-3 wow fadeInUp">
+                        <ul id="services-list">
+                            <li class="active"><a href="#">Specials</a></li>
+                            <li><a href="reviews.html">Reviews</a></li>
+                            <!-- <li><a href="service-3.html">Office Design</a></li>
+                            <li><a href="service-4.html">Commercial Design</a></li> -->
+                        </ul>
                     </div>
-                </div>
-            </div>
 
-
-            <section class="no-top contact-section" aria-label="map-container">
-                <!-- <div id="map" class="map"></div> -->
-                <div class="mapouter">
-                    <div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas"
-                            src="https://maps.google.com/maps?q=4501%20Birch%20Street%2C%20Suite%20B%20Newport%20Beach%2C%20CA%2092660&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                            href="https://www.embedgooglemap.net/coupons/"></a></div>
-                    <style>
-                        .mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 300px;
-                            width: 100%;
-                        }
-
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 300px;
-                            width: 100%;
-                        }
-                    </style>
-                </div>
-            </section>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-8 wow fadeInUp animated" wow-delay="0s">
-                        <h3>Send Us Message</h3>
-                        <form name="contactForm" id='contact_form' action="mail_handler.php" method="POST">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div id='name_error' class='error'>Please enter your name.</div>
-                                    <div>
-                                        <input type='text' name='name' id='name' class="form-control"
-                                            placeholder="Your Name" required>
-                                    </div>
-
-                                    <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
-                                    <div>
-                                        <input type='text' name='email' id='email' class="form-control"
-                                            placeholder="Your Email" required>
-                                    </div>
-
-                                    <div id='phone_error' class='error'>Please enter your phone number.</div>
-                                    <div>
-                                        <input type='text' name='phone' id='phone' class="form-control"
-                                            placeholder="Your Phone" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <select id="inputState" class="form-control" name="inputState">
-                                        <option selected>Select Your Service...</option>
-                                        <option>Breast</option>
-                                        <option>Body</option>
-                                        <option>Face</option>
-                                        <option>Skin</option>
-                                        <option>Injectibles</option>
-                                        <option>Non-Surgical</option>
-                                        <option>Other</option>
-                                    </select>
-                                    <div id='message_error' class='error'>Please enter your message.</div>
-                                    <div>
-                                        <textarea name='message' id='message' class="form-control"
-                                            placeholder="Your Message" required></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <button id='submit' type="submit" class="contact-submit-btn">
-                                        <span class="submit-btn">Send Your Message</span>
-                                    </button>
-                                    <div id='mail_success' class='success'>Your message has been sent successfully.
-                                    </div>
-                                    <div id='mail_fail' class='error'>Sorry, error occured this time sending your
-                                        message.</div>
-                                </div>
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-6 wow fadeInUp subpage-main-text" data-wow-delay=".3s">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                    architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                                    voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+                                    qui ratione voluptatem sequi nesciunt.</p>
+                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+                                    magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                                    exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                                    consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+                                    quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+                                    nulla pariatur.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.</p>
                             </div>
-                        </form>
-                    </div>
-
-                    <div id="sidebar" class="col-md-4 wow fadeInUp animated" wow-delay="0s">
-
-                        <div class="widget widget_text padding-margin-0">
-                            <h3>Contact Info</h3>
-                            <address>
-                                <span class="hover-pointer" onclick="mapsSelector()">4501 Birch Street, Suite
-                                    B<br>Newport Beach, CA
-                                    92660</span>
-                                <span><strong>Phone:</strong><a href="tel:+15622458393"
-                                        class="contact-text-black">562.245.8393</a></span>
-                                <!-- <span><strong>Fax:</strong>(208) 333 9298</span> -->
-                                <span><strong>Email:</strong><a href="mailto:placeholder@gmail.com"
-                                        class="contact-text-black">placeholder@gmail.com</a></span>
-                                <!-- <span><strong>Web:</strong><a href="https://www.orangecountyplasticsurgery.com" class="contact-text-black">https://www.orangecountyplasticsurgery.com</a></span> -->
-                                <span><strong>Hours</strong>Monday - Friday, 9AM - 6PM</span>
-                            </address>
+                            <div class="col-md-6 pic-services wow fadeInUp" data-wow-delay=".6s">
+                                <img src="images-bunkis/current-specials.png" class="img-responsive" alt="current specials for orange county plastic surgery by dr bunkis">
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
+
+
+
         </div>
+
+        <!-- section begin -->
+        <section id="view-all-projects" class="call-to-action text-dark padding20" data-bgcolor="#ffffff"
+            aria-label="cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 view-all-projects-container wow fadeInUp animated" wow-delay="0s">
+                        <h2 class="view-all-projects-header">Schedule a consultation</h2>
+                        <a href="contact.html" class="btn btn-custom">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- logo carousel section close -->
 
         <!-- footer begin -->
         <footer>
@@ -878,9 +822,7 @@
             <a href="#" id="back-to-top"></a>
         </footer>
         <!-- footer close -->
-
     </div>
-
 
 
     <!-- Javascript Files
@@ -890,17 +832,18 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/easing.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
     <script src="js/jquery.scrollto.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.countTo.js"></script>
     <script src="js/classie.js"></script>
+    <script src="js/video.resize.js"></script>
     <script src="js/validation.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/enquire.min.js"></script>
     <script src="js/designesia.js"></script>
-    <script src="js/ajax-form.js"></script>
 
     <!-- SLIDER REVOLUTION SCRIPTS  -->
     <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
