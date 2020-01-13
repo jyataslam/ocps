@@ -86,7 +86,8 @@ background:url(../images/background/bg-subheader.jpg)top fixed;
 
 /* services section side background */
 #section-service-1.side-bg .background-image{background:url(../images/background/bg-service-1.jpg);}
-#section-service-2.side-bg .background-image{background:url(../images/background/bg-service-2.jpg);}
+#section-service-2.side-bg .background-image{
+	background:url(../images/background/bg-service-2.jpg);}
 #section-service-3.side-bg .background-image{background:url(../images/background/bg-service-3.jpg);}
 #section-service-4.side-bg .background-image{background:url(../images/background/bg-service-4.jpg);}
 #section-service-2,#section-service-4{background:#f2f2f2;}
