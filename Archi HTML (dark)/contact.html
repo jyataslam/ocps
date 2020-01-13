@@ -536,48 +536,49 @@
 
                     <div class="col-md-8 wow fadeInUp animated" wow-delay="0s">
                         <h3>Send Us Message</h3>
-                        <form name="contactForm" id='contact_form' method="post" action='mail_handler.php'>
+                        <form name="contactForm" id='contact_form' action="mail_handler.php" method="POST">
                             <div class="row">
                                 <div class="col-md-4">
                                     <div id='name_error' class='error'>Please enter your name.</div>
                                     <div>
                                         <input type='text' name='name' id='name' class="form-control"
-                                            placeholder="Your Name">
+                                            placeholder="Your Name" required>
                                     </div>
 
                                     <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
                                     <div>
                                         <input type='text' name='email' id='email' class="form-control"
-                                            placeholder="Your Email">
+                                            placeholder="Your Email" required>
                                     </div>
 
                                     <div id='phone_error' class='error'>Please enter your phone number.</div>
                                     <div>
                                         <input type='text' name='phone' id='phone' class="form-control"
-                                            placeholder="Your Phone">
+                                            placeholder="Your Phone" required>
                                     </div>
                                 </div>
                                 <div class="col-md-8">
                                         <select id="inputState" class="form-control" name="inputState">
                                             <option selected>Select Your Service...</option>
-                                            <option>Digital Marketing</option>
-                                            <option>Web Design</option>
-                                            <option>Web Development</option>
-                                            <option>SEO</option>
-                                            <option>Multiple Services</option>
+                                            <option>Breast</option>
+                                            <option>Body</option>
+                                            <option>Face</option>
+                                            <option>Skin</option>
+                                            <option>Injectibles</option>
+                                            <option>Non-Surgical</option>
                                             <option>Other</option>
                                         </select>
                                     <div id='message_error' class='error'>Please enter your message.</div>
                                     <div>
                                         <textarea name='message' id='message' class="form-control"
-                                            placeholder="Your Message"></textarea>
+                                            placeholder="Your Message" required></textarea>
                                     </div>
                                 </div>
 
                                 <div class="col-md-12">
-                                    <p id='submit'>
-                                        <input type='submit' id='send_message' value='Submit Form' class="btn btn-line">
-                                    </p>
+                                    <button id='submit' type="submit" class="contact-submit-btn">
+                                        <span class="submit-btn">Send Your Message</span>
+                                    </button>
                                     <div id='mail_success' class='success'>Your message has been sent successfully.
                                     </div>
                                     <div id='mail_fail' class='error'>Sorry, error occured this time sending your
