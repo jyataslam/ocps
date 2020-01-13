@@ -28,10 +28,6 @@
     <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
-    <!-- Mapbox -->
-    <script src="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
-    <link href="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css" rel="stylesheet" />
-
     <!-- custom background -->
     <link rel="stylesheet" href="css/bg.css" type="text/css">
 
@@ -516,7 +512,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center contact-location-wrapper">
-                        <h3 class="style-1"><span class="id-color wow fadeInUp animated" wow-delay="0s">Our Location</span></h3>
+                        <h3 class="style-1"><span class="id-color wow fadeInUp animated" wow-delay="0s">Our
+                                Location</span></h3>
                         <h2 class="style-5 wow fadeInUp animated" wow-delay="0s">Come Visit Us</h2>
                         <p class="lead location-text wow fadeInUp animated" wow-delay="0s" onclick="mapsSelector()">
                             4501 Birch St, Suite B<br>
@@ -528,7 +525,28 @@
 
 
             <section class="no-top contact-section" aria-label="map-container">
-                <div id="map" class="map"></div>
+                <!-- <div id="map" class="map"></div> -->
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=4501%20Birch%20Street%2C%20Suite%20B%20Newport%20Beach%2C%20CA%2092660&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://www.embedgooglemap.net/coupons/"></a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 300px;
+                            width: 100%;
+                        }
+
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 300px;
+                            width: 100%;
+                        }
+                    </style>
+                </div>
             </section>
 
             <div class="container">
@@ -558,16 +576,16 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8">
-                                        <select id="inputState" class="form-control" name="inputState">
-                                            <option selected>Select Your Service...</option>
-                                            <option>Breast</option>
-                                            <option>Body</option>
-                                            <option>Face</option>
-                                            <option>Skin</option>
-                                            <option>Injectibles</option>
-                                            <option>Non-Surgical</option>
-                                            <option>Other</option>
-                                        </select>
+                                    <select id="inputState" class="form-control" name="inputState">
+                                        <option selected>Select Your Service...</option>
+                                        <option>Breast</option>
+                                        <option>Body</option>
+                                        <option>Face</option>
+                                        <option>Skin</option>
+                                        <option>Injectibles</option>
+                                        <option>Non-Surgical</option>
+                                        <option>Other</option>
+                                    </select>
                                     <div id='message_error' class='error'>Please enter your message.</div>
                                     <div>
                                         <textarea name='message' id='message' class="form-control"
@@ -593,11 +611,14 @@
                         <div class="widget widget_text padding-margin-0">
                             <h3>Contact Info</h3>
                             <address>
-                                <span onclick="mapsSelector()">4501 Birch Street, Suite B<br>Newport Beach, CA 92660</span>
-                                <span><strong>Phone:</strong><a href="tel:+15622458393" class="contact-text-black">562.245.8393</a></span>
+                                <span class="hover-pointer" onclick="mapsSelector()">4501 Birch Street, Suite
+                                    B<br>Newport Beach, CA
+                                    92660</span>
+                                <span><strong>Phone:</strong><a href="tel:+15622458393"
+                                        class="contact-text-black">562.245.8393</a></span>
                                 <!-- <span><strong>Fax:</strong>(208) 333 9298</span> -->
-                                <span><strong>Email:</strong><a
-                                        href="mailto:placeholder@gmail.com" class="contact-text-black">placeholder@gmail.com</a></span>
+                                <span><strong>Email:</strong><a href="mailto:placeholder@gmail.com"
+                                        class="contact-text-black">placeholder@gmail.com</a></span>
                                 <!-- <span><strong>Web:</strong><a href="https://www.orangecountyplasticsurgery.com" class="contact-text-black">https://www.orangecountyplasticsurgery.com</a></span> -->
                                 <span><strong>Hours</strong>Monday - Friday, 9AM - 6PM</span>
                             </address>
@@ -817,12 +838,15 @@
                         <h3 class="style-1">Contact Us</h3>
                         <div class="widget widget-address">
                             <address>
-                                <span>4501 Birch Street, Suite B</span>
-                                <span><strong>Phone:</strong>562.245.8393</span>
+                                <span class="hover-pointer" onclick="mapsSelector()">4501 Birch Street, Suite B, Newport
+                                    Beach, CA 92660</span>
+                                <span><strong>Phone:</strong><a href="tel:+15622458393">
+                                        562.245.8393
+                                    </a></span>
                                 <span><strong>Email:</strong><a
-                                        href="mailto:contact@archi-interior.com">placeholder@email.com</a></span>
+                                        href="mailto:info@orangecountyplasticsurgery.com">placeholderfooter@email.com</a></span>
                                 <span><strong>Web:</strong><a
-                                        href="#">https://www.orangecountyplasticsurgery.com</a></span>
+                                        href="https://www.orangecountyplasticsurgery.com">https://www.orangecountyplasticsurgery.com</a></span>
                             </address>
                         </div>
                     </div>
@@ -845,6 +869,8 @@
                                         class="fa fa-twitter fa-lg"></i></a>
                                 <a href="https://www.realself.com/dr/juris-bunkis-newport-beach-ca" target="_blank"><i
                                         class="fa fa-real-self fa-lg"></i></a>
+                                <a href="https://www.instagram.com/drbunkis/" target="_blank"><i
+                                        class="fa fa-instagram fa-lg"></i></a>
                             </div>
                         </div>
                     </div>
@@ -870,9 +896,6 @@
     <script src="js/jquery.countTo.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/validation.js"></script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3"></script>
-    <script src="js/map.js"></script> -->
-    <script src="js/mapbox.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
