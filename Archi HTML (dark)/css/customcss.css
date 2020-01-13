@@ -21,9 +21,9 @@ h2.style-5 {
 }
 
 @media only screen and (max-width: 414px) {
-    h2.style-5 {
-        font-size: 4rem;
-    }
+  h2.style-5 {
+    font-size: 4rem;
+  }
 }
 
 .text-color-black {
@@ -47,12 +47,11 @@ h2.style-5 {
   color: white !important;
 }
 
-
 /* LANDING REVIEWS SECTION */
 @media only screen and (max-width: 414px) {
-    .de_testi blockquote p {
-        font-size: 14px;
-    }
+  .de_testi blockquote p {
+    font-size: 14px;
+  }
 }
 
 .review-btn-container {
@@ -63,24 +62,24 @@ h2.style-5 {
 }
 
 #mainmenu {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .nav-flex-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .social-media-nav-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-bottom: 1rem;
 }
 
 .nav-social-icon {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 /* HERO SECTION */
@@ -229,11 +228,11 @@ header.header-mobile {
 }
 
 .service-wrapper-odd {
-    background: white;
+  background: white;
 }
 
 .service-wrapper-even {
-    background: #f6f6f6;
+  background: #f6f6f6;
 }
 
 .btn-line,
@@ -316,7 +315,7 @@ span.overlay {
   background-attachment: fixed;
   position: relative;
   box-sizing: border-box;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 #view-all-projects:before {
@@ -327,20 +326,20 @@ span.overlay {
   position: absolute;
   right: 0;
   top: 0;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 #view-all-projects:hover:before {
-    background-color: rgba(29, 29, 29, 0.57);
+  background-color: rgba(29, 29, 29, 0.57);
 }
 
 #view-all-projects:hover {
-    cursor: pointer;
-    border: 10px solid #4ab8d0;
+  cursor: pointer;
+  border: 10px solid #4ab8d0;
 }
 
 #view-all-projects:hover .view-all-projects-header {
-    color: white;
+  color: white;
 }
 
 #view-all-projects .container {
@@ -361,7 +360,7 @@ span.overlay {
   padding-right: 2rem;
   font-size: 4rem;
   margin: 0;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 #view-all-projects a {
@@ -406,7 +405,6 @@ span.overlay {
   color: #fff;
 }
 
-
 /* SPECIALS SECTION */
 #section-service-1.side-bg .background-image-landing-photos {
   background: url(../images-bunkis/specials.jpg);
@@ -423,8 +421,6 @@ span.overlay {
 #section-service-4.side-bg .background-image-landing-staff {
   background: url(../images-bunkis/ocps-group-staff.png);
 }
-
-
 
 /* BLOG PAGE */
 #subheader .container,
@@ -448,7 +444,7 @@ span.overlay {
   color: #49b8d0;
 }
 
-.post-text a{
+.post-text a {
   color: black;
 }
 
@@ -460,14 +456,13 @@ span.overlay {
   color: black;
 }
 
-
 @media only screen and (max-width: 768px) {
   .subheader-flex {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
   #subheader h1 {
     padding-right: 0;
@@ -488,19 +483,16 @@ span.overlay {
     display: flex;
     flex-direction: column;
   }
-  
+
   .widget-post-50 {
     width: 100%;
   }
 }
 
-
 /* FOOTER */
 #footer-svg {
   height: 8rem;
 }
-
-
 
 /* CONTACT PAGE */
 .contact-content {
@@ -514,7 +506,7 @@ span.overlay {
 .location-text {
   font-weight: bold;
   color: #49b8d0;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .location-text:hover {
@@ -552,13 +544,13 @@ span.overlay {
   color: black;
 }
 
-#contact_form input[type=text] {
+#contact_form input[type="text"] {
   background: rgba(216, 216, 216, 0.2);
   color: black;
 }
 
 .error_input {
-  border: 2px solid #D31E2B !important;
+  border: 2px solid #d31e2b !important;
 }
 
 address span a:hover {
@@ -574,12 +566,28 @@ address span a:hover {
   border-bottom: none;
 }
 
-@media only screen and (max-width: 768px) {
-  .page-contact #subheader {
-      height: 300px;
+.contact-submit-btn {
+  padding: 1rem 5rem;
+  background: transparent;
+  border: 1px solid black;
+  transition: all .2s;
 }
 
+.contact-submit-btn:hover {
+  cursor: pointer;
+  background: #47b5cd;
+  border: 1px solid #47b5cd;
+}
 
+.success, .error {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-contact #subheader {
+    height: 300px;
+  }
+}
 
 /* INSTAGRAM SECTION */
 
@@ -589,7 +597,7 @@ address span a:hover {
 }
 
 .instagram h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .instagram-header-container {
@@ -609,11 +617,11 @@ address span a:hover {
 }
 
 .instagram-photo-container:before {
-    content: none;
+  content: none;
 }
 
 .instagram-photo-container:after {
-    content: none;
+  content: none;
 }
 
 .instagram-photo {
@@ -653,23 +661,23 @@ address span a:hover {
   padding-left: 1rem;
 }
 
-@media only screen and (max-width: 1800px){
-    .instagram-photo-container {
-        margin: 0 20%;
-    }
+@media only screen and (max-width: 1800px) {
+  .instagram-photo-container {
+    margin: 0 20%;
+  }
 }
 
-@media only screen and (max-width: 1500px){
-    .instagram-photo-container {
-        margin: 0 10%;
-    }
+@media only screen and (max-width: 1500px) {
+  .instagram-photo-container {
+    margin: 0 10%;
+  }
 }
 
-@media only screen and (max-width: 1125px){
-    .instagram-photo {
-        height: 250px;
-        width: 250px;
-    }
+@media only screen and (max-width: 1125px) {
+  .instagram-photo {
+    height: 250px;
+    width: 250px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -683,11 +691,11 @@ address span a:hover {
   } */
 }
 
-@media only screen and (max-width: 938px){
-    .instagram-photo {
-        height: 200px;
-        width: 200px;
-    }
+@media only screen and (max-width: 938px) {
+  .instagram-photo {
+    height: 200px;
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 513px) {
@@ -696,7 +704,7 @@ address span a:hover {
   }
 
   .instagram-photo-container {
-      margin: 0 5%;
+    margin: 0 5%;
   }
 }
 
@@ -733,11 +741,10 @@ address span a:hover {
 /* ----------------------- */
 
 @media only screen and (max-width: 1024px) {
-    .social-media-nav-container {
-        display: none;
-    }
+  .social-media-nav-container {
+    display: none;
+  }
 }
-
 
 @media only screen and (max-width: 768px) {
   .hero-svg-top {
@@ -745,23 +752,23 @@ address span a:hover {
   }
 
   #landing-svg {
-      height: 13rem;
+    height: 13rem;
   }
 
   .project-name {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 
   h2.style-5 {
-      font-size: 4rem;
+    font-size: 4rem;
   }
 
   .social-media-nav-container {
-      display: none;
+    display: none;
   }
 
   .nav-flex-container {
-      display: block;
+    display: block;
   }
 
   .page-blog #subheader {
@@ -775,11 +782,11 @@ address span a:hover {
   }
 
   p.lead {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .teaser-text {
-      text-align: center;
+    text-align: center;
   }
 
   a.btn-slider {
@@ -800,6 +807,6 @@ address span a:hover {
   }
 
   .section-about-us-2-header {
-      margin-top: 0;
+    margin-top: 0;
   }
 }
