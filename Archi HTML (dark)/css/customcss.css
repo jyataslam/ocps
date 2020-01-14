@@ -611,7 +611,58 @@ address span a:hover {
   .page-services #subheader {
     height: 300px;
   }
+
+  .page-projects #subheader {
+    height: 300px;
+  }
 }
+
+
+/* REVIEWS PAGE CSS */
+.ocps-reviews-section {
+  background: white !important;
+}
+
+.office-visit-reviews-col-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.office-visit-logo {
+  width: 300px;
+}
+
+.office-visit-stars-container {
+  margin-top: .5rem;
+}
+
+.office-visit-star {
+  font-size: 3rem;
+  color: gold;
+}
+
+.office-visit-reviews-col-reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  background-color: #f6f6f6;
+  padding: 3rem;
+}
+
+.office-visit-name {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+.office-visit-text {
+  padding-top: 3rem;
+}
+
+
 
 /* INSTAGRAM SECTION */
 
