@@ -5818,6 +5818,7 @@ display:table;
 	header.header-mobile #mainmenu li span.active{
 		background:url(../images/ui/arrow-up.png) center no-repeat;
 	}
+	
 	header.header-mobile.header-light #mainmenu li span.active{
 		background:url(../images/ui/arrow-up-invert.png) center no-repeat;
 	}
