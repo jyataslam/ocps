@@ -47,6 +47,16 @@ span.overlay:hover {
     font-size: 1.8rem;
 }
 
+.video-yt{
+	height:300px;
+}
+
+@media only screen and (max-width: 1000px){
+    .video-yt{
+        height:240px;
+    }
+}
+
 @media only screen and (max-width: 768px){
     #subheader {
         height: 300px;

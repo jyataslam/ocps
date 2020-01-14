@@ -3521,6 +3521,11 @@ position:fixed;
 top:0;
 }
 
+.video-yt{
+	height:400px !important;
+	width:800px !important;
+}
+
 /* youtube, vimeo */
 
 .video-container {
