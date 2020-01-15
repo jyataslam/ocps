@@ -748,6 +748,20 @@ address span a:hover {
 
 
 
+/* OFFICE SECTION */
+.office-outside-photo {
+  height: 520px;
+}
+
+.office-reception-image {
+  background-image: url(../images-bunkis/reception-area.png) !important;
+}
+
+.office-procedure-image {
+  background-image: url(../images-bunkis/procedure-room.png) !important;
+}
+
+
 /* INSTAGRAM SECTION */
 
 .instagram {
