@@ -467,6 +467,7 @@ span.overlay {
   #subheader h1 {
     padding-right: 0;
     padding-top: 6rem;
+    z-index: 1;
   }
 
   .sidebar-flex {
@@ -627,6 +628,10 @@ address span a:hover {
   .page-projects #subheader {
     height: 300px;
   }
+
+  .page-about #subheader {
+    height: 300px;
+  }
 }
 
 
@@ -677,6 +682,54 @@ address span a:hover {
 .office-visit-text {
   padding-top: 3rem;
 }
+
+
+
+
+/* ABOUT PAGE */
+.about-us-top-section {
+  background-color: #f6f6f6 !important;
+}
+
+.about-us-team-photo {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-us-team-photo {
+    height: 320px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-team-photo {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .about-us-team-photo {
+    display: none;
+  }
+
+  .page-about #subheader {
+    background-image: url(../images-bunkis/ocps-group-staff.png);
+    position: relative;
+  }
+
+  .page-about #subheader:after {
+    background-color: rgba(18, 43, 45, 0.8);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
 
 
 

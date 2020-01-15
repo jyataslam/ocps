@@ -894,7 +894,8 @@ footer {
 	.de-navbar-left.de_light header, .de-navbar-left.de_light{background:#f9f9f9;}
 
 	header.header-mobile{
-	background:#111;
+	background:#0b0b0b;
+	transition: all .3s;
 	}
 	
 	header.header-mobile.header-light{
@@ -5390,6 +5391,7 @@ display:table;
 .height-auto{
 	height:auto;
 }
+
 
 /* ================================================== */
 /* R E S P O N S I V E */
