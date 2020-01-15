@@ -1468,8 +1468,8 @@ $(document).scroll(function() {
 
 // Function to fetch Instagram feed
 function fetchInstagram() {
-  var token = "13576540155.e9f2380.2f5367c8aefa4349969f88072969a37c",
-    userid = 13576540155,
+  var token = "3187494908.1677ed0.7d223022184645edb08f1112e2d36ef2",
+    userid = 3187494908,
     num_photos = 6;
 
   $.ajax({

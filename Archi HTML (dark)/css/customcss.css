@@ -603,6 +603,18 @@ address span a:hover {
   cursor: pointer;
 }
 
+.contact-anchor-link-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.review-gallery-container {
+  margin-top: 3rem;
+}
+
 @media only screen and (max-width: 768px) {
   .page-contact #subheader {
     height: 300px;
@@ -621,6 +633,10 @@ address span a:hover {
 /* REVIEWS PAGE CSS */
 .ocps-reviews-section {
   background: white !important;
+}
+
+.ocps-reviews-section-light {
+  background: #f9f9f9 !important;
 }
 
 .office-visit-reviews-col-header {
