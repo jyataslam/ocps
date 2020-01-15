@@ -730,6 +730,21 @@ address span a:hover {
   }
 }
 
+#juris-more {
+  background: #f6f6f6;
+}
+
+#juris-skills {
+  background: white;
+}
+
+.juris-memberships {
+  background-image: url(../images-bunkis/dr-bunkis-headshot.jpg) !important;
+}
+
+.juris-certifications {
+  background-image: url(../images-bunkis/dr-bunkis-headshot.jpg) !important;
+}
 
 
 
