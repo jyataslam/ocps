@@ -921,6 +921,65 @@ address span a:hover {
   }
 }
 
+
+
+/* PHOTOS SUBPAGE SECTION */
+#section-welcome-14 {
+  background: rgba(238, 238, 238, 0.897);;
+}
+
+.photos-col {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.photos-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background: white;
+}
+
+.photos-content-flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.photos-content-left, .photos-content-right {
+  padding: 0 2rem;
+}
+
+.photos-content-left p {
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+.photos-content-right p {
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+/* .photos-content-left {
+  padding-right: 30px;
+}
+
+.photos-content-right {
+  padding-left: 30px;
+} */
+
+/* .twentytwenty-container img {
+  max-height: 100%;
+  max-width: initial;
+} */
+
+
+
+
+
 /* ----------------------- */
 /* --MEDIA QUERIES BELOW---*/
 /* ----------------------- */
