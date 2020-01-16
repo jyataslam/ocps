@@ -30,7 +30,7 @@ span.overlay:hover {
     background: transparent;
 }
 
-.background-wrapper:nth-child(even){
+.background-wrapper:nth-child(even) {
     background: #f0f0f0;
 }
 
@@ -47,21 +47,21 @@ span.overlay:hover {
     font-size: 1.8rem;
 }
 
-.video-yt{
-	height:300px;
+.video-yt {
+    height: 300px;
 }
 
-.videoHeader{
+.videoHeader {
     text-align: center;
 }
 
-@media only screen and (max-width: 1000px){
-    .video-yt{
-        height:240px;
+@media only screen and (max-width: 1000px) {
+    .video-yt {
+        height: 240px;
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     #subheader {
         height: 300px;
     }
@@ -83,8 +83,7 @@ span.overlay:hover {
 
 .testimonialContainer {
     height: 200px;
-    width:300px;
-    /* background-color: rgb(0, 0, 0); */
+    padding: 0;
     background-image: url();
     background-repeat: no-repeat;
     background-size: contain !important;
@@ -97,20 +96,19 @@ span.overlay:hover {
 }
 
 .ocpsImg {
-    height:160px;
-    width:95%;
+    height: 160px;
     background-color: black;
 }
 
-.testimonialText{
-    color: white;
+.testimonialTitle {
     text-align: center;
+
 }
 
 .button {
     position: absolute;
-    top:40%;
-    left:55%;
+    top: 40%;
+    left: 55%;
     transform: translate(-50%, -50%);
     border: 0;
     background: transparent;
@@ -123,9 +121,14 @@ span.overlay:hover {
     border-style: solid;
     border-width: 37px 0 37px 60px;
     opacity: .8;
-  }
+}
 
-  .button:hover {
+.button:hover {
     border-color: transparent transparent transparent #ececec;
-  }
+}
 
+@media only screen and (max-width: 992px) {
+    .filterGallery {
+        display: none;
+    }
+}

@@ -402,6 +402,23 @@ overflow:visible;
 	letter-spacing:3px;
 	text-transform:uppercase;
 	}	
+
+	@media only screen and (max-width: 1199px) {
+		#mainmenu {
+			font-family:"Raleway", Arial, Helvetica, sans-serif;
+			float: right;
+			font-size:8px;
+			font-weight:400;
+			letter-spacing:3px;
+			text-transform:uppercase;
+			}	
+	}
+
+	@media only screen and (max-width: 991px) {
+		.filterGallery {
+			display: none;
+		}
+	}
 	
 	#mainmenu ul {
 	float: right;
