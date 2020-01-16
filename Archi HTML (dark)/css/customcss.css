@@ -762,6 +762,18 @@ address span a:hover {
 }
 
 
+
+/* FINANCING PAGE */
+.financing-content-wrapper {
+  background: white !important;
+}
+
+.financing-main-container {
+  margin-bottom: 90px;
+}
+
+
+
 /* INSTAGRAM SECTION */
 
 .instagram {
