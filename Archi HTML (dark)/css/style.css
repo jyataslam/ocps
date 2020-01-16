@@ -348,7 +348,7 @@ overflow:visible;
 	padding-right: 40px;
 	margin-right: 40px;
 	text-transform:uppercase;
-	max-width: 52%;
+	/* max-width: 52%; */
 	}
 	#subheader span {
 	letter-spacing:2px;
