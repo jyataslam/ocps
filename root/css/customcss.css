@@ -20,6 +20,10 @@ h2.style-5 {
   font-family: "futura-pt", sans-serif;
 }
 
+.st3 {
+  fill: #dddddd !important;
+}
+
 @media only screen and (max-width: 414px) {
   h2.style-5 {
     font-size: 4rem;
