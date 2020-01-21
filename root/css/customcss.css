@@ -774,6 +774,56 @@ address span a:hover {
 
 
 
+
+
+/* INDIVIDUAL PHOTOS PAGES */
+.individual-photo-section {
+  background: rgb(242, 242, 242) !important;
+}
+
+.individual-image-100-width {
+  width: 100%;
+  object-fit: cover;
+}
+
+.individual-photos-header {
+  font-weight: 700;
+}
+
+.individual-photos-bg-white {
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.individual-profile-wrapper {
+  padding: 2rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.individual-profile-details-container {
+  width: 50%;
+}
+
+.individual-profile-photo-container {
+  width: 50%;
+}
+
+.individual-profile-photo-container img {
+  width: 100%;
+}
+
+.individual-profile-details-container p {
+  font-size: 1.6rem;
+}
+
+.individual-profile-phone a {
+  color: rgb(143, 143, 143);
+}
+
+
+
+
 /* INSTAGRAM SECTION */
 
 .instagram {
@@ -991,6 +1041,10 @@ address span a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  #subheader {
+    height: 300px;
+  }
+
   .hero-svg-top {
     height: 4rem;
   }
@@ -1017,6 +1071,14 @@ address span a:hover {
 
   .page-blog #subheader {
     height: 300px;
+  }
+
+  .individual-profile-details-container {
+    width: 100%;
+  }
+
+  .individual-profile-photo-container {
+    width: 100%;
   }
 }
 
@@ -1056,5 +1118,17 @@ address span a:hover {
 
   #footer-svg {
     margin-bottom: 2rem;
+  }
+
+  .individual-profile-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+    padding-top: 2rem;
+  }
+
+  .photos-content-wrapper {
+    padding-bottom: 1rem;
   }
 }
