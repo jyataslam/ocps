@@ -456,6 +456,22 @@ span.overlay {
   color: black;
 }
 
+.single-blog-header {
+  text-align: center;
+  font-weight: 400;
+}
+
+.single-blog-content-image {
+  width: 100%;
+}
+
+.single-blog-image-desc {
+  font-size: 1rem;
+  color: grey;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
 @media only screen and (max-width: 768px) {
   .subheader-flex {
     height: 100%;
@@ -1130,5 +1146,22 @@ address span a:hover {
 
   .photos-content-wrapper {
     padding-bottom: 1rem;
+  }
+
+  .single-blog-datebox {
+    width: initial !important;
+    position: static !important;
+  }
+
+  .single-blog-day {
+    padding-top: 10px !important;
+  }
+
+  .mobile-blog-text {
+    padding-left: initial !important;
+  }
+
+  .single-blog-subheader-header {
+    font-size: 2.6rem !important;
   }
 }
