@@ -706,6 +706,18 @@ address span a:hover {
 
 
 
+/* PROCEDURE PAGE */
+.main-procedure-header {
+  color: white;
+}
+
+.main-procedure-desc {
+  color: rgb(197, 197, 197);
+  padding-bottom: 4rem;
+}
+
+
+
 /* ABOUT PAGE */
 .about-us-top-section {
   background-color: #f6f6f6 !important;
@@ -1105,6 +1117,10 @@ nav li a {
 }
 
 @media only screen and (max-width: 414px) {
+  #content {
+    padding-top: 45px;
+  }
+
   #landing-svg {
     height: 8rem;
   }
