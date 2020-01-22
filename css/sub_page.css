@@ -138,9 +138,31 @@ span.overlay:hover {
     display: flex;
 }
 
-
+.background-image-procedure {
+    background-position: 50% 20%!important;
+    background-size: cover!important;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
 
 /* PROCEDURE IMAGES */
+.ideal_candidates {
+    background-image: url(../images/procedure_images/ideal_candidate_female.jpg);
+}
 
+/* FACELIFT */
 
+.about_facelift {
+    background-image: url(../images/procedure_images/facelift/about_facelift.jpg)
+}
 
+.anticipated_facelift {
+    background-image: url(../images/procedure_images/facelift/facelift2.jpg)
+}
+
+.results_facelift {
+    background-image: url(../images/procedure_images/facelift/expected_facelift.jpg)
+}
