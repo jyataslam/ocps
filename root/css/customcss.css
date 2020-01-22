@@ -1047,7 +1047,9 @@ address span a:hover {
 } */
 
 
-
+nav li a {
+  cursor: pointer
+}
 
 
 /* ----------------------- */
