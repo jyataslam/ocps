@@ -353,7 +353,7 @@ overflow:visible;
 
 	@media only screen and (max-width: 768px) {
 		.procedure_main_title {
-			max-width: 52%;
+			max-width: 100% !important;
 			font-size: 20px !important;
 			}
 }
