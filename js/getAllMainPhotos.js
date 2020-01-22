@@ -8,10 +8,10 @@ function fetchMainPhotos() {
         "/data/getMainFaceliftPhotos.json",
       dataType: "json",
       success: resp => {
-        console.log(resp);
         for (i = 0; i < resp.patients.length; i++) {
+          // Create HTML Tags
           const mainRow = $(".main-all-photos-page");
-          const mainColDiv = $("<div class='col-xs-12 col-sm-6 col-md-4 photos-col'>");
+          const mainColDiv = $("<div class='col-xs-12 col-sm-6 col-md-4 photos-col wow fadeInUp animated' wow-delay='0s'>");
           const textMiddleDiv = $("<div class='text-middle'>");
           const twentyTwentyContainer = $("<div class='twentytwenty-container'>");
           
