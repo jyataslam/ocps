@@ -419,8 +419,7 @@ jQuery(document).ready(function() {
         //passing Splash Screen script to jPreLoader
         jQuery("#jSplash")
           .children("section")
-          .not(".selected")
-          .hide();
+          .not(".selected")          .hide();
         jQuery("#jSplash")
           .hide()
           .fadeIn(800);
