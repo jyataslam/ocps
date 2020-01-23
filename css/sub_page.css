@@ -148,6 +148,16 @@ span.overlay:hover {
     z-index: 0;
 }
 
+.background-image-procedure2 {
+    background-position: 50% 75%!important;
+    background-size: cover!important;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
+
 /* PROCEDURE IMAGES */
 .ideal_candidates {
     background-image: url(../images/procedure_images/ideal_candidate_female.jpg);
@@ -166,3 +176,71 @@ span.overlay:hover {
 .results_facelift {
     background-image: url(../images/procedure_images/facelift/expected_facelift.jpg)
 }
+
+/* armlift */
+
+.about_armlift {
+    background-image: url(../images/procedure_images/armlift/armlift3.jpg)
+}
+
+.anticipated_armlift {
+    background-image: url(../images/procedure_images/armlift/armlift2.jpg)
+}
+
+.results_armlift {
+    background-image: url(../images/procedure_images/armlift/armlift1.jpg)
+}
+
+/* belotero balance */
+
+.about_belotero {
+    background-image: url(../images/procedure_images/belotero/beloterobalance3.jpg)
+}
+
+.anticipated_belotero {
+    background-image: url(../images/procedure_images/belotero/beloterobalance2.jpg)
+}
+
+.results_belotero {
+    background-image: url(../images/procedure_images/belotero/beloterobalance1.jpg)
+}
+
+/* biote*/
+
+.about_biote {
+    background-image: url(../images/procedure_images/biote/biote3.jpg)
+}
+
+.anticipated_biote {
+    background-image: url(../images/procedure_images/biote/biote2.jpg)}
+
+    /* Brazilian Butt Lift*/
+
+    .about_brazilianbuttlift {
+        background-image: url(../images/procedure_images/buttlift/buttlift2.jpg)
+    }
+    
+    .anticipated_brazilianbuttlift {
+        background-image: url(../images/procedure_images/buttlift/buttlift1.jpg)
+    }
+    
+    .results_brazilianbuttlift {
+        background-image: url(../images/procedure_images/buttlift/buttlift3.jpg)
+    } 
+
+        /* Botox*/
+
+        .about_botox {
+            background-image: url(../images/procedure_images/botox/botox1.jpg)
+        }
+        
+        .anticipated_botox {
+            background-image: url(../images/procedure_images/botox/botox2.jpg)
+
+        }
+        
+        .results_botox {
+            background-image: url(../images/procedure_images/botox/botox3.jpg);
+            background-position: 50% 10%!important;
+
+        } 
