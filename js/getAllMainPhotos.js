@@ -38,7 +38,7 @@ function fetchMainPhotos() {
           let patientID = resp.patients[i].id;
           let patientProcedure = resp.patients[i].procedure;
           let patientPhoto1 = resp.patients[i].photos[0].pic1;
-          let patientPhoto2 = resp.patients[i].photos[0].pic1;
+          let patientPhoto2 = resp.patients[i].photos[0].pic2;
           let patientAge = resp.patients[i].age;
           let patientGender = resp.patients[i].gender;
           let patientEthnicity = resp.patients[i].ethnicity;
