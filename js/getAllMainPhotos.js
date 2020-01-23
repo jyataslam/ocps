@@ -8,6 +8,7 @@ function fetchMainPhotos() {
         "/data/getMainFaceliftPhotos.json",
       dataType: "json",
       success: resp => {
+        console.log(resp)
         for (i = 0; i < resp.patients.length; i++) {
           // Create HTML Tags
           const mainRow = $(".main-all-photos-page");
@@ -36,8 +37,8 @@ function fetchMainPhotos() {
           // Save Response Data to variables
           let patientID = resp.patients[i].id;
           let patientProcedure = resp.patients[i].procedure;
-          let patientPhoto1 = resp.patients[i].pic1;
-          let patientPhoto2 = resp.patients[i].pic2;
+          let patientPhoto1 = resp.patients[i].photos[0].pic1;
+          let patientPhoto2 = resp.patients[i].photos[0].pic1;
           let patientAge = resp.patients[i].age;
           let patientGender = resp.patients[i].gender;
           let patientEthnicity = resp.patients[i].ethnicity;
