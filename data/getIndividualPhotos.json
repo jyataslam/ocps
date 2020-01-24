@@ -6,12 +6,12 @@
       "procedure": "Facelift",
       "photos": [
         {
-            "pic1": "../images-bunkis/before-test-photo.png",
-            "pic2": "../images-bunkis/after-test-photo.png"
+            "pic1": "../images-bunkis/before-test-photo1.png",
+            "pic2": "../images-bunkis/after-test-photo1.png"
           },
           {
-            "pic1": "../images-bunkis/before-test-photo.png",
-            "pic2": "../images-bunkis/after-test-photo.png"
+            "pic1": "../images-bunkis/before-test-photo2.png",
+            "pic2": "../images-bunkis/after-test-photo2.png"
           }
       ],
       "age": "60+",
