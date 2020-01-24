@@ -411,19 +411,23 @@ span.overlay {
 
 /* SPECIALS SECTION */
 #section-service-1.side-bg .background-image-landing-photos {
-  background: url(../images-bunkis/specials.jpg);
+  background: url(/images-bunkis/specials.jpg);
+  height: 100%;
 }
 
 #section-service-2.side-bg .background-image-landing-specials {
-  background: url(../images-bunkis/specials.jpg);
+  background: url(/images-bunkis/specials.jpg);
+  height: 100%;
 }
 
 #section-service-3.side-bg .background-image-landing-reviews {
-  background: url(../images-bunkis/specials.jpg);
+  background: url(/images-bunkis/specials.jpg);
+  height: 100%;
 }
 
 #section-service-4.side-bg .background-image-landing-staff {
-  background: url(../images-bunkis/ocps-group-staff.png);
+  background: url(/images-bunkis/ocps-group-staff.png);
+  height: 100%;
 }
 
 /* BLOG PAGE */
@@ -653,6 +657,37 @@ address span a:hover {
     height: 300px;
   }
 }
+
+
+
+.background-image-procedure {
+  height: 100%;
+}
+
+.mobile-bg-breast {
+  background: url(/images-bunkis/breast-test.png);
+}
+
+.mobile-bg-body {
+  background: url(/images-bunkis/body-test.png);
+}
+
+.mobile-bg-face {
+  background: url(/images-bunkis/face-test.png);
+}
+
+.mobile-bg-skin {
+  background: url(/images-bunkis/skin-test.png);
+}
+
+.mobile-bg-injectables {
+  background: url(/images-bunkis/injectibles-test.png);
+}
+
+.mobile-bg-nonsurgical {
+  background: url(/images-bunkis/non-surgical-test.png);
+}
+
 
 
 /* REVIEWS PAGE CSS */
@@ -1149,6 +1184,8 @@ nav li a {
   .mobile-service {
     display: block;
   }
+
+
 
   .section-about-us-2-header {
     margin-top: 0;
