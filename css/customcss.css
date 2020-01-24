@@ -1156,6 +1156,10 @@ nav li a {
     padding-top: 45px;
   }
 
+  .inner-padding {
+    padding-top: 0;
+  }
+
   #landing-svg {
     height: 8rem;
   }
