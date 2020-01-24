@@ -8,6 +8,7 @@ $(document).ready(function() {
   client.getEntries().then(function(entries) {
     entries.items.forEach(function(entry) {
       console.log(entry);
+      console.log('url', entry.fields.photos[0].fields.file.url)
 
       const mainRow = $(".main-all-photos-page");
       const mainColDiv = $("<div class='col-xs-12 col-sm-6 col-md-4 photos-col wow fadeInUp animated' wow-delay='0s'>");
@@ -24,23 +25,29 @@ $(document).ready(function() {
       const image1 = $("<img alt='dr bunkis before after photo' class='img-responsive' />");
       const image2 = $("<img alt='dr bunkis before after photo' class='img-responsive' />");
 
-      const photosAgeP = $("<p class='photos-age'>Age: <span class='main-photos-age-span'></span></p>");
-      const photosGenderP = $("<p class='photos-gender'>Gender: <span class='main-photos-gender-span'></span></p>");
-      const photosEthnicityP = $("<p class='photos-ethnicity'>Ethnicity: <span class='main-photos-ethnicity-span'></span></p>");
-      const photosHeightP = $("<p class='photos-height'>Height: <span class='main-photos-height-span'></span></p>");
-      const photosWeightP = $("<p class='photos-weight'>Weight: <span class='main-photos-weight-span'></span> lbs</p>");
-      const photosID = $("<p class='photos-id'>Gallery ID: <span class='main-photos-id-span'></span></p>");
+      const photosAgeP = $("<p class='photos-age'>Age: </p>");
+      const photosGenderP = $("<p class='photos-gender'>Gender: </p>");
+      const photosEthnicityP = $("<p class='photos-ethnicity'>Ethnicity: </p>");
+      const photosHeightP = $("<p class='photos-height'>Height: </p>");
+      const photosWeightP = $("<p class='photos-weight'>Weight: </p>");
+      const photosID = $("<p class='photos-id'>Gallery ID: </p>");
       const viewDetailsBtn = $("<a class='btn-line'>View Details</a>");
 
+      const ageSpan = $("<span class='main-photos-age-span'></span>");
+      const genderSpan = $("<span class='main-photos-gender-span'></span>");
+      const ethnicitySpan = $("<span class='main-photos-ethnicity-span'></span>");
+      const heightSpan = $("<span class='main-photos-height-span'></span>");
+      const weightSpan = $("<span class='main-photos-weight-span'></span>");
+
       // Save Response Data to variables
-      let patientProcedure = entry.fields.procedure;
-      let patientPhoto1 = entry.fields.photos[0].fields.file.url;
-      let patientPhoto2 = entry.fields.photos[1].fields.file.url;
-      let patientAge = entry.fields.age;
-      let patientGender = entry.fields.gender;
-      let patientEthnicity = entry.fields.ethnicity;
-      let patientHeight = entry.fields.height;
-      let patientWeight = entry.fields.weight;
+      const patientProcedure = entry.fields.procedure;
+      const patientPhoto1 = entry.fields.photos[0].fields.file.url;
+      const patientPhoto2 = entry.fields.photos[1].fields.file.url;
+      const patientAge = entry.fields.age;
+      const patientGender = entry.fields.gender;
+      const patientEthnicity = entry.fields.ethnicity;
+      const patientHeight = entry.fields.height;
+      const patientWeight = entry.fields.weight;
       // let patientUrl = entry.fields.url;
 
       mainRow.append(mainColDiv);
@@ -59,15 +66,24 @@ $(document).ready(function() {
 
       photoContentsFlexRow.append(photoContentsLeft);
       photoContentsLeft.append(photosAgeP, photosGenderP, photosEthnicityP);
-      $('.main-photos-age-span').text(patientAge);
-      $('.main-photos-gender-span').text(patientGender);
-      $('.main-photos-ethnicity-span').text(patientEthnicity);
+
+        ageSpan.text(patientAge);
+        photosAgeP.append(ageSpan);
+
+        genderSpan.text(patientGender);
+        photosGenderP.append(genderSpan);
+
+        ethnicitySpan.text(patientEthnicity);
+        photosEthnicityP.append(ethnicitySpan);
 
       photoContentsFlexRow.append(photoContentsRight);
       photoContentsRight.append(photosHeightP, photosWeightP, photosID);
-      $('.main-photos-height-span').text(patientHeight);
-      $('.main-photos-weight-span').text(patientWeight);
-      // $('.main-photos-id-span').text(patientID);
+      
+        heightSpan.text(patientHeight);
+        photosHeightP.append(heightSpan);
+
+        weightSpan.text(patientWeight + ' lbs');
+        photosWeightP.append(weightSpan);
 
       photoContentsWrapper.append(viewDetailsBtn);
       // viewDetailsBtn.attr("href", patientUrl);
