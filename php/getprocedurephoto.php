@@ -4,7 +4,7 @@ require_once('config.php');
 require_once('mysqlconnect.php');
 
 
-$procedures = Facelift;
+$procedures = 'Facelift';
 
 $query = "SELECT p.id, p.procedures, p.age, p.gender, p.ethnicity, p.height, p.weight, p.description, p.details, p.date, ph.pic1, ph.pic2 FROM patients as p LEFT JOIN photos as ph ON p.id = ph.patient WHERE p.procedures = '$procedures'";
 
@@ -41,6 +41,7 @@ while($row = mysqli_fetch_assoc($result)){
         'photos2' => $row['pic2'],
         'age' => $row['age'],
         'gender' => $row['gender'],
+        'ethnicity' => $row['ethnicity'],
         'height' => $row['height'],
         'weight' => $row['weight'],
         'desc' => $row['description'],
