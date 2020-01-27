@@ -4,11 +4,12 @@ $(document).ready(function() {
     accessToken: "qL-R79I6HSdp5nvptoGUAgFqTVSU49kAOfZA3-zT2CU"
   });
 
+  // handleFaceliftBtnClick;
+
   // Retrieve all entries
   client.getEntries().then(function(entries) {
     entries.items.forEach(function(entry) {
-      console.log(entry);
-      console.log('url', entry.fields.photos[0].fields.file.url)
+      console.log(entry)
 
       const mainRow = $(".main-all-photos-page");
       const mainColDiv = $("<div class='col-xs-12 col-sm-6 col-md-4 photos-col wow fadeInUp animated' wow-delay='0s'>");
@@ -31,7 +32,7 @@ $(document).ready(function() {
       const photosHeightP = $("<p class='photos-height'>Height: </p>");
       const photosWeightP = $("<p class='photos-weight'>Weight: </p>");
       const photosID = $("<p class='photos-id'>Gallery ID: </p>");
-      const viewDetailsBtn = $("<a class='btn-line'>View Details</a>");
+      const viewDetailsBtn = $("<a class='btn-line facelift-url-btn'>View Details</a>");
 
       const ageSpan = $("<span class='main-photos-age-span'></span>");
       const genderSpan = $("<span class='main-photos-gender-span'></span>");
@@ -48,6 +49,7 @@ $(document).ready(function() {
       const patientEthnicity = entry.fields.ethnicity;
       const patientHeight = entry.fields.height;
       const patientWeight = entry.fields.weight;
+      const patientID = entry.fields.id;
       // let patientUrl = entry.fields.url;
 
       mainRow.append(mainColDiv);
@@ -61,6 +63,8 @@ $(document).ready(function() {
 
       image1.attr("src", patientPhoto1);
       image2.attr("src", patientPhoto2);
+
+      viewDetailsBtn.attr("id", patientID);
 
       photoContentsWrapper.append(photoContentsFlexRow);
 
@@ -87,9 +91,23 @@ $(document).ready(function() {
 
       photoContentsWrapper.append(viewDetailsBtn);
       // viewDetailsBtn.attr("href", patientUrl);
+
+      viewDetailsBtn.attr('name', patientProcedure);
+
+      viewDetailsBtn.click(function() {
+        var input = this.name
+        var output = input.replace(/\w+/g, function(txt) {
+          return txt.charAt(0).toLowerCase() + txt.substr(1);
+        }).replace(/\s/g, '');
+        console.log(output)
+        var newUrl = `http://127.0.0.1:5500/photos/${output}/${patientID}.html`;
+        console.log(newUrl)
+        window.location.replace(newUrl);
+      })
     });
   });
 });
+
 
 // function fetchMainPhotos() {
 //     $.ajax({
