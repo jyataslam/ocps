@@ -49,7 +49,14 @@ while($row = mysqli_fetch_assoc($result)){
         ];
 };
 
-print_r(json_encode($output));
+
+echo '<div id="procedurephotos">
+        <h1>Facelift Main</h1>
+    </div>';
 
 
 
+// print_r(json_encode($output));
+
+
+?>
