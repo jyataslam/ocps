@@ -134,13 +134,13 @@ span.overlay:hover {
     }
 }
 
-.video_outline{
+.video_outline {
     display: flex;
 }
 
 .background-image-procedure {
-    background-position: 50% 20%!important;
-    background-size: cover!important;
+    background-position: 50% 20% !important;
+    background-size: cover !important;
     width: 100%;
     height: 100%;
     left: 0;
@@ -149,8 +149,8 @@ span.overlay:hover {
 }
 
 .background-image-procedure2 {
-    background-position: 50% 75%!important;
-    background-size: cover!important;
+    background-position: 50% 75% !important;
+    background-size: cover !important;
     width: 100%;
     height: 100%;
     left: 0;
@@ -212,35 +212,147 @@ span.overlay:hover {
 }
 
 .anticipated_biote {
-    background-image: url(../images/procedure_images/biote/biote2.jpg)}
+    background-image: url(../images/procedure_images/biote/biote2.jpg)
+}
 
-    /* Brazilian Butt Lift*/
+/* Brazilian Butt Lift*/
 
-    .about_brazilianbuttlift {
-        background-image: url(../images/procedure_images/buttlift/buttlift2.jpg)
-    }
-    
-    .anticipated_brazilianbuttlift {
-        background-image: url(../images/procedure_images/buttlift/buttlift1.jpg)
-    }
-    
-    .results_brazilianbuttlift {
-        background-image: url(../images/procedure_images/buttlift/buttlift3.jpg)
-    } 
+.about_brazilianbuttlift {
+    background-image: url(../images/procedure_images/buttlift/buttlift2.jpg)
+}
 
-        /* Botox*/
+.anticipated_brazilianbuttlift {
+    background-image: url(../images/procedure_images/buttlift/buttlift1.jpg)
+}
 
-        .about_botox {
-            background-image: url(../images/procedure_images/botox/botox1.jpg)
-        }
-        
-        .anticipated_botox {
-            background-image: url(../images/procedure_images/botox/botox2.jpg)
+.results_brazilianbuttlift {
+    background-image: url(../images/procedure_images/buttlift/buttlift3.jpg)
+}
 
-        }
-        
-        .results_botox {
-            background-image: url(../images/procedure_images/botox/botox3.jpg);
-            background-position: 50% 10%!important;
+/* Botox*/
 
-        } 
+.about_botox {
+    background-image: url(../images/procedure_images/botox/botox1.jpg)
+}
+
+.anticipated_botox {
+    background-image: url(../images/procedure_images/botox/botox2.jpg)
+}
+
+.results_botox {
+    background-image: url(../images/procedure_images/botox/botox3.jpg);
+    background-position: 50% 10% !important;
+
+}
+
+/* Breast Augmentation */
+
+.about_breastaugmentation {
+    background-image: url(../images/procedure_images/breast/breast1.jpg)
+}
+
+.anticipated_breastaugmentation {
+    background-image: url(../images/procedure_images/breast/breast2.jpg)
+}
+
+.results_breastaugmentation {
+    background-image: url(../images/procedure_images/breast/breast4.jpg);
+    background-position: 50% 60% !important;
+
+}
+
+
+/* Breast lift */
+
+
+.about_breastlift {
+    background-image: url(../images/procedure_images/breast/breast1.jpg)
+}
+
+.anticipated_breastlift {
+    background-image: url(../images/procedure_images/breast/breast2.jpg)
+}
+
+.results_breastlift {
+    background-image: url(../images/procedure_images/breast/breast6.jpg);
+    background-position: 50% 60% !important;
+
+}
+
+/* Breast reduction */
+
+
+.about_breastreduction {
+    background-image: url(../images/procedure_images/breast/breast1.jpg)
+}
+
+.anticipated_breastreduction {
+    background-image: url(../images/procedure_images/breast/breast2.jpg)
+}
+
+.results_breastreduction {
+    background-image: url(../images/procedure_images/breast/breast7.jpg);
+    background-position: 50% 60% !important;
+
+}
+
+/* Breast Revision */
+
+.about_breastrevisionsurgery {
+    background-image: url(../images/procedure_images/breast/breast1.jpg)
+}
+
+.anticipated_breastrevisionsurgery {
+    background-image: url(../images/procedure_images/breast/breast2.jpg)
+}
+
+.results_breastrevisionsurgery {
+    background-image: url(../images/procedure_images/breast/breast4.jpg);
+    background-position: 50% 60% !important;
+
+}
+
+/* Brow Lift */
+
+.about_browlift {
+    background-image: url(../images/procedure_images/browlift/browlift1.jpg)
+}
+
+.anticipated_browlift {
+    background-image: url(../images/procedure_images/browlift/browlift2.jpg)
+}
+
+.results_browlift {
+    background-image: url(../images/procedure_images/browlift/browlift4.jpg)
+}
+
+/* Brazilian Butt Lift*/
+
+.about_buttaugmentation {
+    background-image: url(../images/procedure_images/buttlift/buttlift2.jpg)
+}
+
+.anticipated_buttaugmentation {
+    background-image: url(../images/procedure_images/buttlift/buttlift1.jpg)
+}
+
+.results_buttaugmentation {
+    background-image: url(../images/procedure_images/buttlift/buttlift3.jpg);
+    background-position: 50% 70% !important;
+
+}
+
+/* Brazilian Butt Lift*/
+
+.about_calfaugmentation {
+    background-image: url(../images/procedure_images/calfaugmentation/calfaugmentation1.jpg)
+}
+
+.anticipated_calfaugmentation {
+    background-image: url(../images/procedure_images/calfaugmentation/calfaugmentation2.jpg)
+}
+
+.resultscalfaugmentation {
+    background-image: url(../images/procedure_images/calfaugmentation/calfaugmentation3.jpg)
+
+}
