@@ -4,7 +4,7 @@ require_once('config.php');
 require_once('mysqlconnect.php');
 
 
-$procedures = 'Facelift';
+$procedures = $_GET['procedure'];
 
 $query = "SELECT p.id, p.procedures, p.age, p.gender, p.ethnicity, p.height, p.weight, p.description, p.details, p.date, ph.pic1, ph.pic2 FROM patients as p LEFT JOIN photos as ph ON p.id = ph.patient WHERE p.procedures = '$procedures'";
 
@@ -29,9 +29,6 @@ $output['success'] = true;
 $output['patients'] = [];
 
 
-
-
-
 while($row = mysqli_fetch_assoc($result)){
 
     $output['patients'][] = [
@@ -47,16 +44,10 @@ while($row = mysqli_fetch_assoc($result)){
         'desc' => $row['description'],
         'details' => $row['details'],
         ];
+        
 };
 
-
-echo '<div id="procedurephotos">
-        <h1>Facelift Main</h1>
-    </div>';
-
-
-
-// print_r(json_encode($output));
+print_r(json_encode($output));
 
 
 ?>
