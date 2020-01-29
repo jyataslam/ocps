@@ -272,11 +272,15 @@
 }
 
 .anticipated_lipenhancement {
-    background-image: url(../images/procedure_images/lipenhancement/lipenhancement2.jpg)
+    background-image: url(../images/procedure_images/lipenhancement/lipenhancement3.jpg);
+    background-position: 50% 60% !important;
+
 }
 
 .results_lipenhancement {
-    background-image: url(../images/procedure_images/lipenhancement/lipenhancement3.jpg)
+    background-image: url(../images/procedure_images/lipenhancement/lipenhancement2.jpg);
+    background-position: 50% 45% !important;
+
 }
 
 /* liposuction */
@@ -356,7 +360,9 @@
 }
 
 .anticipated_neckliposuction {
-    background-image: url(../images/procedure_images/neckliposuction/neckliposuction2.jpg)
+    background-image: url(../images/procedure_images/neckliposuction/neckliposuction2.jpg);
+    background-position: 50% 50% !important;
+
 }
 
 .results_neckliposuction {
