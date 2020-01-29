@@ -370,12 +370,14 @@ span.overlay:hover {
 }
 
 .anticipated_chemicalpeel {
-    background-image: url(../images/procedure_images/chemicalpeel/chemicalpeel2.jpg)
+    background-image: url(../images/procedure_images/chemicalpeel/chemicalpeel2.jpg);
+    background-position: 50% 65% !important;
+
 }
 
 .results_chemicalpeel {
     background-image: url(../images/procedure_images/chemicalpeel/chemicalpeel1.jpg);
-    background-position: 100% 20% !important;
+    background-position: 50% 50% !important;
 
 }
 
@@ -448,8 +450,8 @@ span.overlay:hover {
 }
 
 .anticipated_gynecomastia {
-    background-image: url(../images/procedure_images/gynecomastia/gynecomastia2.jpg);
-    background-position: 50% 66% !important;
+    background-image: url(../images/procedure_images/gynecomastia/gynecomastia4.jpg);
+    background-position: 50% 20% !important;
 
 }
 
@@ -498,12 +500,14 @@ span.overlay:hover {
 }
 
 .anticipated_volumaxc {
-    background-image: url(../images/procedure_images/volumaxc/volumaxc2.jpg)
+    background-image: url(../images/procedure_images/volumaxc/volumaxc2.jpg);
+    background-position: 50% 60% !important;
 
 }
 
 .results_volumaxc    {
-    background-image: url(../images/procedure_images/volumaxc/volumaxc3.jpg)
+    background-image: url(../images/procedure_images/volumaxc/volumaxc3.jpg);
+    background-position: 50% 50% !important;
 
 }
 
