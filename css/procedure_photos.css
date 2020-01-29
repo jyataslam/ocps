@@ -179,10 +179,9 @@
 .results_buttaugmentation {
     background-image: url(../images/procedure_images/buttlift/buttlift3.jpg);
     background-position: 50% 70% !important;
-
 }
 
-/* Brazilian Butt Lift*/
+/* Calf augmentation */
 
 .about_calfaugmentation {
     background-image: url(../images/procedure_images/calfaugmentation/calfaugmentation1.jpg)
@@ -192,7 +191,188 @@
     background-image: url(../images/procedure_images/calfaugmentation/calfaugmentation2.jpg)
 }
 
-.resultscalfaugmentation {
+.results_calfaugmentation {
     background-image: url(../images/procedure_images/calfaugmentation/calfaugmentation3.jpg)
+}
 
+/* kybella */
+
+.about_kybella {
+    background-image: url(../images/procedure_images/kybella/kybella1.jpg)
+}
+
+.anticipated_kybella {
+    background-image: url(../images/procedure_images/kybella/kybella2.jpg)
+}
+
+.results_kybella {
+    background-image: url(../images/procedure_images/kybella/kybella3.jpg)
+}
+
+/* labiaplasty */
+
+.about_labiaplasty {
+    background-image: url(../images/procedure_images/labiaplasty/labiaplasty2.jpg)
+}
+
+.anticipated_labiaplasty {
+    background-image: url(../images/procedure_images/labiaplasty/labiaplasty1.jpg)
+}
+
+.results_labiaplasty {
+    background-image: url(../images/procedure_images/labiaplasty/labiaplasty3.jpg)
+}
+
+/* laser hair removal */
+
+.about_laserhairremoval {
+    background-image: url(../images/procedure_images/laserhairremoval/laserhairremoval1.jpg)
+}
+
+.anticipated_laserhairremoval {
+    background-image: url(../images/procedure_images/laserhairremoval/laserhairremoval2.jpg)
+}
+
+.results_laserhairremoval {
+    background-image: url(../images/procedure_images/laserhairremoval/laserhairremoval3.jpg)
+}
+
+/* laser skin resurfacing */
+
+.about_laserskinresurfacing {
+    background-image: url(../images/procedure_images/laserskinresurfacing/laserskinresurfacing1.jpg)
+}
+
+.anticipated_laserskinresurfacing {
+    background-image: url(../images/procedure_images/laserskinresurfacing/laserskinresurfacing2.jpg)
+}
+
+.results_laserskinresurfacing {
+    background-image: url(../images/procedure_images/laserskinresurfacing/laserskinresurfacing3.jpg)
+}
+
+/* laser vein therapy */
+
+.about_laserveintherapy {
+    background-image: url(../images/procedure_images/laserveintherapy/laserveintherapy1.jpg)
+}
+
+.anticipated_laserveintherapy {
+    background-image: url(../images/procedure_images/laserveintherapy/laserveintherapy2.jpg)
+}
+
+.results_laserveintherapy {
+    background-image: url(../images/procedure_images/laserveintherapy/laserveintherapy3.jpg)
+}
+
+/* lip enhancement */
+
+.about_lipenhancement {
+    background-image: url(../images/procedure_images/lipenhancement/lipenhancement1.jpg)
+}
+
+.anticipated_lipenhancement {
+    background-image: url(../images/procedure_images/lipenhancement/lipenhancement2.jpg)
+}
+
+.results_lipenhancement {
+    background-image: url(../images/procedure_images/lipenhancement/lipenhancement3.jpg)
+}
+
+/* liposuction */
+
+.about_liposuction {
+    background-image: url(../images/procedure_images/liposuction/liposuction1.jpg)
+}
+
+.anticipated_liposuction {
+    background-image: url(../images/procedure_images/liposuction/liposuction2.jpg)
+}
+
+.results_liposuction {
+    background-image: url(../images/procedure_images/liposuction/liposuction3.jpg)
+}
+
+/* lower body lift */
+
+.about_lowerbodylift {
+    background-image: url(../images/procedure_images/lowerbodylift/lowerbodylift1.jpg)
+}
+
+.anticipated_lowerbodylift {
+    background-image: url(../images/procedure_images/lowerbodylift/lowerbodylift2.jpg)
+}
+
+.results_lowerbodylift {
+    background-image: url(../images/procedure_images/lowerbodylift/lowerbodylift3.jpg)
+}
+
+/* microneedling */
+
+.about_microneedling {
+    background-image: url(../images/procedure_images/microneedling/microneedling2.jpg)
+}
+
+.anticipated_microneedling {
+    background-image: url(../images/procedure_images/microneedling/microneedling1.jpg)
+}
+
+.results_microneedling {
+    background-image: url(../images/procedure_images/microneedling/microneedling3.jpg)
+}
+
+/* mid face lift */
+
+.about_midfacelift {
+    background-image: url(../images/procedure_images/midfacelift/midfacelift1.jpg)
+}
+
+.anticipated_midfacelift {
+    background-image: url(../images/procedure_images/midfacelift/midfacelift2.jpg)
+}
+
+.results_midfacelift {
+    background-image: url(../images/procedure_images/midfacelift/midfacelift3.jpg)
+}
+
+/* mommy makeover */
+
+.about_mommymakeover {
+    background-image: url(../images/procedure_images/mommymakeover/mommymakeover1.jpg)
+}
+
+.anticipated_mommymakeover {
+    background-image: url(../images/procedure_images/mommymakeover/mommymakeover2.jpg)
+}
+
+.results_mommymakeover {
+    background-image: url(../images/procedure_images/mommymakeover/mommymakeover3.jpg)
+}
+
+/* neck liposuction */
+
+.about_neckliposuction {
+    background-image: url(../images/procedure_images/neckliposuction/neckliposuction1.jpg)
+}
+
+.anticipated_neckliposuction {
+    background-image: url(../images/procedure_images/neckliposuction/neckliposuction2.jpg)
+}
+
+.results_neckliposuction {
+    background-image: url(../images/procedure_images/neckliposuction/neckliposuction3.jpg)
+}
+
+/* nose surgery */
+
+.about_nosesurgery {
+    background-image: url(../images/procedure_images/nosesurgery/nosesurgery1.jpg)
+}
+
+.anticipated_nosesurgery {
+    background-image: url(../images/procedure_images/nosesurgery/nosesurgery2.jpg)
+}
+
+.results_nosesurgery {
+    background-image: url(../images/procedure_images/nosesurgery/nosesurgery3.jpg)
 }
