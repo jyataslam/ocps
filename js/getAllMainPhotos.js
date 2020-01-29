@@ -1,41 +1,23 @@
 
-
 $(document).ready(function() {
-  // useRoutes();
   fetchMainPhotos();
 });
 
-// function useRoutes() {
-//   $.router.init();
-
-//   $.route('/facelift/{id:int}/', (e) => {
-//       console.log('id');
-//       $('#patientContent').load('/php/getprocedurephoto.php?id=' + this.id).show();
-//   });
-//   $.route('/photos/facelift.html', (e) => {
-//       console.log(e);
-//       $('#patientContent').load('/php/getprocedurephoto.php').show();
-//   });
-
-//   $.router.set({
-//     route: '/photos/facelift/{id:int}'
-//   });
-//   $.router.set({
-//     route: '/photos/facelift.html'
-//   });
-
-//   $.router.init();
-// }
-
 
 function fetchMainPhotos() {
-  const title = $('.header-title').text();
-  var input = title
-  var procedure = input.replace(/\w+/g, function(txt) {
-      return txt.charAt(0).toLowerCase() + txt.substr(1);
-  }).replace(/\s/g, '');
-  console.log(procedure)
-
+  if (window.location.hash) {
+    console.log('hashed, go that id')
+    const hash = window.location.hash.substring(1);
+    console.log(hash)
+    // make ajax call and dynamically replace entire page similar to below using the hash variable
+  } else {
+    const title = $('.header-title').text();
+    var input = title
+    var procedure = input.replace(/\w+/g, function(txt) {
+        return txt.charAt(0).toLowerCase() + txt.substr(1);
+    }).replace(/\s/g, '');
+    console.log(procedure)
+  
     $.ajax({
       url:
         "/php/getprocedurephoto.php",
@@ -68,7 +50,7 @@ function fetchMainPhotos() {
           const photosHeightP = $("<p class='photos-height'>Height: <span class='main-photos-height-span'></span></p>");
           const photosWeightP = $("<p class='photos-weight'>Weight: <span class='main-photos-weight-span'></span> lbs</p>");
           const photosID = $("<p class='photos-id'>Gallery ID: <span class='main-photos-id-span'></span></p>");
-          const viewDetailsBtn = $("<a class='btn-line'>View Details</a>");
+          const viewDetailsBtn = $("<a class='btn-line go-to-patient'>View Details</a>");
 
           let patientID = resp.patients[i].id;
           let patientProcedure = resp.patients[i].procedure;
@@ -109,9 +91,16 @@ function fetchMainPhotos() {
 
           photoContentsWrapper.append(viewDetailsBtn);
           viewDetailsBtn.attr("href", patientUrl);
+          viewDetailsBtn.attr("id", patientID);
+          viewDetailsBtn.on('click', function() {
+            window.open(window.location.href + '#' + patientID);
+          })
         }
       }
     });
+  }
+
+  
   }
 
 
