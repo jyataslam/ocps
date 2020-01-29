@@ -438,7 +438,7 @@ jQuery(document).ready(function() {
 
         if (v_url.indexOf("#") != -1) {
           var v_hash = v_url.substring(v_url.indexOf("#") + 1);
-
+          
           jQuery("html, body").animate(
             {
               scrollTop: jQuery("#" + v_hash).offset().top - 70

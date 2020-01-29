@@ -38,6 +38,10 @@ h2.style-5 {
   color: rgb(58, 58, 58);
 }
 
+.hidden-content-active {
+  display: block !important;
+}
+
 /* OWL CAROUSEL ON LANDING PAGE FOR REVIEWS */
 .owl-prev,
 .owl-next {
