@@ -79,8 +79,11 @@ function createContentful() {
       const hiddenProceduresContentDiv = $('<div class="hidden-content hidden-procedures-loop">');
 
       // Loop through patient details and create list items to display on DOM
-      let patientArr = patientDetails.split(',');
+      // let patientArr = patientDetails.split('•	');
 
+      let patientArr = patientDetails.split('•	')
+
+      console.log('patient', patientArr)
       for (var i = 0; i < patientArr.length; i++) {
         let listItem = $("<p class='individual-photos-procedure-content'></p>").text(patientArr[i]);
         hiddenProceduresContentDiv.append(listItem);
@@ -158,6 +161,7 @@ function createContentful() {
     // CALL API FOR ALL PATIENTS FOR SPECIFIED PROCEDURE
 
     const pageTitle = $('.header-title').text();
+    console.log('page title', pageTitle)
     client.getEntries({
       'fields.procedure': pageTitle,
       'content_type': 'patient'
