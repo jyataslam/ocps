@@ -163,6 +163,12 @@ span.overlay:hover {
     background-image: url(../images/procedure_images/ideal_candidate_female.jpg);
 }
 
+.ideal_candidates_male {
+    background-image: url(../images/procedure_images/ideal_candidate_male.jpg);
+    background-position: 50% 60% !important;
+
+}
+
 /* FACELIFT */
 
 .about_facelift {
@@ -342,7 +348,7 @@ span.overlay:hover {
 
 }
 
-/* Brazilian Butt Lift*/
+/* Calf Augmentation*/
 
 .about_calfaugmentation {
     background-image: url(../images/procedure_images/calfaugmentation/calfaugmentation1.jpg)
@@ -352,7 +358,136 @@ span.overlay:hover {
     background-image: url(../images/procedure_images/calfaugmentation/calfaugmentation2.jpg)
 }
 
-.resultscalfaugmentation {
+.results_calfaugmentation {
     background-image: url(../images/procedure_images/calfaugmentation/calfaugmentation3.jpg)
 
 }
+
+/* Chemical Peel*/
+
+.about_chemicalpeel {
+    background-image: url(../images/procedure_images/chemicalpeel/chemicalpeel3.jpg)
+}
+
+.anticipated_chemicalpeel {
+    background-image: url(../images/procedure_images/chemicalpeel/chemicalpeel2.jpg)
+}
+
+.results_chemicalpeel {
+    background-image: url(../images/procedure_images/chemicalpeel/chemicalpeel1.jpg);
+    background-position: 100% 20% !important;
+
+}
+
+/* Chin Augmentation*/
+
+.about_chinaugmentation {
+    background-image: url(../images/procedure_images/chinaugmentation/chinaugmentation1.jpg)
+}
+
+.anticipated_chinaugmentation {
+    background-image: url(../images/procedure_images/chinaugmentation/chinaugmentation2.jpg)
+}
+
+.results_chinaugmentation    {
+    background-image: url(../images/procedure_images/chinaugmentation/chinaugmentation3.jpg)
+
+}
+
+/* Ear Surgery*/
+
+.about_earsurgery {
+    background-image: url(../images/procedure_images/earsurgery/earsurgery1.jpg)
+}
+
+.anticipated_earsurgery {
+    background-image: url(../images/procedure_images/earsurgery/earsurgery2.jpg)
+}
+
+.results_earsurgery    {
+    background-image: url(../images/procedure_images/earsurgery/earsurgery3.jpg)
+
+}
+
+/* Eyelid Surgery*/
+
+.about_eyelidsurgery {
+    background-image: url(../images/procedure_images/eyelidsurgery/eyelidsurgery4.jpg)
+}
+
+.anticipated_eyelidsurgery {
+    background-image: url(../images/procedure_images/eyelidsurgery/eyelidsurgery2.jpg)
+}
+
+.results_eyelidsurgery    {
+    background-image: url(../images/procedure_images/eyelidsurgery/eyelidsurgery3.jpg)
+
+}
+
+/* Fat Grafting */
+
+.about_fatgrafting {
+    background-image: url(../images/procedure_images/fatgrafting/fatgrafting1.jpg)
+}
+
+.anticipated_fatgrafting {
+    background-image: url(../images/procedure_images/fatgrafting/fatgrafting2.jpg);
+    background-position: 50% 100% !important;
+
+}
+
+.results_fatgrafting    {
+    background-image: url(../images/procedure_images/fatgrafting/fatgrafting3.jpg)
+
+}
+
+/* gynecomastia */
+
+.about_gynecomastia {
+    background-image: url(../images/procedure_images/gynecomastia/gynecomastia.jpg)
+}
+
+.anticipated_gynecomastia {
+    background-image: url(../images/procedure_images/gynecomastia/gynecomastia2.jpg);
+    background-position: 50% 66% !important;
+
+}
+
+.results_gynecomastia    {
+    background-image: url(../images/procedure_images/gynecomastia/gynecomastia3.jpg);
+    background-position: 50% 50% !important;
+
+}
+
+/* ipl photofacial */
+
+.about_iplphotofacial {
+    background-image: url(../images/procedure_images/iplphotofacial/iplphotofacial1.jpg)
+}
+
+.anticipated_iplphotofacial {
+    background-image: url(../images/procedure_images/iplphotofacial/iplphotofacial2.jpg)
+
+}
+
+.results_iplphotofacial    {
+    background-image: url(../images/procedure_images/iplphotofacial/iplphotofacial3.jpg)
+
+}
+
+/* juvederm */
+
+.about_juvederm {
+    background-image: url(../images/procedure_images/juvederm/juvederm1.jpg)
+}
+
+.anticipated_juvederm {
+    background-image: url(../images/procedure_images/juvederm/juvederm2.jpg)
+
+}
+
+.results_juvederm    {
+    background-image: url(../images/procedure_images/juvederm/juvederm3.jpg)
+
+}
+
