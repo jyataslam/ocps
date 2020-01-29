@@ -10,6 +10,20 @@ function fetchMainPhotos() {
     const hash = window.location.hash.substring(1);
     console.log(hash)
     // make ajax call and dynamically replace entire page similar to below using the hash variable
+    $.ajax({
+      url:
+        "/php/getpatientinfo.php",
+      dataType: "json",
+      type: "get",
+      data: {
+        id: hash
+      },
+      success: resp => {
+        console.log('hashed response', resp)
+        
+      }
+    });
+
   } else {
     const title = $('.header-title').text();
     var input = title
@@ -27,7 +41,7 @@ function fetchMainPhotos() {
         procedure: procedure
       },
       success: resp => {
-        console.log(resp)
+        console.log('non hashed response', resp)
         for (i = 0; i < resp.patients.length; i++) {
           const mainRow = $(".main-all-photos-page");
           const mainColDiv = $("<div class='col-xs-12 col-sm-6 col-md-4 photos-col wow fadeInUp animated' wow-delay='0s'>");
