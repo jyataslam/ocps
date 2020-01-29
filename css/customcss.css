@@ -742,6 +742,12 @@ address span a:hover {
   padding-top: 3rem;
 }
 
+.client-bio {
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 0 2.5rem;
+}
+
 
 
 
