@@ -17,6 +17,7 @@ function createContentful() {
 
     client.getEntry(hash)
     .then(function (entry) {
+      console.log(entry)
       const patientProcedure = entry.fields.procedure;
       const patientAge = entry.fields.age;
       const patientGender = entry.fields.gender;
@@ -26,6 +27,7 @@ function createContentful() {
       const patientID = entry.fields.id;
       const patientPhotosAll = entry.fields.photos;
       const patientDetails = entry.fields.details;
+      const patientDesc = entry.fields.patientDescription;
 
       const mainRow = $(".main-all-photos-page");
       mainRow.addClass('individual-photos-bg-white');
@@ -33,8 +35,10 @@ function createContentful() {
       const colxs12 = $("<div class='col-xs-12'>");
       const photoContentsWrapper = $("<div class='text-middle photos-content-wrapper'>");
       const clientDetailsHeader = $('<h3><span class="id-color photos-header">Client Details</span></h3>');
-
-      photoContentsWrapper.append(clientDetailsHeader);
+      const clientDesc = $('<p class="client-bio">');
+      clientDesc.text(patientDesc);
+      
+      photoContentsWrapper.append(clientDetailsHeader, clientDesc);
       colxs12.append(photoContentsWrapper);
       mainRow.append(colxs12);
 
@@ -189,7 +193,6 @@ function createContentful() {
         const photosEthnicityP = $("<p class='photos-ethnicity'>Ethnicity: </p>");
         const photosHeightP = $("<p class='photos-height'>Height: </p>");
         const photosWeightP = $("<p class='photos-weight'>Weight: </p>");
-        const photosID = $("<p class='photos-id'>Gallery ID: </p>");
         const viewDetailsBtn = $("<a class='btn-line facelift-url-btn'>View Details</a>");
   
         const ageSpan = $("<span class='main-photos-age-span'></span>");
@@ -239,7 +242,7 @@ function createContentful() {
           photosEthnicityP.append(ethnicitySpan);
   
         photoContentsFlexRow.append(photoContentsRight);
-        photoContentsRight.append(photosHeightP, photosWeightP, photosID);
+        photoContentsRight.append(photosHeightP, photosWeightP);
         
           heightSpan.text(patientHeight);
           photosHeightP.append(heightSpan);

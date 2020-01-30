@@ -1,10 +1,10 @@
-/*============================================================================
+/*======
   Social Icon Buttons v1.0
   Author:
     Carson Shold | @cshold
     http://www.carsonshold.com
   MIT License
-==============================================================================*/
+=*/
 window.CSbuttons = window.CSbuttons || {};
 
 $(function() {

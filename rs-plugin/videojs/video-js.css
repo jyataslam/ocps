@@ -4,7 +4,7 @@ Version 4.4.1
 Create your own skin at http://designer.videojs.com
 */
 /* SKIN
-================================================================================
+===
 The main class name for all skin-specific styles. To make your own skin,
 replace all occurances of 'vjs-default-skin' with a new name. Then add your new
 skin name to your video tag instead of the default skin.
@@ -616,7 +616,7 @@ easily in the skin designer. http://designer.videojs.com/
 }
 /*
 REQUIRED STYLES (be careful overriding)
-================================================================================
+===
 When loading the player, the video tag is replaced with a DIV,
 that will hold the video tag or object tag for other playback methods.
 The div contains the video playback element (Flash or HTML5) and controls,
