@@ -662,6 +662,11 @@ address span a:hover {
   }
 }
 
+.main-all-photos-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 
 .background-image-procedure {

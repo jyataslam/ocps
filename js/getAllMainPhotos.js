@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
   // fetchMainPhotos();
-  createContentful();
+  // createContentful();
 });
 
 function createContentful() {
@@ -165,6 +165,7 @@ function createContentful() {
     // CALL API FOR ALL PATIENTS FOR SPECIFIED PROCEDURE
 
     const pageTitle = $('.header-title').text();
+    // debugger;
     console.log('page title', pageTitle)
     client.getEntries({
       'fields.procedure': pageTitle,
@@ -212,6 +213,9 @@ function createContentful() {
         const patientID = entry.fields.id;
         const patientPhotosAll = entry.fields.photos;
         const contentID = entry.sys.id;
+
+        image1.attr("src", patientPhoto1);
+        image2.attr("src", patientPhoto2);
   
         mainRow.append(mainColDiv);
         mainColDiv.append(textMiddleDiv);
@@ -221,10 +225,7 @@ function createContentful() {
         photoContentsWrapper.append(photoHeaderH3);
         photoHeaderH3.append(photoHeaderSpan);
         photoHeaderSpan.text(patientProcedure);
-  
-        image1.attr("src", patientPhoto1);
-        image2.attr("src", patientPhoto2);
-  
+
         viewDetailsBtn.attr("id", patientID);
   
         photoContentsWrapper.append(photoContentsFlexRow);
@@ -250,8 +251,6 @@ function createContentful() {
           weightSpan.text(patientWeight + ' lbs');
           photosWeightP.append(weightSpan);
   
-          
-  
         photoContentsWrapper.append(viewDetailsBtn);
   
         viewDetailsBtn.attr('name', patientProcedure);
@@ -264,6 +263,7 @@ function createContentful() {
   }
 }
 
+createContentful();
 
 
 // function fetchMainPhotos() {
