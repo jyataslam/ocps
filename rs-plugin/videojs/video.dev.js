@@ -1830,7 +1830,7 @@ vjs.Component.prototype.buildCSSClass = function(){
 };
 
 /* Events
-============================================================================= */
+ */
 
 /**
  * Add an event listener to this component's element
@@ -1894,7 +1894,7 @@ vjs.Component.prototype.trigger = function(type, event){
 };
 
 /* Ready
-================================================================================ */
+=== */
 /**
  * Is the component loaded
  * This can mean different things depending on the component.
@@ -1972,7 +1972,7 @@ vjs.Component.prototype.triggerReady = function(){
 };
 
 /* Display
-============================================================================= */
+ */
 
 /**
  * Add a CSS class name to the component's element
@@ -2273,7 +2273,7 @@ vjs.Component.prototype.enableTouchActivity = function() {
 };
 
 /* Button - Base class for all buttons
-================================================================================ */
+=== */
 /**
  * Base class for all buttons
  * @param {vjs.Player|Object} player
@@ -2352,7 +2352,7 @@ vjs.Button.prototype.onBlur = function(){
   vjs.off(document, 'keyup', vjs.bind(this, this.onKeyPress));
 };
 /* Slider
-================================================================================ */
+=== */
 /**
  * The base functionality for sliders like the volume bar and seek bar
  *
@@ -2584,7 +2584,7 @@ vjs.SliderHandle.prototype.createEl = function(type, props) {
   return vjs.Component.prototype.createEl.call(this, 'div', props);
 };
 /* Menu
-================================================================================ */
+=== */
 /**
  * The Menu component is used to build pop up menus, including subtitle and
  * captions selection menus.
@@ -3044,7 +3044,7 @@ vjs.Player.prototype.createEl = function(){
 };
 
 // /* Media Technology (tech)
-// ================================================================================ */
+// === */
 // Load/Create an instance of playback technlogy including element and API methods
 // And append playback element in player div.
 vjs.Player.prototype.loadTech = function(techName, source){
@@ -3123,7 +3123,7 @@ vjs.Player.prototype.unloadTech = function(){
 // },
 
 /* Fallbacks for unsupported event types
-================================================================================ */
+=== */
 // Manually trigger progress events based on changes to the buffered amount
 // Many flash players and older HTML5 browsers don't send progress or progress-like events
 vjs.Player.prototype.manualProgressOn = function(){
@@ -3202,7 +3202,7 @@ vjs.Player.prototype.trackCurrentTime = function(){
 vjs.Player.prototype.stopTrackingCurrentTime = function(){ clearInterval(this.currentTimeInterval); };
 
 // /* Player event handlers (how the player reacts to certain events)
-// ================================================================================ */
+// === */
 
 /**
  * Fired when the user agent begins looking for media data
@@ -3337,7 +3337,7 @@ vjs.Player.prototype.onError = function(e) {
 };
 
 // /* Player API
-// ================================================================================ */
+// === */
 
 /**
  * Object for cached values.
@@ -4927,7 +4927,7 @@ vjs.VolumeMenuButton.prototype.createEl = function(){
 };
 vjs.VolumeMenuButton.prototype.update = vjs.MuteToggle.prototype.update;
 /* Poster Image
-================================================================================ */
+=== */
 /**
  * The component that handles showing the poster image.
  *
@@ -5005,7 +5005,7 @@ vjs.PosterImage.prototype.onClick = function(){
   }
 };
 /* Loading Spinner
-================================================================================ */
+=== */
 /**
  * Loading spinner for waiting events
  * @param {vjs.Player|Object} player
@@ -5046,7 +5046,7 @@ vjs.LoadingSpinner.prototype.createEl = function(){
   });
 };
 /* Big Play Button
-================================================================================ */
+=== */
 /**
  * Initial play button. Shows before the video has played. The hiding of the
  * big play button is done via CSS and player states.
@@ -6840,7 +6840,7 @@ vjs.ChaptersTrack.prototype.kind_ = 'chapters';
 
 
 /* Text Track Display
-============================================================================= */
+ */
 // Global container for both subtitle and captions text. Simple div container.
 
 /**

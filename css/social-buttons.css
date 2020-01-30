@@ -1,10 +1,10 @@
-/*============================================================================
+/*======
   Social Icon Buttons v1.0
   Author:
     Carson Shold | @cshold
     http://www.carsonshold.com
   MIT License
-==============================================================================*/
+=*/
 @font-face {
   font-family: 'icons';
   src: url("fonts/icons.eot?social");
@@ -19,7 +19,7 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
+  /* Better Font Rendering ==== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -38,10 +38,10 @@
 .icon-pinterest:before {
   content: "\70"; }
 
-/*================ Social share buttons ================*/
+/*== Social share buttons ==*/
 .social-sharing {
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*================ Large Buttons ================*/ }
+  /*== Large Buttons ==*/ }
   .social-sharing * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -153,7 +153,7 @@
     font-size: 18px;
     padding: 0 14px; }
 
-/*================ Clean Buttons ================*/
+/*== Clean Buttons ==*/
 .social-sharing.is-clean a {
   background-color: #fff;
   border: 1px solid #ececec;
