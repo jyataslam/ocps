@@ -83,9 +83,8 @@ function createContentful() {
       const hiddenProceduresContentDiv = $('<div class="hidden-content hidden-procedures-loop">');
 
       // Loop through patient details and create list items to display on DOM
-      // let patientArr = patientDetails.split('•	');
-
-      let patientArr = patientDetails.split('•	')
+      let patientArr = patientDetails.replace(//g,"•").split('/[•,\/ ]/')
+      // split('/[•,\/ ]/')
 
       console.log('patient', patientArr)
       for (var i = 0; i < patientArr.length; i++) {
