@@ -415,23 +415,27 @@ span.overlay {
 
 /* SPECIALS SECTION */
 #section-service-1.side-bg .background-image-landing-photos {
-  background: url(/images-bunkis/specials.jpg);
+  background: url(/images-bunkis/model_face.jpg);
   height: 100%;
+  background-position: center;
 }
 
 #section-service-2.side-bg .background-image-landing-specials {
-  background: url(/images-bunkis/specials.jpg);
+  background: url(/images-bunkis/model_hair.jpg);
   height: 100%;
+  background-position: center;
 }
 
 #section-service-3.side-bg .background-image-landing-reviews {
-  background: url(/images-bunkis/specials.jpg);
+  background: url(/images-bunkis/model_portrait.jpg);
   height: 100%;
+  background-position: center;
 }
 
 #section-service-4.side-bg .background-image-landing-staff {
-  background: url(/images-bunkis/ocps-group-staff.png);
+  background: url(/images-bunkis/new_team_bricks.jpg);
   height: 100%;
+  background-position: top;
 }
 
 /* BLOG PAGE */
@@ -674,27 +678,27 @@ address span a:hover {
 }
 
 .mobile-bg-breast {
-  background: url(/images-bunkis/breast-test.png);
+  background: url(/images-bunkis/breast-test.jpg);
 }
 
 .mobile-bg-body {
-  background: url(/images-bunkis/body-test.png);
+  background: url(/images-bunkis/body-test.jpg);
 }
 
 .mobile-bg-face {
-  background: url(/images-bunkis/face-test.png);
+  background: url(/images-bunkis/face-test.jpg);
 }
 
 .mobile-bg-skin {
-  background: url(/images-bunkis/skin-test.png);
+  background: url(/images-bunkis/skin-test.jpg);
 }
 
 .mobile-bg-injectables {
-  background: url(/images-bunkis/injectibles-test.png);
+  background: url(/images-bunkis/injectibles-test.jpg);
 }
 
 .mobile-bg-nonsurgical {
-  background: url(/images-bunkis/non-surgical-test.png);
+  background: url(/images-bunkis/non-surgical-test.jpg);
 }
 
 
@@ -754,7 +758,9 @@ address span a:hover {
 }
 
 
-
+.home-img-twenty {
+  min-width: 100%;
+}
 
 /* PROCEDURE PAGE */
 .main-procedure-header {
@@ -787,17 +793,17 @@ address span a:hover {
 
 @media only screen and (max-width: 768px) {
   .about-us-team-photo {
-    height: 250px;
+    height: 128px;
   }
 }
 
 @media only screen and (max-width: 414px) {
   .about-us-team-photo {
-    display: none;
+    /* display: none; */
   }
 
   .page-about #subheader {
-    background-image: url(../images-bunkis/ocps-group-staff.png);
+    background-image: url(../images-bunkis/new_team_brick_subheader.jpg);
     position: relative;
   }
 
