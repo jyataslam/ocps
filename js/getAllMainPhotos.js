@@ -11,7 +11,6 @@ function createContentful() {
 
     client.getEntry(hash)
     .then(function (entry) {
-      console.log(entry)
       const patientProcedure = entry.fields.procedure;
       const patientAge = entry.fields.age;
       const patientGender = entry.fields.gender;
@@ -80,7 +79,6 @@ function createContentful() {
       let patientArr = patientDetails.replace(//g,"•").split('/[•,\/ ]/')
       // split('/[•,\/ ]/')
 
-      console.log('patient', patientArr)
       for (var i = 0; i < patientArr.length; i++) {
         let listItem = $("<p class='individual-photos-procedure-content'></p>").text(patientArr[i]);
         hiddenProceduresContentDiv.append(listItem);
@@ -139,9 +137,10 @@ function createContentful() {
         twentyTwentyContainer.append(image1, image2)
         textMiddleDiv.append(twentyTwentyContainer)
         photosColDiv.append(textMiddleDiv)
-        photosRow.append(photosColDiv);
-        photosDiv.append(photosRow);
-        mainRow.append(photosDiv)
+        // photosRow.append(photosColDiv);
+        // photosDiv.append(photosRow);
+        // mainRow.append(photosDiv)
+        mainRow.append(photosColDiv)
       }
 
       // attach click handler to patient info and procedure details
@@ -158,14 +157,11 @@ function createContentful() {
     // CALL API FOR ALL PATIENTS FOR SPECIFIED PROCEDURE
 
     const pageTitle = $('.header-title').text();
-    // debugger;
-    console.log('page title', pageTitle)
     client.getEntries({
       'fields.procedure': pageTitle,
       'content_type': 'patient'
     }).then(function(entries) {
       entries.items.forEach(function(entry) {
-        console.log(entry)
   
         const mainRow = $(".main-all-photos-page");
         const mainColDiv = $("<div class='col-xs-12 col-sm-6 col-md-4 photos-col wow fadeInUp animated' wow-delay='0s'>");
