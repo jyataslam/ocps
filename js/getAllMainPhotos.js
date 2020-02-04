@@ -1,10 +1,4 @@
 
-
-$(document).ready(function() {
-  // fetchMainPhotos();
-  // createContentful();
-});
-
 function createContentful() {
   var client = contentful.createClient({
     space: "szbt0zwjreyq",

@@ -42,6 +42,7 @@ h2.style-5 {
   display: block !important;
 }
 
+
 /* OWL CAROUSEL ON LANDING PAGE FOR REVIEWS */
 .owl-prev,
 .owl-next {
@@ -171,6 +172,10 @@ header.header-mobile {
 } */
 
 /* DESCRIBE SECTION - LANDING PAGE */
+
+.bunkis-headshot {
+  object-position: top;
+}
 
 .section-describe-col {
   padding-top: 10rem;
@@ -780,7 +785,7 @@ address span a:hover {
 }
 
 .about-us-team-photo {
-  height: 400px;
+  height: 500px;
   width: 100%;
   object-fit: cover;
 }
@@ -793,14 +798,11 @@ address span a:hover {
 
 @media only screen and (max-width: 768px) {
   .about-us-team-photo {
-    height: 128px;
+    height: 250px;
   }
 }
 
 @media only screen and (max-width: 414px) {
-  .about-us-team-photo {
-    /* display: none; */
-  }
 
   .page-about #subheader {
     background-image: url(../images-bunkis/new_team_brick_subheader.jpg);
@@ -831,7 +833,7 @@ address span a:hover {
 }
 
 .juris-certifications {
-  background-image: url(../images-bunkis/dr-bunkis-headshot.jpg) !important;
+  background-image: url(../images-bunkis/bunkis_new_2.jpg) !important;
 }
 
 
@@ -1173,6 +1175,10 @@ nav li a {
 }
 
 @media only screen and (max-width: 414px) {
+  .about-us-team-photo {
+    height: 140px;
+  }  
+
   #content {
     padding-top: 45px;
   }

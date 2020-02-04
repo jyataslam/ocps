@@ -35,7 +35,7 @@ span.overlay:hover {
 }
 
 #view-all-projects {
-    background: url(../images-bunkis/banner-bg-test.jpg);
+    /* background: url(../images-bunkis/banner-bg-test.jpg); */
     height: 200px;
     background-attachment: fixed;
     position: relative;
@@ -73,6 +73,10 @@ span.overlay:hover {
 
     .subheader_row {
         height: 100%;
+    }
+
+    #view-all-projects {
+        background-attachment: scroll;
     }
 }
 
