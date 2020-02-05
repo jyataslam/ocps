@@ -27,7 +27,7 @@ function createContentful() {
 
       const colxs12 = $("<div class='col-xs-12'>");
       const photoContentsWrapper = $("<div class='text-middle photos-content-wrapper'>");
-      const clientDetailsHeader = $('<h3><span333 class="id-color photos-header">Client Details</span333></h3>');
+      const clientDetailsHeader = $('<h3><span class="id-color photos-header">Client Details</span></h3>');
       const clientDesc = $('<p class="client-bio">');
       clientDesc.text(patientDesc);
       
@@ -77,6 +77,7 @@ function createContentful() {
 
       // Loop through patient details and create list items to display on DOM
       let patientArr = patientDetails.replace(//g,"•").split('/[•,\/ ]/')
+      // split('/[•,\/ ]/')
 
       for (var i = 0; i < patientArr.length; i++) {
         let listItem = $("<p class='individual-photos-procedure-content'></p>").text(patientArr[i]);
@@ -130,8 +131,8 @@ function createContentful() {
         const image1 = $("<img alt='dr bunkis before after photo' class='img-responsive individual-image-100-width' />");
         const image2 = $("<img alt='dr bunkis before after photo' class='img-responsive individual-image-100-width' />");
 
-        image1.attr("src", `/${resultArr[i][0]}`);
-        image2.attr("src", `/${resultArr[i][0]}`);
+        image1.attr("src", resultArr[i][0]);
+        image2.attr("src", resultArr[i][1]);
 
         twentyTwentyContainer.append(image1, image2)
         textMiddleDiv.append(twentyTwentyContainer)
@@ -174,8 +175,7 @@ function createContentful() {
         const photoContentsLeft = $("<div class='photos-content-left'>");
         const photoContentsRight = $("<div class='photos-content-right'>");
   
-        const image1 = $("<img alt='dr bunkis before after photo' class='img-responsive' />");
-        const image2 = $("<img alt='dr bunkis before after photo' class='img-responsive' />");
+        
   
         const photosAgeP = $("<p class='photos-age'>Age: </p>");
         const photosGenderP = $("<p class='photos-gender'>Gender: </p>");
@@ -202,13 +202,11 @@ function createContentful() {
         const patientPhotosAll = entry.fields.photos;
         const contentID = entry.sys.id;
 
-        image1.attr("src", patientPhoto1);
-        image2.attr("src", patientPhoto2);
+
   
         mainRow.append(mainColDiv);
         mainColDiv.append(textMiddleDiv);
         textMiddleDiv.append(twentyTwentyContainer);
-        twentyTwentyContainer.append(image1, image2);
         mainColDiv.append(photoContentsWrapper);
         photoContentsWrapper.append(photoHeaderH3);
         photoHeaderH3.append(photoHeaderSpan);
@@ -246,6 +244,13 @@ function createContentful() {
         viewDetailsBtn.on('click', function() {
           window.open(window.location.href + '#' + contentID);
         })
+
+        const image1 =  $("<img alt='dr bunkis before after photo' class='img-responsive' />");
+        const image2 =  $("<img alt='dr bunkis before after photo' class='img-responsive' />");
+        image1.attr("src", patientPhoto1);
+        image2.attr("src", patientPhoto2);
+        twentyTwentyContainer.append(image1, image2);
+
       });
     });
   }
