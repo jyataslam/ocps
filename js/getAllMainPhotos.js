@@ -27,7 +27,7 @@ function createContentful() {
 
       const colxs12 = $("<div class='col-xs-12'>");
       const photoContentsWrapper = $("<div class='text-middle photos-content-wrapper'>");
-      const clientDetailsHeader = $('<h3><span class="id-color photos-header">Client Details</span></h3>');
+      const clientDetailsHeader = $('<h3><span333 class="id-color photos-header">Client Details</span333></h3>');
       const clientDesc = $('<p class="client-bio">');
       clientDesc.text(patientDesc);
       
@@ -77,7 +77,6 @@ function createContentful() {
 
       // Loop through patient details and create list items to display on DOM
       let patientArr = patientDetails.replace(//g,"•").split('/[•,\/ ]/')
-      // split('/[•,\/ ]/')
 
       for (var i = 0; i < patientArr.length; i++) {
         let listItem = $("<p class='individual-photos-procedure-content'></p>").text(patientArr[i]);
@@ -131,8 +130,8 @@ function createContentful() {
         const image1 = $("<img alt='dr bunkis before after photo' class='img-responsive individual-image-100-width' />");
         const image2 = $("<img alt='dr bunkis before after photo' class='img-responsive individual-image-100-width' />");
 
-        image1.attr("src", resultArr[i][0]);
-        image2.attr("src", resultArr[i][1]);
+        image1.attr("src", `/${resultArr[i][0]}`);
+        image2.attr("src", `/${resultArr[i][0]}`);
 
         twentyTwentyContainer.append(image1, image2)
         textMiddleDiv.append(twentyTwentyContainer)
