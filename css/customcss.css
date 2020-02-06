@@ -1121,6 +1121,10 @@ nav li a {
   cursor: pointer
 }
 
+.staff-text-center {
+  text-align: center;
+}
+
 
 /* ----------------------- */
 /* --MEDIA QUERIES BELOW---*/
