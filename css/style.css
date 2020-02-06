@@ -690,6 +690,12 @@ overflow:visible;
 	}
 	
 	/* menu toggle animated */
+
+	.item {
+		display: flex;
+		justify-content: center;
+	}
+	
 	
 	#nav-toggle {
 	float:right;
@@ -3991,6 +3997,7 @@ margin:0 auto !important;
 width:100%;
 display:block;
 }
+
 
 
 .item img {
