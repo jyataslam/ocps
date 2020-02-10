@@ -40,7 +40,7 @@ $mail->smtpConnect($options);
 $mail->From = $_POST['email'];  // sender's email address (shows in "From" field)
 $mail->FromName = $_POST['name'];   // sender's name (shows in "From" field)
 $mail->addAddress('hdwebsiteinfo@gmail.com');  // Add a recipient (name is optional)
-$mail->addAddress('info@orangecountyplasticsurgery.com');   // Add a second recipient
+$mail->addAddress('info@ocps.com');   // Add a second recipient
 $mail->addReplyTo($_POST['email']);             // Add a reply-to address
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
