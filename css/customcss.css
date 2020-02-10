@@ -1,0 +1,1261 @@
+/* GENERAL CSS */
+
+body {
+  letter-spacing: 0.08rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 300;
+}
+
+h2.style-5 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "futura-pt", sans-serif;
+}
+
+.st3 {
+  fill: #dddddd !important;
+}
+
+@media only screen and (max-width: 414px) {
+  h2.style-5 {
+    font-size: 4rem;
+  }
+}
+
+.text-color-black {
+  color: black;
+}
+
+.text-color-black:hover {
+  color: rgb(58, 58, 58);
+}
+
+.hidden-content-active {
+  display: block !important;
+}
+
+
+/* OWL CAROUSEL ON LANDING PAGE FOR REVIEWS */
+.owl-prev,
+.owl-next {
+  background: transparent !important;
+  font-size: 2rem;
+  color: white !important;
+}
+
+.owl-prev:before,
+.owl-next:after {
+  color: white !important;
+}
+
+/* LANDING REVIEWS SECTION */
+@media only screen and (max-width: 414px) {
+  .de_testi blockquote p {
+    font-size: 14px;
+  }
+}
+
+.review-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+#mainmenu {
+  padding-left: 0;
+}
+
+.nav-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media-nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-bottom: 1rem;
+}
+
+.nav-social-icon {
+  margin: 0 1rem;
+}
+
+/* HERO SECTION */
+#landing-svg {
+  height: 20rem;
+}
+
+#section-welcome {
+  position: relative;
+}
+
+.section-welcome-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.id-color {
+  color: #48b8d0;
+  font-weight: 600;
+  font-size: 2rem;
+  /* letter-spacing: .1rem; */
+}
+
+.hero-svg-top {
+  height: 6rem;
+  margin-top: 1rem;
+  transition: all 0.5s;
+}
+
+.shrink-logo {
+  height: 5rem;
+}
+
+.ultra-big-white {
+  font-size: 6rem !important;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 300;
+}
+
+.text-item {
+  font-family: "futura-pt", sans-serif;
+  font-weight: 300;
+  font-size: 6rem;
+}
+
+/* NAV AND SIDENAV */
+#menu-btn {
+  background: transparent;
+}
+
+#menu-btn:hover {
+  background: transparent;
+}
+
+#menu-btn:hover:before {
+  color: white;
+}
+
+.height-auto {
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+}
+
+header.header-mobile {
+  overflow-y: scroll;
+}
+
+/* #section-welcome:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+} */
+
+/* DESCRIBE SECTION - LANDING PAGE */
+
+.bunkis-headshot {
+  object-position: top;
+}
+
+.section-describe-col {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.section-describe-headshot {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-describe-header {
+  padding-left: 4rem;
+  color: #202020;
+  font-weight: 600;
+}
+
+.section-describe-paragraph {
+  padding-left: 4rem;
+}
+
+.section-describe-button {
+  margin-left: 4rem;
+}
+
+.section-about-us-2-photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-about-us-2-header {
+  font-size: 4em;
+}
+
+/* LANDING BEFORE AND AFTER SECTION */
+.section-before-after h1,
+.section-before-after h2,
+.section-before-after h3,
+.section-before-after h4,
+.section-before-after p {
+  color: white;
+}
+
+.de_count h3 {
+  color: white;
+}
+
+.de_count span {
+  font-size: 2rem;
+}
+
+/* SERVICES SECTION DESCRIPTIONS */
+.service-odd {
+  background: #f6f6f6;
+  display: none;
+}
+
+.service-even {
+  background: white;
+  display: none;
+}
+
+.service-wrapper-odd {
+  background: white;
+}
+
+.service-wrapper-even {
+  background: #f6f6f6;
+}
+
+.btn-line,
+a.btn-line {
+  color: #1c1c1c;
+  border: solid 1px rgb(74, 184, 208) !important;
+}
+
+.section-service-mobile-header {
+  font-size: 3rem;
+}
+
+.section-service-mobile-top {
+  padding-top: 100px;
+}
+
+.mobile-service {
+  background: white;
+  padding-bottom: 0;
+  display: none;
+}
+
+.services-nonhover-overlay {
+  position: absolute;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  color: rgb(74, 184, 208);
+}
+
+span.overlay {
+  background: #00000078;
+  z-index: 1;
+  opacity: 1 !important;
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+
+.grid-item:hover span.overlay {
+  background: transparent;
+}
+
+.project-name {
+  font-size: 1.8rem;
+}
+
+.grid-item-banner {
+  pointer-events: none;
+}
+
+.owl-item:hover {
+  cursor: grab;
+}
+
+/* LANDING SERVICES GALLERY */
+#section-portfolio-2 {
+  padding-top: 120px;
+}
+
+/* LANDING FEATURES SECTION */
+#section-pattern-1 h1,
+#section-pattern-1 h2,
+#section-pattern-1 h3,
+#section-pattern-1 h4,
+#section-pattern-1 p {
+  color: #18191b;
+}
+
+#section-pattern-1 {
+  background: #fff !important;
+}
+
+#view-all-projects {
+  background: url(../images-bunkis/model_portrait.jpg);
+  height: 400px;
+  background-attachment: fixed;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+#view-all-projects:before {
+  background-color: rgba(241, 241, 241, 0.57);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.3s;
+}
+
+#view-all-projects:hover:before {
+  background-color: rgba(29, 29, 29, 0.57);
+}
+
+#view-all-projects:hover {
+  cursor: pointer;
+  border: 10px solid #4ab8d0;
+}
+
+#view-all-projects:hover .view-all-projects-header {
+  color: white;
+}
+
+#view-all-projects .container {
+  height: 100%;
+}
+
+#view-all-projects .row {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-all-projects-header {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding-right: 2rem;
+  font-size: 4rem;
+  margin: 0;
+  transition: all 0.3s;
+}
+
+#view-all-projects a {
+  color: #fff;
+}
+
+#view-all-projects i {
+  font-size: 2.5rem;
+  opacity: 0.7;
+}
+
+.view-all-projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-before-after {
+  position: relative;
+}
+
+/* #section-before-after:before {
+    background-color: rgba(234, 253, 255, 0.8);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+} */
+
+#section-steps-4 {
+  background-attachment: fixed;
+  color: #fff;
+}
+
+#section-steps-4 h1,
+#section-steps-4 h2,
+#section-steps-4 h3,
+#section-steps-4 h4,
+#section-steps-4 p {
+  color: #fff;
+}
+
+/* SPECIALS SECTION */
+#section-service-1.side-bg .background-image-landing-photos {
+  background: url(/images-bunkis/model_face.jpg);
+  height: 100%;
+  background-position: center;
+}
+
+#section-service-2.side-bg .background-image-landing-specials {
+  background: url(/images-bunkis/model_hair.jpg);
+  height: 100%;
+  background-position: center;
+}
+
+#section-service-3.side-bg .background-image-landing-reviews {
+  background: url(/images-bunkis/model_portrait.jpg);
+  height: 100%;
+  background-position: center;
+}
+
+#section-service-4.side-bg .background-image-landing-staff {
+  background: url(/images-bunkis/new_team_bricks.jpg);
+  height: 100%;
+  background-position: top;
+}
+
+/* BLOG PAGE */
+#subheader .container,
+#subheader .row {
+  height: 100%;
+}
+
+.blog-main-wrapper {
+  background-color: white !important;
+}
+
+.blog-list h3 a {
+  color: black;
+}
+
+.recent-post-link {
+  color: black;
+}
+
+.recent-post-link:hover {
+  color: #49b8d0;
+}
+
+.post-text a {
+  color: black;
+}
+
+.month {
+  color: black !important;
+}
+
+.pagination li a:hover {
+  color: black;
+}
+
+.single-blog-header {
+  text-align: center;
+  font-weight: 400;
+}
+
+.single-blog-content-image {
+  width: 100%;
+}
+
+.single-blog-image-desc {
+  font-size: 1rem;
+  color: grey;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .subheader-flex {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #subheader h1 {
+    padding-right: 0;
+    padding-top: 6rem;
+    z-index: 1;
+  }
+
+  .sidebar-flex {
+    display: flex;
+  }
+
+  .widget-post-50 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .sidebar-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .widget-post-50 {
+    width: 100%;
+  }
+}
+
+/* FOOTER */
+#footer-svg {
+  height: 8rem;
+}
+
+/* CONTACT PAGE */
+.contact-content {
+  background: white !important;
+}
+
+.contact-section {
+  background: white;
+}
+
+.location-text {
+  font-weight: bold;
+  color: #49b8d0;
+  transition: all 0.3s;
+}
+
+.location-text:hover {
+  color: #727272;
+  cursor: pointer;
+}
+
+.contact-location-wrapper {
+  padding: 45px 0 25px;
+}
+
+@media only screen and (max-width: 414px) {
+  .contact-location-wrapper {
+    padding-bottom: 0;
+  }
+}
+
+#inputState {
+  margin-bottom: 20px;
+}
+
+#map {
+  height: 300px;
+}
+
+.contact-text-black {
+  color: initial;
+}
+
+#contact_form textarea {
+  background: rgba(216, 216, 216, 0.2);
+}
+
+#contact_form textarea[placeholder] {
+  color: black;
+}
+
+#contact_form input[type="text"] {
+  background: rgba(216, 216, 216, 0.2);
+  color: black;
+}
+
+.error_input {
+  border: 2px solid #d31e2b !important;
+}
+
+address span a:hover {
+  cursor: pointer;
+  color: #49b8d0;
+  outline: none;
+  text-decoration: none;
+}
+
+.padding-margin-0 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.contact-submit-btn {
+  padding: 1rem 5rem;
+  background: transparent;
+  border: 1px solid black;
+  transition: all 0.2s;
+}
+
+.contact-submit-btn:hover {
+  cursor: pointer;
+  background: #47b5cd;
+  border: 1px solid #47b5cd;
+}
+
+.success,
+.error {
+  margin-top: 20px;
+}
+
+.hover-pointer:hover {
+  cursor: pointer;
+}
+
+#subpage-content {
+  width: 100%;
+  background: #e6e6e6;
+  padding: 90px 0 90px 0;
+  z-index: 100;
+}
+
+.picframe {
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.hover-pointer {
+  cursor: pointer;
+}
+
+.contact-anchor-link-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.review-gallery-container {
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-contact #subheader {
+    height: 300px;
+  }
+
+  .page-services #subheader {
+    height: 300px;
+  }
+
+  .page-projects #subheader {
+    height: 300px;
+  }
+
+  .page-about #subheader {
+    height: 300px;
+  }
+}
+
+.main-all-photos-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.background-image-procedure {
+  height: 100%;
+}
+
+.mobile-bg-breast {
+  background: url(/images-bunkis/breast-test.jpg);
+}
+
+.mobile-bg-body {
+  background: url(/images-bunkis/body-test.jpg);
+}
+
+.mobile-bg-face {
+  background: url(/images-bunkis/face-test.jpg);
+}
+
+.mobile-bg-skin {
+  background: url(/images-bunkis/skin-test.jpg);
+}
+
+.mobile-bg-injectables {
+  background: url(/images-bunkis/injectibles-test.jpg);
+}
+
+.mobile-bg-nonsurgical {
+  background: url(/images-bunkis/non-surgical-test.jpg);
+}
+
+
+
+/* REVIEWS PAGE CSS */
+.ocps-reviews-section {
+  background: white !important;
+}
+
+.ocps-reviews-section-light {
+  background: #f9f9f9 !important;
+}
+
+.office-visit-reviews-col-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.office-visit-logo {
+  width: 300px;
+}
+
+.office-visit-stars-container {
+  margin-top: .5rem;
+}
+
+.office-visit-star {
+  font-size: 3rem;
+  color: gold;
+}
+
+.office-visit-reviews-col-reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  background-color: #f6f6f6;
+  padding: 3rem;
+}
+
+.office-visit-name {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+.office-visit-text {
+  padding-top: 3rem;
+}
+
+.client-bio {
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 0 2.5rem;
+}
+
+
+.home-img-twenty {
+  min-width: 100%;
+}
+
+/* PROCEDURE PAGE */
+.main-procedure-header {
+  color: white;
+}
+
+.main-procedure-desc {
+  color: rgb(197, 197, 197);
+  padding-bottom: 4rem;
+}
+
+
+
+/* ABOUT PAGE */
+.about-us-top-section {
+  background-color: #f6f6f6 !important;
+}
+
+.about-us-team-photo {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-us-team-photo {
+    height: 320px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-team-photo {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+
+  .page-about #subheader {
+    background-image: url(../images-bunkis/new_team_brick_subheader.jpg);
+    position: relative;
+  }
+
+  .page-about #subheader:after {
+    background-color: rgba(18, 43, 45, 0.8);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+#juris-more {
+  background: #f6f6f6;
+}
+
+#juris-skills {
+  background: white;
+}
+
+.juris-memberships {
+  background-image: url(../images-bunkis/dr-bunkis-headshot.jpg) !important;
+}
+
+.juris-certifications {
+  background-image: url(../images-bunkis/bunkis_new_2.jpg) !important;
+}
+
+
+
+/* OFFICE SECTION */
+.office-outside-photo {
+  height: 520px;
+}
+
+.office-reception-image {
+  background-image: url(../images-bunkis/reception-area.png) !important;
+}
+
+.office-procedure-image {
+  background-image: url(../images-bunkis/procedure-room.png) !important;
+}
+
+
+
+/* FINANCING PAGE */
+.financing-content-wrapper {
+  background: white !important;
+}
+
+.financing-main-container {
+  margin-bottom: 90px;
+}
+
+
+
+
+
+/* INDIVIDUAL PHOTOS PAGES */
+.individual-photo-section {
+  background: rgb(242, 242, 242) !important;
+}
+
+.individual-image-100-width {
+  width: 100%;
+  object-fit: cover;
+}
+
+.individual-photos-header {
+  font-weight: 700;
+}
+
+.individual-photos-bg-white {
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.individual-profile-wrapper {
+  padding: 2rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.individual-profile-details-container {
+  width: 50%;
+}
+
+.individual-profile-photo-container {
+  width: 50%;
+}
+
+.individual-profile-photo-container img {
+  width: 100%;
+}
+
+.individual-profile-details-container p {
+  font-size: 1.6rem;
+}
+
+.individual-profile-phone a {
+  color: rgb(143, 143, 143);
+}
+
+
+
+
+/* INSTAGRAM SECTION */
+
+.instagram {
+  padding: 100px 0;
+  background-color: white;
+}
+
+.instagram h2 {
+  text-align: center;
+}
+
+.instagram-header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-header {
+  padding-bottom: 2rem;
+  font-weight: 300;
+}
+
+.instagram-photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.instagram-photo-container:before {
+  content: none;
+}
+
+.instagram-photo-container:after {
+  content: none;
+}
+
+.instagram-photo {
+  height: 300px;
+  width: 300px;
+  margin: 10px 0;
+  overflow: hidden;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  background-color: #000;
+}
+
+/* .instagram-photo {
+    position: relative;
+    height: 250px;
+    width: 123.21px;
+    margin: 5px 0;
+    overflow: hidden;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    background-color: #000;
+} */
+
+.instagram-fetched {
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  object-fit: cover;
+}
+
+.instagram-photo:hover .instagram-fetched {
+  transform: scale(1.2);
+  opacity: 0.3;
+}
+
+.instagram-icon-section {
+  font-size: 3rem;
+  height: 100%;
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 1800px) {
+  .instagram-photo-container {
+    margin: 0 20%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .instagram-photo-container {
+    margin: 0 10%;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  .instagram-photo {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .instagram {
+    padding: 80px 0;
+  }
+
+  /* .instagram-photo {
+    height: 200px;
+    width: 200px;
+  } */
+}
+
+@media only screen and (max-width: 938px) {
+  .instagram-photo {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 513px) {
+  .instagram-header {
+    font-size: 1.7rem;
+  }
+
+  .instagram-photo-container {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .instagram {
+    padding: 60px 0;
+  }
+
+  .instagram-header {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  .instagram-icon-section {
+    font-size: 2rem;
+  }
+
+  .instagram-photo {
+    height: 170px;
+    width: 170px;
+    margin: 3px 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .instagram-photo {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+
+
+/* PHOTOS SUBPAGE SECTION */
+#section-welcome-14 {
+  background: rgba(238, 238, 238, 0.897);;
+}
+
+.photos-col {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.photos-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background: white;
+}
+
+.photos-content-flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.photos-content-left, .photos-content-right {
+  padding: 0 2rem;
+}
+
+.photos-content-left p {
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+.photos-content-right p {
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+/* .photos-content-left {
+  padding-right: 30px;
+}
+
+.photos-content-right {
+  padding-left: 30px;
+} */
+
+/* .twentytwenty-container img {
+  max-height: 100%;
+  max-width: initial;
+} */
+
+
+nav li a {
+  cursor: pointer
+}
+
+.staff-text-center {
+  text-align: center;
+}
+
+
+/* ----------------------- */
+/* --MEDIA QUERIES BELOW---*/
+/* ----------------------- */
+
+@media only screen and (max-width: 1024px) {
+  .social-media-nav-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #subheader {
+    height: 300px;
+  }
+
+  .hero-svg-top {
+    height: 4rem;
+  }
+
+  #landing-svg {
+    height: 13rem;
+  }
+
+  .project-name {
+    font-size: 1rem;
+  }
+
+  h2.style-5 {
+    font-size: 4rem;
+  }
+
+  .social-media-nav-container {
+    display: none;
+  }
+
+  .nav-flex-container {
+    display: block;
+  }
+
+  .page-blog #subheader {
+    height: 300px;
+  }
+
+  .individual-profile-details-container {
+    width: 100%;
+  }
+
+  .individual-profile-photo-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .about-us-team-photo {
+    height: 140px;
+  }  
+
+  #content {
+    padding-top: 45px;
+  }
+
+  .inner-padding {
+    padding-top: 0;
+  }
+
+  #landing-svg {
+    height: 8rem;
+  }
+
+  p.lead {
+    font-size: 14px;
+  }
+
+  .teaser-text {
+    text-align: center;
+  }
+
+  a.btn-slider {
+    font-size: 1rem;
+  }
+
+  .view-all-projects-header {
+    font-size: 3rem;
+  }
+
+  #section-portfolio-2 {
+    display: none;
+  }
+
+  .section-service-wrapper,
+  .mobile-service {
+    display: block;
+  }
+
+
+
+  .section-about-us-2-header {
+    margin-top: 0;
+  }
+
+  #footer-svg {
+    margin-bottom: 2rem;
+  }
+
+  .individual-profile-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+    padding-top: 2rem;
+  }
+
+  .photos-content-wrapper {
+    padding-bottom: 1rem;
+  }
+
+  .single-blog-datebox {
+    width: initial !important;
+    position: static !important;
+  }
+
+  .single-blog-day {
+    padding-top: 10px !important;
+  }
+
+  .mobile-blog-text {
+    padding-left: initial !important;
+  }
+
+  .single-blog-subheader-header {
+    font-size: 2.6rem !important;
+  }
+}
