@@ -691,7 +691,7 @@ overflow:visible;
 	
 	/* menu toggle animated */
 
-	.item {
+	.item_procedure_photo {
 		display: flex;
 		justify-content: center;
 	}
