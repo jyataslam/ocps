@@ -23,8 +23,8 @@ let contentID = '';
 
 const patientArray = [];
 
-async function createContentful() {
-    await grabData();
+function createContentful() {
+    grabData();
 
 }
 
@@ -49,7 +49,7 @@ function grabData() {
                 patientInfo.patientWeight = entry.fields.weight;
                 patientInfo.patientID = entry.fields.id;
                 patientInfo.patientPhotosAll = entry.fields.photos;
-                patientInfo.patientDetails = entry.fields.details.replace(//g,"•").split('/[•,\/ ]/');
+                patientInfo.patientDetails = entry.fields.details.replace(//g, "•").split('/[•,\/ ]/');
                 patientInfo.patientDesc = entry.fields.patientDescription;
 
                 getSpecificEntry();
@@ -224,11 +224,11 @@ function getSpecificEntry() {
 
     $('.expand_patient_info').click(() => {
         $('.patient-hidden-content').toggleClass('hidden-content-active');
-      })
+    })
 
-      $('.expand_procedure').click(() => {
+    $('.expand_procedure').click(() => {
         $('.hidden-procedures-loop').toggleClass('hidden-content-active');
-      })
+    })
 
 
 }
