@@ -52,17 +52,21 @@ function grabData() {
                 patientInfo.patientPhotosAll = entry.fields.photos;
                 patientInfo.patientDetails = entry.fields.details.replace(//g, "•").split('/[•,\/ ]/');
                 patientInfo.patientDesc = entry.fields.patientDescription;
+                
+                console.log('stored Object', patientInfo);
 
                 getSpecificEntry();
             })
     } else {
         const pageTitle = $('.header-title').text();
 
+        console.log('render all patients #5')
+
         client.getEntries({
             'fields.procedure': pageTitle,
             'content_type': 'patient'
         }).then(function (entries) {
-            console.log('calling all patient functions #1')
+            console.log('calling all patient functions #1', entries)
             entries.items.forEach(function (entry) {
 
                 let patientLiteral =
