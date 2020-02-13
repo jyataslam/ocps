@@ -40,6 +40,7 @@ function grabData() {
     if (window.location.hash) {
         client.getEntry(hash)
             .then(function (entry) {
+                console.log('storing specific patient details #2')
                 patientInfo.containsHash = true;
                 patientInfo.patientProcedure = entry.fields.procedure;
                 patientInfo.patientAge = entry.fields.age;
@@ -61,6 +62,7 @@ function grabData() {
             'fields.procedure': pageTitle,
             'content_type': 'patient'
         }).then(function (entries) {
+            console.log('calling all patient functions #1')
             entries.items.forEach(function (entry) {
 
                 let patientLiteral =
@@ -120,6 +122,7 @@ function grabData() {
 }
 
 function splitArrayByGroups(inputArr, splitNum) {
+    console.log('organizing photos for specific client #3')
     var index = 0;
     var arrayLength = inputArr.length;
     var tempArr = [];
@@ -133,7 +136,7 @@ function splitArrayByGroups(inputArr, splitNum) {
 }
 
 function getSpecificEntry() {
-
+    console.log('rendering specific client #4')
     let specificPatientInfo =
         `<div class='col-xs-12'>
     <div class="text-middle photos-content-wrapper">
