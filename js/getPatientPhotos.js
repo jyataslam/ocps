@@ -25,7 +25,6 @@ const patientArray = [];
 
 function createContentful() {
     grabData();
-
 }
 
 
