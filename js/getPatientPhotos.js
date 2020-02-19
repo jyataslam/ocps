@@ -39,7 +39,6 @@ function grabData() {
     if (window.location.hash) {
         client.getEntry(hash)
             .then(function (entry) {
-                console.log('storing specific patient details #2')
                 patientInfo.containsHash = true;
                 patientInfo.patientProcedure = entry.fields.procedure;
                 patientInfo.patientAge = entry.fields.age;
@@ -51,20 +50,17 @@ function grabData() {
                 patientInfo.patientPhotosAll = entry.fields.photos;
                 patientInfo.patientDetails = entry.fields.details.replace(//g, "•").split('/[•,\/ ]/');
                 patientInfo.patientDesc = entry.fields.patientDescription;
-                console.log('stored Object', patientInfo)
 
                 getSpecificEntry();
             })
     } else {
         const pageTitle = $('.header-title').text();
 
-        console.log('render all patients #5')
 
         client.getEntries({
             'fields.procedure': pageTitle,
             'content_type': 'patient'
         }).then(function (entries) {
-            console.log('calling all patient functions #1')
             entries.items.forEach(function (entry) {
 
                 let patientLiteral =
@@ -112,7 +108,6 @@ function grabData() {
             $('.main-all-photos-page').append(patientArray);
 
             $('.facelift-url-btn').on('click', function () {
-                console.log('clicked')
 
 
                 window.open(window.location.href + '#' + contentID);
@@ -124,7 +119,6 @@ function grabData() {
 }
 
 function splitArrayByGroups(inputArr, splitNum) {
-    console.log('organizing photos for specific client #3')
     var index = 0;
     var arrayLength = inputArr.length;
     var tempArr = [];
@@ -138,7 +132,6 @@ function splitArrayByGroups(inputArr, splitNum) {
 }
 
 function getSpecificEntry() {
-    console.log('rendering specific client #4')
     let specificPatientInfo =
         `<div class='col-xs-12'>
     <div class="text-middle photos-content-wrapper">
@@ -199,7 +192,6 @@ function getSpecificEntry() {
     $('.main-all-photos-page').append(specificPatientInfo)
 
 
-    console.log('patient photos #2', patientInfo.patientPhotosAll);
     patientInfo.patientPhotosAll.forEach(item => {
         patientArray.push(item.fields.file.url)
     })
