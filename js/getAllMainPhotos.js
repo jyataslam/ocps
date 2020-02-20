@@ -143,11 +143,6 @@ function createContentful() {
         // photosDiv.append(photosRow);
         // mainRow.append(photosDiv)
         mainRow.append(photosColDiv)
-
-        $(".twentytwenty-container").imagesLoaded(() => {
-          console.log('2');
-          $(".twentytwenty-container").twentytwenty();
-        });
       }
 
       // attach click handler to patient info and procedure details
@@ -258,17 +253,13 @@ function createContentful() {
         image1.attr("src", patientPhoto1);
         image2.attr("src", patientPhoto2);
         twentyTwentyContainer.append(image1, image2);
-
-        $(".twentytwenty-container").imagesLoaded(() => {
-          console.log('2');
-          $(".twentytwenty-container").twentytwenty();
-        });
-
       });
-    }); 
+    }).then($(".twentytwenty-container").imagesLoaded(() => {
+        $(".twentytwenty-container").twentytwenty();
+        console.log('2');
+      })); 
   }
   console.log('1')
-  
   console.log('3')
 }
 
