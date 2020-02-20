@@ -259,7 +259,11 @@ function createContentful() {
     }); 
   }
   console.log('1')
-  $(".twentytwenty-container").imagesLoaded(() => console.log('2'));
+  $(".twentytwenty-container").imagesLoaded(() => {
+    console.log('2');
+    $(".twentytwenty-container").twentytwenty();
+  });
+  $(".twentytwenty-container").twentytwenty();
   console.log('3')
 }
 
