@@ -97,7 +97,7 @@ function createContentful() {
                                             <p class="individual-profile-name">Dr. Bunkis</p>
                                             <p class="individual-profile-title">Medical Director</p>
                                             <p class="individual-profile-phone">
-                                                <a href="tel:+15622458339">949.888.9700</a>
+                                                <a href="tel:+15622458339">562.245.8393</a>
                                             </p>
                                         </div>
                                         <div class="individual-profile-photo-container">
@@ -119,6 +119,7 @@ function createContentful() {
     
         return tempArr;
       }
+      
       const photosDiv = $('<div class="container">');
       const photosRow = $('<div class="row photos-row">');
       let photosArr = [];
