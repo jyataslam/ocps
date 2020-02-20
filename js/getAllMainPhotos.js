@@ -1,8 +1,4 @@
-$( window ).load(function() {
-  // if (window.location.href.indexOf('client')==-1) {
-  //      window.location.replace(window.location.href+'?client');
-  // }
-});
+$(document).ready(createContentful());
 
 function createContentful() {
   var client = contentful.createClient({
@@ -156,8 +152,10 @@ function createContentful() {
 
       procedureInfoHeader.click(() => {
         $('.hidden-procedures-loop').toggleClass('hidden-content-active');
+
       })
     })
+
   } else {
 
     // CALL API FOR ALL PATIENTS FOR SPECIFIED PROCEDURE
@@ -258,11 +256,14 @@ function createContentful() {
         twentyTwentyContainer.append(image1, image2);
 
       });
-    });
+    }); 
   }
+  console.log('1')
+  $(".twentytwenty-container").imagesLoaded(() => console.log('2'));
+  console.log('3')
 }
 
-createContentful();
+
 
 
 // function fetchMainPhotos() {
