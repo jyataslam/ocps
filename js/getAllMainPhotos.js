@@ -263,7 +263,7 @@ function createContentful() {
     console.log('2');
     $(".twentytwenty-container").twentytwenty();
   });
-  $(".twentytwenty-container").twentytwenty();
+  // $(".twentytwenty-container").twentytwenty();
   console.log('3')
 }
 
