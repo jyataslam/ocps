@@ -1,7 +1,7 @@
 $( window ).load(function() {
-  if (window.location.href.indexOf('client')==-1) {
-       window.location.replace(window.location.href+'?client');
-  }
+  // if (window.location.href.indexOf('client')==-1) {
+  //      window.location.replace(window.location.href+'?client');
+  // }
 });
 
 function createContentful() {
