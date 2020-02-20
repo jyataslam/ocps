@@ -153,7 +153,12 @@ function createContentful() {
       procedureInfoHeader.click(() => {
         $('.hidden-procedures-loop').toggleClass('hidden-content-active');
       })
-    })
+    }).then(() => {
+      $(".twentytwenty-container").imagesLoaded(() => {
+        $(".twentytwenty-container").twentytwenty();
+        console.log('2');
+      })
+    }); 
 
   } else {
 
@@ -254,10 +259,12 @@ function createContentful() {
         image2.attr("src", patientPhoto2);
         twentyTwentyContainer.append(image1, image2);
       });
-    }).then($(".twentytwenty-container").imagesLoaded(() => {
+    }).then(() => {
+      $(".twentytwenty-container").imagesLoaded(() => {
         $(".twentytwenty-container").twentytwenty();
         console.log('2');
-      })); 
+      })
+    }); 
   }
   console.log('1')
   console.log('3')
