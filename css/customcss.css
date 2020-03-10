@@ -56,6 +56,14 @@ h2.style-5 {
   color: white !important;
 }
 
+.blog-header-bold {
+  font-weight: bold;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
 /* LANDING REVIEWS SECTION */
 @media only screen and (max-width: 414px) {
   .de_testi blockquote p {
