@@ -42,6 +42,18 @@ h2.style-5 {
   display: block !important;
 }
 
+.margin-top-10 {
+  margin-top: 15px;
+  border: 2px solid #eb2323 !important;
+  background: #eb23238c;
+}
+
+.custom-hero-subtext {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
 
 /* OWL CAROUSEL ON LANDING PAGE FOR REVIEWS */
 .owl-prev,
@@ -1265,5 +1277,9 @@ nav li a {
 
   .single-blog-subheader-header {
     font-size: 2.6rem !important;
+  }
+
+  .custom-hero-subtext {
+    font-size: 14px;
   }
 }
