@@ -54,6 +54,12 @@ h2.style-5 {
   font-weight: 600;
 }
 
+.doxy-btn {
+  border: 2px solid green !important;
+  background: white;
+  color: black !important;
+}
+
 
 /* OWL CAROUSEL ON LANDING PAGE FOR REVIEWS */
 .owl-prev,
