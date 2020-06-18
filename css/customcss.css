@@ -119,7 +119,7 @@ h2.style-5 {
 
 /* HERO SECTION */
 #landing-svg {
-  height: 20rem;
+  height: 15rem;
 }
 
 #section-welcome {
@@ -464,7 +464,7 @@ span.overlay {
 }
 
 #section-service-4.side-bg .background-image-landing-staff {
-  background: url(/images-bunkis/new_team_bricks.jpg);
+  background: url(/images-bunkis/new-team-no-masks-skinny.jpg);
   height: 100%;
   background-position: top;
 }
