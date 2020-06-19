@@ -24,6 +24,10 @@ h2.style-5 {
   fill: #dddddd !important;
 }
 
+.background-black {
+  background-color: #0b0b0b !important;
+}
+
 @media only screen and (max-width: 414px) {
   h2.style-5 {
     font-size: 4rem;
@@ -464,7 +468,7 @@ span.overlay {
 }
 
 #section-service-4.side-bg .background-image-landing-staff {
-  background: url(/images-bunkis/new-team-no-masks-skinny.jpg);
+  background-image: url(/images-bunkis/new-team-no-masks-skinny.jpg) !important;
   height: 100%;
   background-position: top;
 }
@@ -838,7 +842,7 @@ address span a:hover {
 @media only screen and (max-width: 414px) {
 
   .page-about #subheader {
-    background-image: url(../images-bunkis/new_team_brick_subheader.jpg);
+    /* background-image: url(../images-bunkis/new_team_brick_subheader.jpg); */
     position: relative;
   }
 
@@ -1294,5 +1298,9 @@ nav li a {
 
   .custom-hero-subtext {
     font-size: 14px;
+  }
+
+  header.header-mobile {
+    background: transparent;
   }
 }
