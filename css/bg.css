@@ -54,7 +54,7 @@ background:url(../images-bunkis/texture_subheader.jpg)top fixed;
 /* #section-welcome{background:url(../images-bunkis/landing_new_team_final.jpg) top fixed;} */
 #section-welcome{background:url(../images-bunkis/hero-team-masks-edited.jpg) top fixed;}
 @media only screen and (max-width: 500px) {
-	#section-welcome{background:url(../images-bunkis/hero-mobile-mask.jpg) top fixed;}
+	#section-welcome{background:url(../images-bunkis/hero-mobile-mask-high.jpg) top fixed;}
 }
 #section-welcome-2{background:url(../images/background/bg-6.jpg) top fixed;}
 #section-welcome-3{background:url(../images/background/bg-7.jpg) top fixed;}
