@@ -1216,6 +1216,10 @@ nav li a {
 }
 
 @media only screen and (max-width: 414px) {
+  .border-deco-hero {
+    margin-top: 40%;
+  }
+
   .about-us-team-photo {
     height: 140px;
   }  
