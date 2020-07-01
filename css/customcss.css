@@ -1224,6 +1224,11 @@ nav li a {
     height: 140px;
   }  
 
+  .iframe-blog {
+    width: auto !important;
+    height: auto;
+  }
+
   #content {
     padding-top: 45px;
   }
