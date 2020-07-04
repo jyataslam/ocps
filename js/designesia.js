@@ -1315,27 +1315,40 @@ function fetchInstagram() {
   const url =
     "https://graph.instagram.com/me/media?fields=id,media_type,media_url&access_token=IGQVJVS3BPcEc5aDNTaG9MMTY5TE42aTJNd1E4d0V2amRhNlpELTJCNDB3R0M0M0pzZAkpZAZA2VGdjBjNS04Vk9FcmM4anltZAnRmSll4clZABVlJVeGo0QTNuQWlxRlNEM3ZADcm9Ba0VUa1NIMVlTWXNsMQZDZD";
   var token =
-      "IGQVJVS3BPcEc5aDNTaG9MMTY5TE42aTJNd1E4d0V2amRhNlpELTJCNDB3R0M0M0pzZAkpZAZA2VGdjBjNS04Vk9FcmM4anltZAnRmSll4clZABVlJVeGo0QTNuQWlxRlNEM3ZADcm9Ba0VUa1NIMVlTWXNsMQZDZD", //new token from new instagram api
+      "IGQVJVS3BPcEc5aDNTaG9MMTY5TE42aTJNd1E4d0V2amRhNlpELTJCNDB3R0M0M0pzZAkpZAZA2VGdjBjNS04Vk9FcmM4anltZAnRmSll4clZABVlJVeGo0QTNuQWlxRlNEM3ZADcm9Ba0VUa1NIMVlTWXNsMQZDZD"; //new token from new instagram api
     // userid = 17841403327248436, new user id from new instagram api
-    num_photos = 6;
+  var count = 0;
 
   $.ajax({
     url: url,
     dataType: "jsonp",
     type: "GET",
     data: {
-      access_token: token,
-      count: num_photos,
+      access_token: token
     },
     success: function (data) {
-      for (photo in data.data) {
-        $(".instagram-photo-container").append(
-          '<div class="instagram-photo"><a href="' +
-            data.data[photo].media_url +
-            '" target="_blank"><img class="instagram-fetched" src="' +
-            data.data[photo].images.standard_resolution.url +
-            '"></a></div>'
-        );
+      for (index in data.data) {
+        if (data.data[index].media_type === "VIDEO"){
+          $(".instagram-photo-container").append(
+            '<div class="instagram-photo"><a href="https://www.instagram.com/drbunkis/" target="_blank"><video class="instagram-fetched" src="' +
+              data.data[index].media_url +
+              '"></a></div>'
+          );
+          count++;
+          if (count === 9) {
+            return
+          }
+        } else {
+          $(".instagram-photo-container").append(
+            '<div class="instagram-photo"><a href="https://www.instagram.com/drbunkis/" target="_blank"><img class="instagram-fetched" src="' +
+              data.data[index].media_url +
+              '"></a></div>'
+          );
+          count++;
+          if (count === 9) {
+            return
+          }
+        }
       }
     },
     error: function (data) {
