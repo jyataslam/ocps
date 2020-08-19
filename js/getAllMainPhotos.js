@@ -12,6 +12,7 @@ function createContentful() {
 
     client.getEntry(hash)
     .then(function (entry) {
+      console.log('entry', entry)
       const patientProcedure = entry.fields.procedure;
       const patientAge = entry.fields.age;
       const patientGender = entry.fields.gender;
@@ -128,11 +129,11 @@ function createContentful() {
       const resultArr = splitArrayByGroups(photosArr, 2);
 
       for (i = 0; i < resultArr.length; i++) {
-        const photosColDiv = $("<div class='col-xs-12 col-md-6 col-md-offset-3 photos-col'>");
+        const photosColDiv = $("<div class='col-xs-12 col-md-8 col-md-offset-2 photos-col'>");
         const textMiddleDiv = $("<div class='text-middle'>");
-        const twentyTwentyContainer = $("<div class='twentytwenty-container'>");
-        const image1 = $("<img alt='dr bunkis before after photo' class='img-responsive individual-image-100-width' />");
-        const image2 = $("<img alt='dr bunkis before after photo' class='img-responsive individual-image-100-width' />");
+        const twentyTwentyContainer = $("<div class='flex-container'>");
+        const image1 = $("<img alt='dr bunkis before after photo' class='img-responsive individual-image-50-width' />");
+        const image2 = $("<img alt='dr bunkis before after photo' class='img-responsive individual-image-50-width' />");
 
         image1.attr("src", resultArr[i][0]);
         image2.attr("src", resultArr[i][1]);

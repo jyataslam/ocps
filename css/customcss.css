@@ -769,6 +769,20 @@ address span a:hover {
   margin-top: 0;
 } */
 
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-before-image {
+  width: 50%;
+}
+
+.individual-image-50-width {
+  width: 50%;
+}
+
 
 
 
