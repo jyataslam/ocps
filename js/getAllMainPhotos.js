@@ -172,6 +172,7 @@ function createContentful() {
       'content_type': 'patient'
     }).then(function(entries) {
       entries.items.forEach(function(entry) {
+        console.log('entry', entry)
   
         const mainRow = $(".main-all-photos-page");
         const allPhotosRow = $(".all-photos-row");
@@ -214,7 +215,6 @@ function createContentful() {
         const patientID = entry.fields.id;
         const patientPhotosAll = entry.fields.photos;
         const contentID = entry.sys.id;
-        console.log(entry)
 
         const containerFluid = $("<div class='container-fluid'>");
         const fluidRow = $("<div class='row photos-fluid-row'>");
@@ -230,6 +230,7 @@ function createContentful() {
         photoContentsWrapper.append(photoHeaderH3);
         photoHeaderH3.append(photoHeaderSpan);
         photoHeaderSpan.text(patientProcedure);
+        console.log('hit once')
 
 
 
@@ -288,11 +289,11 @@ function createContentful() {
           window.open(window.location.href + '#' + contentID);
         })
 
-        const image1 =  $("<img alt='dr bunkis before after photo' class='img-responsive' />");
-        const image2 =  $("<img alt='dr bunkis before after photo' class='img-responsive' />");
-        image1.attr("src", patientPhoto1);
-        image2.attr("src", patientPhoto2);
-        twentyTwentyContainer.append(image1, image2);
+        // const image1 =  $("<img alt='dr bunkis before after photo' class='img-responsive' />");
+        // const image2 =  $("<img alt='dr bunkis before after photo' class='img-responsive' />");
+        // image1.attr("src", patientPhoto1);
+        // image2.attr("src", patientPhoto2);
+        // twentyTwentyContainer.append(image1, image2);
 
         // TEST STUFF
         // const testImage1 = $("<img class='show-all-patients-img' alt='ocps before photo' >");
@@ -313,7 +314,6 @@ function createContentful() {
     }).then(() => {
       $(".twentytwenty-container").imagesLoaded(() => {
         $(".twentytwenty-container").twentytwenty();
-        console.log('2');
       })
     }); 
   }
