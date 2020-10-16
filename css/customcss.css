@@ -473,6 +473,14 @@ span.overlay {
   background-position: top;
 }
 
+.estitle {
+  display: none;
+}
+
+.powered-by img, .powered-by a {
+  display: none !important;
+}
+
 /* BLOG PAGE */
 #subheader .container,
 #subheader .row {
