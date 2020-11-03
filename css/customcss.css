@@ -64,6 +64,10 @@ h2.style-5 {
   color: black !important;
 }
 
+.d-initial {
+  display: initial;
+}
+
 
 /* OWL CAROUSEL ON LANDING PAGE FOR REVIEWS */
 .owl-prev,
