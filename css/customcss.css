@@ -429,6 +429,24 @@ span.overlay {
   position: relative;
 }
 
+.flexed-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flexed-image-individual {
+  width: 25%;
+}
+
+.flexed-image {
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+  border: 2px solid white;
+}
+
 /* #section-before-after:before {
     background-color: rgba(234, 253, 255, 0.8);
     bottom: 0;
