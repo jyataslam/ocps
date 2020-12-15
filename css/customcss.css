@@ -131,7 +131,20 @@ h2.style-5 {
 }
 
 #section-welcome {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 0;
+}
+
+.hero-flex-apart {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 2.5rem 0;
 }
 
 .section-welcome-flex-container {
@@ -1434,7 +1447,7 @@ nav li a {
   }
 
   .custom-hero-subtext {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   header.header-mobile {
