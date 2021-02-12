@@ -28,6 +28,10 @@ h2.style-5 {
   background-color: #0b0b0b !important;
 }
 
+.d-flex {
+  display: flex;
+}
+
 @media only screen and (max-width: 414px) {
   h2.style-5 {
     font-size: 4rem;
