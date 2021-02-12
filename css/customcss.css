@@ -56,6 +56,11 @@ h2.style-5 {
   display: block !important;
 }
 
+.instagram-logo {
+  height: 6rem;
+  padding-left: 2rem;
+}
+
 .margin-top-10 {
   margin-top: 15px;
   border: 2px solid #eb2323 !important;
@@ -1319,6 +1324,10 @@ address span a:hover {
 
   .instagram-photo-container {
     margin: 0 5%;
+  }
+
+  .instagram-logo {
+    display: none;
   }
 }
 
