@@ -38,6 +38,12 @@ h2.style-5 {
   }
 }
 
+#sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85px;
+}
+
 .text-color-black {
   color: black;
 }
