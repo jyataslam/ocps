@@ -32,6 +32,11 @@ h2.style-5 {
   display: flex;
 }
 
+.blog-text-larger {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
 @media only screen and (max-width: 414px) {
   h2.style-5 {
     font-size: 4rem;
