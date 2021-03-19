@@ -1530,6 +1530,10 @@ nav li a {
 }
 
 @media only screen and (max-width: 414px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .border-deco-hero {
     margin-top: 40%;
   }
