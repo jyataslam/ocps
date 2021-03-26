@@ -20,6 +20,18 @@ h2.style-5 {
   font-family: "futura-pt", sans-serif;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.center {
+  text-align: center;
+}
+
 .st3 {
   fill: #dddddd !important;
 }
