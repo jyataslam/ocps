@@ -32,6 +32,10 @@ h2.style-5 {
   text-align: center;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .st3 {
   fill: #dddddd !important;
 }
@@ -402,7 +406,7 @@ span.overlay {
 }
 
 #view-all-projects {
-  background: url(../images-bunkis/model_portrait.jpg);
+  background: url(../images-bunkis/model_portrait.webp);
   height: 400px;
   background-attachment: fixed;
   position: relative;
@@ -530,7 +534,7 @@ span.overlay {
 }
 
 #section-service-3.side-bg .background-image-landing-reviews {
-  background: url(/images-bunkis/model_portrait.jpg);
+  background: url(/images-bunkis/model_portrait.webp);
   height: 100%;
   background-position: center;
 }
@@ -652,7 +656,7 @@ span.overlay {
 }
 
 #photos-feature {
-  background-image: url(/images-bunkis/granite-bg.jpg);
+  background-image: url(/images-bunkis/granite-bg.webp);
   background-attachment: fixed;
   position: relative;
   display: flex;
@@ -749,6 +753,11 @@ span.overlay {
 .staff-square-photo {
   width: 100%;
   object-fit: contain;
+}
+
+.staff-top-header {
+  font-size: 4.5rem;
+  padding-bottom: 2rem;
 }
 
 .filterframe-gradientborder {
@@ -1524,6 +1533,14 @@ nav li a {
   #photos-feature {
     background-attachment: scroll;
   }
+
+  .staff-top-header {
+    font-size: 3rem;
+  }
+
+  .staff-text-center iframe {
+    height: 400px;
+  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -1665,5 +1682,13 @@ nav li a {
 
   .photos-col-horizontal-tablet-small {
     height: 280px;
+  }
+
+  .staff-top-header {
+    padding-bottom: 1rem;
+  }
+
+  .staff-text-center iframe {
+    height: 250px;
   }
 }
