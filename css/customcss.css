@@ -522,7 +522,7 @@ span.overlay {
 
 /* SPECIALS SECTION */
 #section-service-1.side-bg .background-image-landing-photos {
-  background: url(/images-bunkis/model_face.jpg);
+  background: url(/images-bunkis/model_face.webp);
   height: 100%;
   background-position: center;
 }
@@ -540,7 +540,7 @@ span.overlay {
 }
 
 #section-service-4.side-bg .background-image-landing-staff {
-  background-image: url(/images-bunkis/new-team-no-masks-skinny.jpg) !important;
+  background-image: url(/images-bunkis/new-team-no-masks-skinny.webp) !important;
   height: 100%;
   background-position: top;
 }
