@@ -295,6 +295,11 @@ header.header-mobile {
   font-size: 4em;
 }
 
+.consultation-header {
+  font-weight: 300 !important;
+  font-size: 6rem !important;
+}
+
 /* LANDING BEFORE AND AFTER SECTION */
 .section-before-after h1,
 .section-before-after h2,
@@ -543,6 +548,49 @@ span.overlay {
   background-image: url(/images-bunkis/new-team-no-masks-skinny.webp) !important;
   height: 100%;
   background-position: top;
+}
+
+#section-service-3.side-bg .background-image-virtual-seminars {
+  background-image: url(/images-bunkis/bunkis-virtual-seminars.webp) !important;
+  height: 100%;
+  background-position: center;
+}
+
+.virtual-seminars .divider {
+  background:rgb(58, 58, 58);
+  width: 35%;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.virtual-seminars h1 {
+  font-size: 5rem;
+}
+
+.virtual-seminars h2 {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.virtual-seminars img {
+  width: 100%;
+}
+
+.virtual-seminars .virtual-seminars-row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.virtual-seminars-row iframe {
+  width: 49%;
+  height: 315px;
+  margin: 1rem;
 }
 
 .estitle {
@@ -1541,6 +1589,19 @@ nav li a {
   .staff-text-center iframe {
     height: 400px;
   }
+
+  .virtual-seminars-row {
+    flex-wrap: wrap;
+  }
+
+  .virtual-seminars-row iframe {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+
+  .consultation-header {
+    font-size: 4rem !important;
+  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -1565,6 +1626,17 @@ nav li a {
 
   .photos-feature-button {
     font-size: 1.5rem !important;
+  }
+
+  .virtual-seminars h1 {
+    font-size: 4rem;
+  }
+
+  .virtual-seminars-row iframe {
+    height: 245px;
+  }
+  .consultation-header {
+    font-size: 3rem !important;
   }
 }
 
@@ -1690,5 +1762,9 @@ nav li a {
 
   .staff-text-center iframe {
     height: 250px;
+  }
+
+  .virtual-seminars {
+    padding-top: 90px !important;
   }
 }
