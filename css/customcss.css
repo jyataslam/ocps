@@ -50,7 +50,7 @@ h2.style-5 {
 
 .blog-text-larger {
   font-size: 1.6rem;
-  line-height: 3.2rem;
+  line-height: 2.7rem;
 }
 
 @media only screen and (max-width: 414px) {
@@ -411,7 +411,7 @@ span.overlay {
 }
 
 #view-all-projects {
-  background: url(../images-bunkis/model_portrait.webp);
+  background: url(../images-bunkis/bg/new-model-smiling-schedule-min.webp);
   height: 400px;
   background-attachment: fixed;
   position: relative;
@@ -527,19 +527,19 @@ span.overlay {
 
 /* SPECIALS SECTION */
 #section-service-1.side-bg .background-image-landing-photos {
-  background: url(/images-bunkis/model_face.webp);
+  background: url(/images-bunkis/bg/mature-woman-turning-min.jpeg);
   height: 100%;
   background-position: center;
 }
 
 #section-service-2.side-bg .background-image-landing-specials {
-  background: url(/images-bunkis/model_hair.jpg);
+  background: url(/images-bunkis/bg/new-model-subpage-header-min.jpeg);
   height: 100%;
   background-position: center;
 }
 
 #section-service-3.side-bg .background-image-landing-reviews {
-  background: url(/images-bunkis/model_portrait.webp);
+  background: url(/images-bunkis/bg/model-mature-yellow-min.jpeg);
   height: 100%;
   background-position: center;
 }
@@ -551,13 +551,20 @@ span.overlay {
 }
 
 #section-service-3.side-bg .background-image-virtual-seminars {
-  background-image: url(/images-bunkis/bunkis-virtual-seminars.webp) !important;
+  background-image: url(/images-bunkis/bg/model-mature-laughing-min.webp) !important;
   height: 100%;
   background-position: center;
 }
 
+.page-projects #subheader {
+  background-attachment: scroll;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-color: #779094;
+}
+
 .virtual-seminars .divider {
-  background:rgb(58, 58, 58);
+  background:rgb(72 185 209);
   width: 35%;
   height: 1px;
   margin: 0 auto;
@@ -608,7 +615,15 @@ span.overlay {
 }
 
 .blog-main-wrapper {
-  background-color: white !important;
+  background: white !important;
+}
+
+.landing-seminars-main-wrapper {
+  background-image: url(../images-bunkis/bg/landing-webinars-bg-white-min.webp) !important;
+  background-position: right !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important; 
 }
 
 .blog-list h3 a {
@@ -1525,6 +1540,9 @@ nav li a {
 }
 
 @media only screen and (max-width: 768px) {
+  .landing-seminars-main-wrapper {
+    background: white !important;
+  }
   #subheader {
     height: 300px;
   }
@@ -1602,6 +1620,19 @@ nav li a {
   .consultation-header {
     font-size: 4rem !important;
   }
+
+  .subheader-with-cursive-logo {
+    height: 350px !important;
+  }
+  .subheader-logo {
+    width: 500px;
+  }
+
+  .subheader-with-cursive-logo .cursive-logo-col {
+    justify-content: flex-end !important;
+    margin-bottom: 0;
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -1637,6 +1668,14 @@ nav li a {
   }
   .consultation-header {
     font-size: 3rem !important;
+  }
+
+  .subheader-logo {
+    width: 350px;
+  }
+
+  .subheader-with-cursive-logo {
+    height: 300px !important;
   }
 }
 
@@ -1766,5 +1805,10 @@ nav li a {
 
   .virtual-seminars {
     padding-top: 90px !important;
+  }
+
+  .page-projects #subheader {
+    background-position: center !important;
+    background-size: cover !important;
   }
 }

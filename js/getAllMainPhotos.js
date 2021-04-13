@@ -161,7 +161,7 @@ function createContentful() {
                 const photosRow = $('<div class="row photos-row">');
                 let photosArr = [];
 
-                patientPhotosAll.forEach((item) => {
+                patientPhotosAll.forEach(item => {
                     photosArr.push(item.fields.file.url);
                 });
 
@@ -224,8 +224,6 @@ function createContentful() {
             })
             .then(function (entries) {
                 entries.items.forEach(function (entry) {
-                    console.log("entry", entry);
-
                     const mainRow = $(".main-all-photos-page");
                     const allPhotosRow = $(".all-photos-row");
                     const mainColDivTest = $(

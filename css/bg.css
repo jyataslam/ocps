@@ -24,7 +24,7 @@ background:url(../images-bunkis/texture_subheader.jpg)top fixed;
 }
 
 /* background settings for page subheader */
-.page-projects #subheader{background-image:url(../images-bunkis/texture_subheader.jpg);}
+.page-projects #subheader{background-image:url(../images-bunkis/bg/subheader-model-bg-min.jpg); background-position: left !important;}
 .page-projects-alt #subheader{background-image:url(../images-bunkis/texture_subheader.jpg);}
 .page-services #subheader{background-image:url(../images-bunkis/texture_subheader.jpg);}
 .page-about #subheader{background-image:url(../images-bunkis/texture_subheader.jpg);}
@@ -74,7 +74,7 @@ background:url(../images-bunkis/texture_subheader.jpg)top fixed;
 .de_light #section-portfolio{background:#fff;}
 #section-skill-bar{ background:url(../images/background/bg-8.jpg) top fixed;}
 /* #section-testimonial{ background:url(../images/background/bg-3.jpg) top fixed;} */
-#section-testimonial{ background:url(../images-bunkis/model_hair_reviews.webp) top fixed;}
+#section-testimonial{ background:url(../images-bunkis/bg/new-model-smiling-dark-min.jpg) top fixed;}
 #section-testimonial-2{ background:url(../images/background/bg-17.jpg) top fixed;}
 #section-steps{ background:url(../images/background/bg-2.jpg) top fixed;}
 #section-steps-2{ background:#f5f5f5;}
@@ -96,7 +96,7 @@ background:url(../images-bunkis/texture_subheader.jpg)top fixed;
 #section-side-1-index-landing-product.side-bg .image-container{background:url(../images/background/bg-side-10.jpg) center;}
 #section-contact-landing-product{background:url(../images/background/bg-28.jpg) bottom no-repeat;}
 /* #section-before-after{background:url(../images/background/bg-31.jpg) top no-repeat;} */
-#section-before-after{background:url(../images-bunkis/model_hair_before.webp) top no-repeat; background-attachment: fixed;}
+#section-before-after{background:url(../images-bunkis/texture_subheader.jpg) top no-repeat; background-attachment: fixed;}
 #section-pattern-1{background:url(../images/background/pattern-1.jpg) 100% !important;}
 
 
