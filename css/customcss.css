@@ -51,6 +51,7 @@ h2.style-5 {
 .blog-text-larger {
   font-size: 1.6rem;
   line-height: 2.7rem;
+  letter-spacing: .04rem;
 }
 
 @media only screen and (max-width: 414px) {
