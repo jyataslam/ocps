@@ -18,6 +18,7 @@ h2.style-5 {
   font-weight: 300;
   text-transform: uppercase;
   font-family: "futura-pt", sans-serif;
+  font-size: 60px;
 }
 
 .bold {
@@ -105,6 +106,72 @@ h2.style-5 {
   display: initial;
 }
 
+.home__services-grid .container-fluid .row{
+  margin: 0;
+  padding: 0;
+}
+.home__services-grid .grid-square {
+  position: relative;
+  padding: 0;
+  border: .5rem solid white;
+  overflow: hidden;
+}
+/* .home__services-grid .grid-square:before {
+  content: '';
+  background: black;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+} */
+.home__services-grid .grid-square img {
+  width: 100%;
+  height: 100%;
+  transition: all .5s ease-in-out;
+}
+.home__services-grid .grid-square .grid-square-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8rem;
+  transition: all .5s ease-in-out;
+}
+.home__services-grid .grid-square:hover .grid-square-overlay {
+  background: transparent;
+  cursor: pointer;
+}
+.home__services-grid .grid-square:hover img {
+  transform: scale(1.3);
+}
+.home__services-grid .grid-square .grid-square-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.home__services-grid .grid-square .grid-square-desc {
+  color: rgb(240, 240, 240);
+  text-align: center;
+  font-size: 1.6rem;
+  transition: all .5s ease-in-out;
+}
+.services-separator {
+  margin: 25px 0;
+}
+.services-separator span:before,
+.services-separator span:after {
+  width: 165px;
+  border-bottom: 1px solid rgba(255,255,255,.25);
+}
 
 /* OWL CAROUSEL ON LANDING PAGE FOR REVIEWS */
 .owl-prev,
@@ -1118,19 +1185,19 @@ address span a:hover {
 }
 
 .mobile-bg-breast {
-  background: url(/images-bunkis/breast-test.jpg);
+  background: url(/images-bunkis/procedures/breast/breast-min.jpeg);
 }
 
 .mobile-bg-body {
-  background: url(/images-bunkis/body-test.jpg);
+  background: url(/images-bunkis/procedures/body/body-min.jpeg);
 }
 
 .mobile-bg-face {
-  background: url(/images-bunkis/face-test.jpg);
+  background: url(/images-bunkis/procedures/face/face.jpeg);
 }
 
 .mobile-bg-skin {
-  background: url(/images-bunkis/skin-test.jpg);
+  background: url(/images-bunkis/procedures/skin/skin-min.jpeg);
 }
 
 .mobile-bg-injectables {
@@ -1449,11 +1516,18 @@ address span a:hover {
   .instagram {
     padding: 80px 0;
   }
-
-  /* .instagram-photo {
-    height: 200px;
-    width: 200px;
-  } */
+  .home__services-grid .grid-square .grid-square-overlay {
+    padding: 2rem;
+  }
+  .home__services-grid .grid-square .grid-square-desc {
+    font-size: 1.2rem;
+  }
+  .services-separator {
+    margin: 20px 0;
+  }
+  .services-separator span:before, .services-separator span:after {
+    width: 100px;
+  }
 }
 
 @media only screen and (max-width: 938px) {
@@ -1726,7 +1800,7 @@ nav li a {
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
   .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -1772,17 +1846,10 @@ nav li a {
     font-size: 3rem;
   }
 
-  #section-portfolio-2 {
-    display: none;
-  }
-
   .section-service-wrapper,
   .mobile-service {
     display: block;
   }
-
-
-
   .section-about-us-2-header {
     margin-top: 0;
   }
@@ -1857,5 +1924,20 @@ nav li a {
   .page-projects #subheader {
     background-position: center !important;
     background-size: cover !important;
+  }
+  .home__services-grid .grid-square .grid-square-overlay {
+    padding: 2rem;
+  }
+  .home__services-grid .grid-square .grid-square-title {
+    font-size: 2rem;
+  }
+  .home__services-grid .grid-square .grid-square-desc {
+    font-size: 1.2rem;
+  }
+  .services-separator span:before, .services-separator span:after {
+    width: 90px;
+  }
+  .services-separator {
+    margin: 15px 0;
   }
 }
