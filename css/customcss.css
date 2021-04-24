@@ -172,6 +172,73 @@ h2.style-5 {
   width: 165px;
   border-bottom: 1px solid rgba(255,255,255,.25);
 }
+.separator-procedure span:before,
+.separator-procedure span:after {
+  border-bottom: 1px solid rgba(225, 225, 225);
+}
+.separator-procedure {
+  margin: 45px 0;
+}
+.bg-image-breast-one {
+  background: url(/images-bunkis/procedures/breast/breast-one-min.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-breast-2 {
+  background: url(/images-bunkis/procedures/breast/breast-2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-body-one {
+  background: url(/images-bunkis/procedures/body/body-min.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-body-two {
+  background: url(/images-bunkis/procedures/body/body-two.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-face-one {
+  background: url(/images-bunkis/procedures/face/face-one-min.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-face-two {
+  background: url(/images-bunkis/procedures/face/face-two-min.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-skin-one {
+  background: url(/images-bunkis/procedures/skin/skin-one-min.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-skin-two {
+  background: url(/images-bunkis/procedures/skin/skin-two-min.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-injectables-one {
+  background: url(/images-bunkis/procedures/injectables/injectables-one-min.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-injectables-two {
+  background: url(/images-bunkis/procedures/injectables/injectables-two-min.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-nonsurgical-one {
+  background: url(/images-bunkis/procedures/nonsurgical/nonsurgical-one-min.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-image-nonsurgical-two {
+  background: url(/images-bunkis/procedures/nonsurgical/nonsurgical-two-min.jpeg);
+  background-size: cover;
+  background-position: center;
+}
 
 /* OWL CAROUSEL ON LANDING PAGE FOR REVIEWS */
 .owl-prev,
@@ -262,7 +329,46 @@ h2.style-5 {
   color: #48b8d0;
   font-weight: 600;
   font-size: 2rem;
+  text-transform: uppercase;
   /* letter-spacing: .1rem; */
+}
+
+h2.style-5:before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  width: 300px;
+  right: 100%;
+  margin-right: 25px;
+  top: 50%;
+}
+h2.style-5:after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  width: 300px;
+  left: 100%;
+  margin-left: 25px;
+  top: 50%;
+}
+
+h2.style-5-light:before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  width: 300px;
+  right: 100%;
+  margin-right: 25px;
+  top: 50%;
+}
+h2.style-5-light:after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  width: 300px;
+  left: 100%;
+  margin-left: 25px;
+  top: 50%;
 }
 
 .hero-svg-top {
@@ -1207,6 +1313,11 @@ address span a:hover {
 .mobile-bg-nonsurgical {
   background: url(/images-bunkis/non-surgical-test.jpg);
 }
+.bg-image-breast {
+  background: url(/images-bunkis/procedures/breast/breast-min.jpeg);
+  background-position: center;
+  background-size: cover;
+}
 
 
 
@@ -1661,6 +1772,15 @@ nav li a {
 }
 
 @media only screen and (max-width: 768px) {
+  h2.style-5:before,
+  h2.style-5:after,
+  h2.style-5-light:before,
+  h2.style-5-light:after {
+    width: 150px;
+  }
+  .side-bg .procedure-image-container {
+    height: 700px !important;
+  }
   .landing-seminars-main-wrapper {
     background: white !important;
   }
@@ -1939,5 +2059,8 @@ nav li a {
   }
   .services-separator {
     margin: 15px 0;
+  }
+  .side-bg .procedure-image-container {
+    height: 500px !important;
   }
 }
