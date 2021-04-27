@@ -9,6 +9,11 @@
 	- subheader for side navigation
 	- media query
 */
+@keyframes breath {
+	0%   { background-size: 100% auto; }
+	50% { background-size: 140% auto; }
+	100% { background-size: 100% auto; }
+  }
 
 /* general settings for section & subheader */
 section,#subheader{
@@ -17,7 +22,6 @@ section,#subheader{
 -o-background-size: 100%;
 background-size: 100%;
 }
-
 /* general background image for subheader */
 #subheader{
 background:url(../images-bunkis/texture_subheader.jpg)top fixed;
@@ -48,13 +52,18 @@ background:url(../images-bunkis/texture_subheader.jpg)top fixed;
 #section-describe{background:#fff;}
 #section-download{background:url(../images/background/bg-9.jpg) top fixed;}
 #bg-coming-soon-page{background:url(../images/background/bg-6.jpg) top fixed; position:fixed; min-height:100%; width:100%;}
-#section-about-us-2{background:#fff; height:100%;}
+#section-about-us-2{background:white; height:100%;}
 .de_light #section-about-us-2{background:none;}
 /* #section-welcome{background:url(../images/background/bg-4.jpg) top fixed;} */
 /* #section-welcome{background:url(../images-bunkis/landing_new_team_final.jpg) top fixed;} */
-#section-welcome{background:url(../images-bunkis/hero/laughing-test-3-min.jpg) top fixed;}
+#section-welcome{background:url(../images-bunkis/hero/hero-long-fade-min.jpg) center bottom no-repeat !important;
+	background-size:cover !important;
+	width: 100%;
+	height: 100%;
+	animation: breath 10s linear infinite;
+}
 @media only screen and (max-width: 500px) {
-	#section-welcome{background:url(../images-bunkis/hero/laughing-mobile-min.jpg) top fixed;}
+	#section-welcome{background:url(../images-bunkis/hero/hero-fade-to-black-mobile-min.jpg) top !important;background-size:cover !important;}
 }
 #section-welcome-2{background:url(../images/background/bg-6.jpg) top fixed;}
 #section-welcome-3{background:url(../images/background/bg-7.jpg) top fixed;}
