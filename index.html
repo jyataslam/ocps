@@ -35,7 +35,9 @@
 
     <!-- CSS Files
     = -->
-    <link defer rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <!-- <link defer rel="preload" href="css/bootstrap.css" type="text/css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/jpreloader.css" type="text/css">
     <link rel="stylesheet" href="css/animate.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
@@ -98,6 +100,45 @@
   ]
 }
 </script>
+    <style>
+        html {
+            font-size: 12px;
+        }
+
+        .inner-padding {
+            width: 100%
+        }
+
+        #footer-svg {
+            height: 8rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero-flex-apart {
+            margin: auto;
+        }
+
+        .hero-svg-top {
+            margin-top: 0;
+            height: 4rem;
+        }
+
+        .shrink-logo {
+            height: 4rem;
+        }
+
+        @media only screen and (max-width: 758px) {
+            #footer-svg {
+                height: 6rem;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            #landing-svg {
+                height: 7rem;
+            }
+        }
+    </style>
 </head>
 
 <body id="homepage">
@@ -776,7 +817,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
             <div class="container">
                 <div class="row">
                     <div class="inner-padding">
-                        <div class="col-md-6 col-md-offset-6 " data-animation="fadeInRight" data-delay="200">
+                        <div class="col-md-6 offset-md-6 " data-animation="fadeInRight" data-delay="200">
                             <h2 class="section-about-us-2-header wow fadeInUp animated" wow-delay="0s">Dr. Juris
                                 Bunkis, MD FACS</h2>
 
@@ -850,7 +891,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
         <section id="section-portfolio-2" class="no-bottom" data-bgcolor="#fff" aria-label="section-portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3 text-center">
+                    <div class="col-sm-12 col-md-6 offset-md-3 text-center">
                         <h3 class="style-1"><span class="id-color wow fadeInUp animated" wow-delay="0s">Discover</span>
                         </h3>
                         <h2 class="style-5 wow fadeInUp animated" wow-delay="0s">Our Services</h2>
@@ -1070,7 +1111,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
         </section>
 
         <section id="section-service-1" class="side-bg no-padding section-service-wrapper service-odd">
-            <div class="image-container col-md-5 col-md-offset-7 pull-right" data-delay="0">
+            <div class="image-container col-md-5 offset-md-7 pull-right" data-delay="0">
                 <div class="background-image-procedure mobile-bg-breast"></div>
             </div>
 
@@ -1096,7 +1137,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
             <div class="container">
                 <div class="row">
                     <div class="inner-padding">
-                        <div class="col-md-6 col-md-offset-6 wow fadeInRight" data-wow-delay=".5s">
+                        <div class="col-md-6 offset-md-6 wow fadeInRight" data-wow-delay=".5s">
                             <h3 class="id-color section-service-mobile-header">Body</h3>
                             Cosmetic surgeries that bring dramatic and stunning results.
                             <div class="spacer-single"></div>
@@ -1109,7 +1150,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
         </section>
         
         <section id="section-service-3" class="side-bg no-padding section-service-wrapper service-odd">
-            <div class="image-container col-md-5 col-md-offset-7 pull-right" data-delay="0">
+            <div class="image-container col-md-5 offset-md-7 pull-right" data-delay="0">
                 <div class="background-image-procedure mobile-bg-face"></div>
             </div>
 
@@ -1135,7 +1176,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
             <div class="container">
                 <div class="row">
                     <div class="inner-padding">
-                        <div class="col-md-6 col-md-offset-6 wow fadeInRight" data-wow-delay=".5s">
+                        <div class="col-md-6 offset-md-6 wow fadeInRight" data-wow-delay=".5s">
                             <h3 class="id-color section-service-mobile-header">Skin</h3>
                             Advanced nonsurgical treatments that help improve the skin.
                             <div class="spacer-single"></div>
@@ -1147,7 +1188,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
             </div>
         </section>
         <section id="section-service-5" class="side-bg no-padding section-service-wrapper service-odd">
-            <div class="image-container col-md-5 col-md-offset-7 pull-right" data-delay="0">
+            <div class="image-container col-md-5 offset-md-7 pull-right" data-delay="0">
                 <div class="background-image-procedure mobile-bg-injectables"></div>
             </div>
 
@@ -1173,7 +1214,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
             <div class="container">
                 <div class="row">
                     <div class="inner-padding">
-                        <div class="col-md-6 col-md-offset-6 wow fadeInRight" data-wow-delay=".5s">
+                        <div class="col-md-6 offset-md-6 wow fadeInRight" data-wow-delay=".5s">
                             <h3 class="id-color section-service-mobile-header">Non-surgical</h3>
                             Laser treatments that address various skin issues.
                             <div class="spacer-single"></div>
@@ -1189,7 +1230,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
+                    <div class="col-md-8 offset-md-2 text-center">
                         <h3 class="style-1"><span class="id-color wow fadeInUp animated" wow-delay="0s">Before &
                                 After</span></h3>
                         <h2 class="style-5 style-5-light wow fadeInUp animated" wow-delay="0s">Transformation Gallery
@@ -1201,7 +1242,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
 
                     <div class="spacer-single"></div>
 
-                    <div class="col-md-8 col-md-offset-2 text-center wow fadeInUp animated" wow-delay="0s">
+                    <div class="col-md-8 offset-md-2 text-center wow fadeInUp animated" wow-delay="0s">
                         <div class="owl-carousel carousel-single-navi">
                             <div class="display-flex">
                                 <img src="images-bunkis/facelift-featured-one-min.jpg" loading="lazy"
@@ -1354,7 +1395,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
         <!-- section close -->
         <!-- SERVICES SECTION BEGIN -->
         <section id="section-service-1" class="side-bg no-padding section-service-wrapper service-wrapper-odd">
-            <div class="image-container col-md-5 col-md-offset-7 pull-right" data-delay="0">
+            <div class="image-container col-md-5 offset-md-7 pull-right" data-delay="0">
                 <div class="background-image-procedure background-image-landing-photos"></div>
             </div>
 
@@ -1383,7 +1424,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
             <div class="container">
                 <div class="row">
                     <div class="inner-padding">
-                        <div class="col-md-6 col-md-offset-6 wow fadeInRight" data-wow-delay=".5s">
+                        <div class="col-md-6 offset-md-6 wow fadeInRight" data-wow-delay=".5s">
                             <h3 class="id-color section-service-mobile-header">Specials</h3>
                             Learn more about our specials and promotional offers.
                             <div class="spacer-single"></div>
@@ -1398,7 +1439,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
 
         <!-- section service begin -->
         <section id="section-service-3" class="side-bg no-padding section-service-wrapper service-wrapper-odd">
-            <div class="image-container col-md-5 col-md-offset-7 pull-right" data-delay="0">
+            <div class="image-container col-md-5 offset-md-7 pull-right" data-delay="0">
                 <div class="background-image-procedure background-image-landing-reviews"></div>
             </div>
 
@@ -1427,7 +1468,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
             <div class="container">
                 <div class="row">
                     <div class="inner-padding">
-                        <div class="col-md-6 col-md-offset-6 wow fadeInRight" data-wow-delay=".5s">
+                        <div class="col-md-6 offset-md-6 wow fadeInRight" data-wow-delay=".5s">
                             <h3 class="id-color section-service-mobile-header">Our Staff</h3>
                             Meet our professional, caring, and compassionate staff.
                             <div class="spacer-single"></div>
@@ -1442,7 +1483,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
 
         <!-- section service begin -->
         <section id="section-service-3" class="side-bg no-padding section-service-wrapper service-wrapper-odd">
-            <div class="image-container col-md-5 col-md-offset-7 pull-right" data-delay="0">
+            <div class="image-container col-md-5 offset-md-7 pull-right" data-delay="0">
                 <div class="background-image-procedure background-image-virtual-seminars"></div>
             </div>
 
@@ -1466,7 +1507,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
         <section id="section-testimonial" class="text-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp">
+                    <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
                         <h1>Client Reviews</h1>
                         <div class="separator"><span><i class="fa fa-circle"></i></span></div>
                         <div class="spacer-single"></div>
@@ -1474,7 +1515,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
                 </div>
                 <div id="testimonial-carousel" class="de_carousel  wow fadeInUp" data-wow-delay=".3s">
 
-                    <div class="col-md-6 item">
+                    <div class="col-md-12 item">
                         <div class="de_testi">
                             <blockquote>
                                 <p>I love Dr. Bunkis and his staff. I had a tummy tuck and a breast reduction. My
@@ -1489,7 +1530,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
                         </div>
                     </div>
 
-                    <div class="col-md-6 item">
+                    <div class="col-md-12 item">
                         <div class="de_testi">
                             <blockquote>
                                 <p>I am VERY happy with my lower facelift. I so hated the jowls and loose skin on my
@@ -1502,7 +1543,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
                         </div>
                     </div>
 
-                    <div class="col-md-6 item">
+                    <div class="col-md-12 item">
                         <div class="de_testi">
                             <blockquote>
                                 <p>Once I met Dr. B and had my consultation I knew I
@@ -1516,7 +1557,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
                         </div>
                     </div>
 
-                    <div class="col-md-6 item">
+                    <div class="col-md-12 item">
                         <div class="de_testi">
                             <blockquote>
                                 <p>Dr. Bunkis and his staff have been amazing. Very professional and easy to work
