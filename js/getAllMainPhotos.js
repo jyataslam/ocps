@@ -399,10 +399,10 @@ function createContentful() {
 
                     // SECOND TEST STUFF ----------- //
                     const testImage1 = $(
-                        "<img class='show-all-patients-img' alt='ocps before photo' >"
+                        "<img class='show-all-patients-img' alt='ocps before photo' style='object-position:right;'>"
                     );
                     const testImage2 = $(
-                        "<img class='show-all-patients-img' alt='ocps before photo' >"
+                        "<img class='show-all-patients-img' alt='ocps before photo' style='object-position:left;'>"
                     );
                     testImage1.attr("src", patientPhoto1);
                     testImage2.attr("src", patientPhoto2);

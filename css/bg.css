@@ -76,7 +76,7 @@ background:url(../images-bunkis/texture_subheader.jpg)top fixed;
 #section-welcome-11{background:url(../images/background/bg-25.jpg) top fixed;}
 #section-welcome-12{background:url(../images/background/bg-26.jpg) top fixed;}
 #section-welcome-13{background:url(../images/background/bg-29.jpg) top fixed;}
-#section-welcome-14{background:url(../images/background/bg-30.jpg) top fixed;}
+#section-welcome-14{background:url(../images-bunkis/texture_subheader.jpg)top fixed !important;background-size: cover !important;}
 #section-why-choose-us{background:url(../images/background/bg-8.jpg) top fixed;}
 #section-why-choose-us-3{background:url(../images/background/bg-16.jpg) top fixed;}
 #section-portfolio{background:#222; overflow:hidden;}
