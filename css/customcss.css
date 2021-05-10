@@ -51,8 +51,8 @@ h2.style-5 {
 
 .blog-text-larger {
   font-size: 1.6rem;
-  line-height: 2.7rem;
-  letter-spacing: .04rem;
+  line-height: 2.9rem;
+  letter-spacing: .06rem;
 }
 
 @media only screen and (max-width: 414px) {
@@ -2057,5 +2057,9 @@ nav li a {
   }
   .side-bg .procedure-image-container {
     height: 500px !important;
+  }
+  .blog-text-larger {
+    font-size: 1.4rem;
+    line-height: 2.7rem;
   }
 }
