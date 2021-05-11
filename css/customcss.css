@@ -1769,6 +1769,11 @@ nav li a {
   h2.style-5-light:after {
     width: 150px;
   }
+  #section-welcome-14 {
+    background-attachment: scroll !important;
+    background-size: contain !important;
+    background-repeat: repeat !important;
+  }
   .side-bg .procedure-image-container {
     height: 700px !important;
   }
@@ -1870,7 +1875,7 @@ nav li a {
 @media only screen and (max-width: 520px) {
   .photos-content-left p,
 .photos-content-right p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
   .mobile-padding-mod {
     padding: 25px 0 !important;
