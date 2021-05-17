@@ -880,6 +880,8 @@ span.overlay {
 
   .widget-post-50 {
     width: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
