@@ -301,12 +301,32 @@ h2.style-5 {
   height: 18rem;
 }
 
+.ivanna-section {
+  background: white;
+  position: relative;
+}
+.ivanna-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.staff-desc {
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 200;
+}
+
 #section-welcome {
   /* position: relative; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: 0;
+}
+
+.hero-main {
+  height: 100vh !important;
+  background-size: cover;
 }
 
 .hero-flex-apart {
@@ -1778,6 +1798,7 @@ nav li a {
   }
   .side-bg .procedure-image-container {
     height: 700px !important;
+    position: relative;
   }
   .landing-seminars-main-wrapper {
     background: white !important;
@@ -1923,6 +1944,9 @@ nav li a {
 }
 
 @media only screen and (max-width: 500px) {
+  .section-about-us-2-header {
+    font-size: 3.2em;
+  }
   .container {
     padding-left: 15px;
     padding-right: 15px;
