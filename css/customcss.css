@@ -1938,6 +1938,9 @@ nav li a {
 }
 
 @media only screen and (max-width: 520px) {
+  .staff-desc {
+    font-size: 14px;
+  }
   #landing-modal {
     width: 85vw;
   }
