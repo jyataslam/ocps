@@ -51,6 +51,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
     <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -556,10 +557,6 @@
         </header>
         <!-- header close -->
 
-
-
-
-
         <!-- content begin -->
         <div id="content" class="no-bottom no-top">
 
@@ -765,6 +762,18 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
                 </div>
         </div>
         </section>
+
+        <!-- MODAL ON PAGELOAD -->
+        <div id="landing-modal" class="modal">
+            <a href="#" rel="modal:close">Close</a>
+            <img src="./images-bunkis/modal/ivanna-grand-opening-flyer-min.jpg"
+                alt="ivanna's grand opening flyer ocps orange county plastic surgery" class="landing-modal-img">
+            <div class="modal-btn-container">
+                <a href="./specials.html" class="btn-line gold-btn">Learn More</a>
+            </div>
+
+        </div>
+        <!-- END MODAL -->
 
         <!-- <section id="section-portfolio-1" class="no-bottom" data-bgcolor="#fff" aria-label="section-portfolio">
                 <div class="container">
@@ -1906,6 +1915,9 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
     <script src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
     <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
+    <!-- MODAL LIBRARY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
     <!-- <script>
         $(function () {
             var revapi;
@@ -1931,7 +1943,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
             $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({ default_offset_pct: 0.3, orientation: 'vertical' });
         });
     </script> -->
-
+    <script src="./js/modal.js"></script>
     <script src="//www.apex.live/scripts/invitation.ashx?company=ocpsapex" async></script>
 
 </body>

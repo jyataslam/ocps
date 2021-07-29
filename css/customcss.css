@@ -709,6 +709,39 @@ span.overlay {
     top: 0;
 } */
 
+.special-img {
+  width: 100%;
+}
+/* MODAL */
+#landing-modal {
+  max-width: unset;
+  height: auto;
+  width: 65vw;
+}
+
+#landing-modal a.close-modal {
+  top: 2.5px;
+  right: 2.5px;
+}
+
+.landing-modal-img {
+  width: 100%;
+}
+
+.modal-btn-container {
+  padding-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+#landing-modal .gold-btn {
+  border: solid 1px rgb(237 195 83) !important;
+  background-color: rgb(237 195 83);
+
+}
+
 #section-steps-4 {
   background-attachment: fixed;
   color: #fff;
@@ -1648,6 +1681,12 @@ a.btn-line.facelift-url-btn {
   }
 }
 
+@media only screen and (max-width: 1280px) {
+  #landing-modal {
+    width: 80vw;
+  }
+}
+
 @media only screen and (max-width: 1125px) {
   .instagram-photo {
     height: 250px;
@@ -1670,6 +1709,9 @@ a.btn-line.facelift-url-btn {
   }
   .services-separator span:before, .services-separator span:after {
     width: 100px;
+  }
+  #landing-modal {
+    width: 90vw;
   }
 }
 
