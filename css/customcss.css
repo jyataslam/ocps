@@ -1938,6 +1938,9 @@ nav li a {
 }
 
 @media only screen and (max-width: 520px) {
+  #landing-modal {
+    width: 85vw;
+  }
   .photos-content-left p,
 .photos-content-right p {
   font-size: 1rem;
