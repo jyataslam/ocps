@@ -1461,20 +1461,20 @@ a.btn-line.facelift-url-btn {
 }
 
 .about-us-team-photo {
-  height: 500px;
+  height: 700px;
   width: 100%;
   object-fit: cover;
 }
 
 @media only screen and (max-width: 1024px) {
   .about-us-team-photo {
-    height: 320px;
+    height: 500px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .about-us-team-photo {
-    height: 250px;
+    height: 300px;
   }
 
   .photos-col-horizontal-tablet-small {
@@ -2004,7 +2004,7 @@ nav li a {
   }
 
   .about-us-team-photo {
-    height: 140px;
+    height: 180px;
   }  
 
   .iframe-blog {
