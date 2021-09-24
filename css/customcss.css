@@ -495,6 +495,74 @@ header.header-mobile {
   font-size: 6rem !important;
 }
 
+.glide-img {
+  width: 100%;
+  height: auto;
+}
+
+.glide-img:hover {
+  cursor: grab;
+}
+
+.video-landing__video {
+  width: 50%;
+  height: 350px;
+}
+
+.video-landing__flex-container {
+  display: flex;
+}
+
+.video-landing__text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+}
+
+.video-landing__text-container h3 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.video-landing__text-container a {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .video-landing__flex-container {
+    flex-direction: column;
+  }
+  .video-landing__text-container {
+    width: 100%;
+    padding-top: 4rem;
+  }
+  .video-landing__video {
+    height: 550px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .video-landing__video {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .video-landing__video {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .video-landing__video {
+    height: 220px;
+  }
+}
+
 /* LANDING BEFORE AND AFTER SECTION */
 .section-before-after h1,
 .section-before-after h2,

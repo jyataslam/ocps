@@ -6,7 +6,6 @@ jQuery(document).ready(function () {
             ? $(".header-mobile").addClass("background-black")
             : $(".header-mobile").removeClass("background-black");
     });
-    ("use strict"); // use strict mode
 
     var de_header_style = 1; // 1 - solid, 2 - transparent
     var de_header_layout = 1; // 1 - default, 2 - extended

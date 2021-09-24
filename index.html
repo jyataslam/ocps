@@ -57,6 +57,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
     <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
     <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
@@ -1262,7 +1263,21 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
 
                     <div class="spacer-single"></div>
 
-                    <div class="col-md-8 offset-md-2 text-center wow fadeInUp animated" wow-delay="0s">
+                    <div class="col-md-12 text-center wow fadeInUp animated" wow-delay="0s">
+                        <div class="slickslider">
+                            <div class="slick-container">
+                                <img src="images-bunkis/facelift-featured-one-min.jpg" loading="lazy"
+                                    alt="before and after image" class="glide-img" />
+                            </div>
+                            <div class="slick-container">
+                                <img src="images-bunkis/facelift-featured-two-min.jpg" loading="lazy"
+                                    alt="before and after image" class="glide-img" />
+                            </div>
+                        </div>
+                        <div class="spacer-single"></div>
+                    </div>
+
+                    <!-- <div class="col-md-8 offset-md-2 text-center wow fadeInUp animated" wow-delay="0s">
                         <div class="owl-carousel carousel-single-navi">
                             <div class="display-flex">
                                 <img src="images-bunkis/facelift-featured-one-min.jpg" loading="lazy"
@@ -1272,21 +1287,9 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
                                 <img src="images-bunkis/facelift-featured-two-min.jpg" loading="lazy"
                                     alt="before and after image" class="img-responsive img-rounded home-before-image" />
                             </div>
-                            <!-- <div class="twentytwenty-container shadow-soft">
-                                    <img src="images-bunkis/home_before_1.jpg" alt=""
-                                        class="img-responsive img-rounded home-img-twenty" />
-                                    <img src="images-bunkis/home_after_1.jpg" alt=""
-                                        class="img-responsive img-rounded home-img-twenty" />
-                                </div>
-                                <div class="twentytwenty-container shadow-soft">
-                                    <img src="images-bunkis/home_before_2.jpg" alt=""
-                                        class="img-responsive img-rounded home-img-twenty" />
-                                    <img src="images-bunkis/home_after_2.jpg" alt=""
-                                        class="img-responsive img-rounded home-img-twenty" />
-                                </div> -->
                         </div>
                         <div class="spacer-single"></div>
-                    </div>
+                    </div> -->
                     <div class="col-sm-12 review-btn-container">
                         <a href="photos.html" class="btn-line" style="color:white;">Browse All Photos</a>
                     </div>
@@ -1413,6 +1416,42 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
                 </div>
             </section> -->
         <!-- section close -->
+
+        <!-- video section start -->
+        <section id="video-landing" class="video-landing" data-bgcolor="#fff">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 offset-md-3 text-center">
+                        <h3 class="style-1"><span class="id-color wow fadeInUp animated" wow-delay="0s">Featured
+                                Video</span>
+                        </h3>
+                        <h2 class="style-5 wow fadeInUp animated" wow-delay="0s">Media</h2>
+                        <p class="lead wow fadeInUp animated" wow-delay="0s">Browse our extensive collection of videos
+                            and learn more about plastic surgery and the procedures we offer.</p>
+                        <div class="spacer-single"></div>
+
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <div class="video-landing__flex-container">
+                            <iframe class="video-landing__video" src="https://www.youtube.com/embed/Gwxzf8BVpWs"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="video-landing__text-container">
+                                <h3 class="id-color section-service-mobile-header">Removing Rhinoplasty Cast</h3>
+                                <a href="/procedures/nosesurgery.html" class="btn-line" target="_blank">Rhinoplasty
+                                    Info</a>
+                                <a href="" class="btn-line" target="_blank">All
+                                    Videos</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- video section end -->
+
         <!-- SERVICES SECTION BEGIN -->
         <section id="section-service-1" class="side-bg no-padding section-service-wrapper service-wrapper-odd">
             <div class="image-container landing-specials-container col-md-5 offset-md-7 pull-right" data-delay="0">
@@ -1891,6 +1930,7 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
 
     <!-- Javascript Files
     = -->
+
     <script src="js/jquery.min.js"></script>
     <script src="js/jpreLoader.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -1912,6 +1952,21 @@ c2,0,4,0.3,6,1c2,0.7,3.7,1.6,5.2,2.8l-2.8,4c-0.9-0.8-2.2-1.5-3.8-2.1C980.9,203.8
 
     <!-- MODAL LIBRARY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(() => {
+            $('.slickslider').slick({
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                dots: false,
+                arrows: false
+            })
+        })
+    </script>
+
+
 
     <!-- <script>
         $(function () {
