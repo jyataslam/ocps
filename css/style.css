@@ -1618,6 +1618,7 @@ border:solid 1px #ddd;
 	text-transform:uppercase;
 	border:solid 2px #fff;
 	padding:10px 30px 10px 30px;
+	display:inline-block;
 	}
 	a.btn-slider:hover{
 	color:#222;
