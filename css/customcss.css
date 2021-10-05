@@ -788,9 +788,10 @@ span.overlay {
 }
 /* MODAL */
 #landing-modal {
-  max-width: unset;
+  /* max-width: unset; */
   height: auto;
-  width: 65vw;
+  /* width: 65vw; */
+  z-index: 1001;
 }
 
 #landing-modal a.close-modal {
@@ -1763,6 +1764,7 @@ a.btn-line.facelift-url-btn {
   }
   #landing-modal {
     width: 90vw;
+    top: 0px;
   }
 }
 
@@ -1993,6 +1995,7 @@ nav li a {
   }
   #landing-modal {
     width: 85vw;
+    top: 0px;
   }
   .photos-content-left p,
   .photos-content-right p {
