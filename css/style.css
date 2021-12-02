@@ -5177,6 +5177,10 @@ height:100%;
 text-align:center;
 }
 
+.espanol-link {
+	color: #000;
+}
+
 .center-xy i.btn-action{
 	font-size:24px;
 	border:solid 2px rgba(255,255,255,.3);
